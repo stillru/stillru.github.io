@@ -1,5 +1,5 @@
 layout: default
-
+/n
 
 title: С наступившим НОВЫМ ГОДОМ!
 
