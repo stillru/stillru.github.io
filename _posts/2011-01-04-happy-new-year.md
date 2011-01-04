@@ -1,4 +1,4 @@
-﻿layout: default
+layout: default
 title: С наступившим НОВЫМ ГОДОМ!
 
 h2. С наступившим НОВЫМ ГОДОМ!
