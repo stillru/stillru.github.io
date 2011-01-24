@@ -1,4 +1,4 @@
-Тут будет город сад - если я конечно придумаю как :-)))
+	Тут будет город сад - если я конечно придумаю как :-)))
          <ul class="posts">
             {% for post in site.posts limit:7 offset:0 %}
             <li class="{% cycle 'one', 'two' %}">
