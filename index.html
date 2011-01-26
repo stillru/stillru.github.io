@@ -1,0 +1,26 @@
+---
+layout: default
+title: Personal Pakage
+---
+<div id="home">
+   <div class="section" id="about">
+      <h2>Обо мне</h2>
+      <p>Учусь быть программистом :-)))
+      </p>
+   </div>
+   <div class="section" id="recent-posts">
+      <h2>Последние записи:</h2>
+      <div id="post-list">
+         <ul class="posts">
+            {% for post in site.posts limit:7 offset:0 %}
+            <li class="{% cycle 'one', 'two' %}">
+               <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
+               <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+            <li class="none">
+               <a href="/archives/">View more posts in the archives...</a>
+            </li>
+         </ul>
+      </div>
+   </div>
