@@ -1,6 +1,6 @@
 
 ---
-layout: default
+layout: posts
 title: Создание USB CloneZilla - Обходим грабли.
 ---
 
