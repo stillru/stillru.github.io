@@ -1,6 +1,9 @@
 ---
 layout: posts
 title: О Fedora Core 12 
+categories:
+- linux
+- work
 ---
 {% self.name %}
 Целый день лопатили наши юниксы. Виновником оказался самый последний сервер. Fedora Core 12 от компании Naumen. У нас на нём стоит корпоративная телефония - удобно, красиво... и ни хера не здорово по сетевым настройкам.
@@ -8,3 +11,11 @@ title: О Fedora Core 12
 В результате сегодняшнего безобразия переписаны 3 фаера - поправили ВСЕ конфигурационники (rc.firewall FreeBSD, iptables FC12), установлено два sendmail'а - теперь почта от рута падает ко мне в ящик(FreeBSD, FC12), и на FC добавили правильные роуты в сети.
 
 Вот такая красота.
+<div id="categories">
+  <h2>In this site:</h2>
+  <ul class="categories">
+    {% for category in site.categories  %}
+      <li><a href="/{{ category[0] }}.html">{{ category[0] }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
