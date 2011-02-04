@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: О Fedora Core 12 
-category:live
 ---
 <h2> {{ page.title }} </h2>
 
