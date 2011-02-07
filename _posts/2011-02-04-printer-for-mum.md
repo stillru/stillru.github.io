@@ -1,12 +1,9 @@
---- 
-layout: post 
+---
+layout: post
 title: Сегодня покупаю принтер для мамы. 
-category: 
-- printer
- 
-- live 
+tags: [printer, live, mom]
+extended: ":EXTENDED:"
+---
+<h2> {{ page.title }} </h2>
 
-- mom 
---- 
-Цветной. Сублимационный.
-
+Цветной

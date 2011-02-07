@@ -1,54 +1,49 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <meta name="google-site-verification" content="F0FXChEfil4l5u_1vbWYTwPPjgZ72_OqF4xvoBEnhEs" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="Steve Illichevsky" />
-   <link rel='me' href='http://www.google.com/profiles/stillru'>
-   <link href="http://feeds.feedburner.com/hackerific" rel="alternate" title="Matt Foster" type="application/atom+xml" />
-
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
-   
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-
-</head>
-<body>
-
-<div class="site">
-  <div class="title">
-    <a class = "banner" href="/">StILL</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/tags.html">tags</a>
-    <a class="extra" href="/about.html">about</a>
-  </div>
-  
-  {{ content }}
-  
-  <div class="footer">
-    <div class="contact">
-      <p>
-        Steve Illichevsky
-      </p>
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+  <head>
+    <title>Adam Coffman - {{ page.title }}</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"  />
+    <meta name="description" content="Home page and blog of St. Louis software developer Adam Coffman. My thoughts on programming, life and anything else that crosses my mind."/>
+    <meta name="keywords" content="vim,ruby,adam,coffman,programming,code,coding,adam coffman,libertarian,politics,development,node.js,socket.io,javascript,c#"/>
+    <meta name="author" content="Adam Coffman" />
+    <meta name="copyright" content="Copyright 2011 - Adam Coffman"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    {% if page.syntax %}
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+    {% endif %}
+    <link rel="alternate" type="application/atom+xml" href="http://thecoffman.com/atom.xml" />
+    <link rel="canonical" href="http://thecoffman.com/"/>
+  </head>  
+  <body>
+    <div id="wrapper">
+      <div id="header" class="clear">
+        <h1 id="title"><a href="http://thecoffman.com">Adam Coffman</a></h1>
+        <div id="description">
+          <h2>I write code, sometimes well.</h2>
+        </div>
+        <div id="nav">
+          {% include nav.html %}
+        </div>
+      </div>
+      <div>
+        {{ content }}
+      </div>
+      <div>
+        {% include sidebar.html %}
+      </div>
+      <div>
+        {% include footer.html %}
+      </div>
     </div>
-    <div class="contact xoxo">
-        <p>
-            <a href="http://github.com/stillru" rel="me">GitHub</a>
-            <a href="http://flickr.com/photos/stillru" rel="me">flickr</a>
-            <a href="http://www.last.fm/user/stillru/" rel="me">last.fm</a>
-            <a href="http://twitter.com/stillru" rel="me">twitter</a>
-        </p>
-    </div>
-  </div>
-</div>
-
-<a href="http://github.com/mattfoster"><img style="position: absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png" alt="Fork me on GitHub" /></a> 
-
-</body>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-20071391-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+</script>
+  </body>
 </html>

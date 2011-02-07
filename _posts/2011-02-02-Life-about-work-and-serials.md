@@ -1,9 +1,7 @@
 ---
-layout: post
+layout: posts
 title: Лытыдбыр. О работе и сериалах.
-category: 
-- live
-- work
+tags: [live, work]
 ---
 
 Есть такой за мной грех - я люблю смотреть кино. Конкретно "Касл".

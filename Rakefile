@@ -1,39 +1,23 @@
-desc 'Generate tags pages'
-task :tags  => :tag_cloud do
-  puts "Generating tags..."
-  require 'rubygems'
-  require 'jekyll'
-  include Jekyll::Filters
-
-  options = Jekyll.configuration({})
-  site = Jekyll::Site.new(options)
-  site.read_posts('')
-
-  # Remove tags directory before regenerating
-  FileUtils.rm_rf("tags")
-
-  site.tags.sort.each do |tag, posts|
-    html = <<-HTML
----
-layout: default
-title: "tagged: #{tag}"
-syntax-highlighting: yes
----
-  <h1 class="title">#{tag}</h1>
-   
-   {% for post in site.posts %}
-       {% for tag in post.tags %}
-           {% if tag == '#[tag]'%}
-               {% include post.html %}
-           {% endif %}
-       {% endfor %}
-   {% endfor %}
-HTML
-
-    FileUtils.mkdir_p("tags/#{tag}")
-    File.open("tags/#{tag}/index.html", 'w+') do |file|
-      file.puts html
-    end
+namespace :blog do
+  desc 'Remove generated files'
+  task :clean do
+    system "rm -rf _site"
   end
-  puts 'Done.'
-end 
+  
+  desc 'Build the site and run the server for dev'
+  task :local do
+    system "jekyll --server --pygments"
+  end
+  
+  desc 'Deploying to webserver'
+  task :deploy do
+    #the "adam" user only has write perms on this one specific directory - it uses ssh via keyfile so no password is needed
+    system "jekyll && scp -r -P 22255 _site/* adam@thecoffman.com:/var/www/thecoffman.com"
+  end
+
+  desc 'Create new post markdown file'
+  task :post, [:post_title] do |t,args|
+    require 'date'
+    system "echo \"---\nlayout: post\ntitle: #{args.post_title}\ncomments: true\n---\" >  _posts/#{Date.today.year}-#{Date.today.strftime("%m")}-#{Date.today.strftime("%d")}-#{args.post_title.downcase.split(' ').join('-')}.md"
+  end
+end
