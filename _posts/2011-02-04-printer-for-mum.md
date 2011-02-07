@@ -1,9 +1,11 @@
 --- 
 layout: post 
 title: Сегодня покупаю принтер для мамы. 
-tags: 
-- printer 
+category: 
+- printer
+ 
 - live 
+
 - mom 
 --- 
 Цветной. Сублимационный.
