@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Сегодня покупаю принтер для мамы. 
-category: 
+tags: 
 - printer 
 - live 
 - mom 
