@@ -1,5 +1,7 @@
 ---
-layout: posts
+layout: post
+category:
+- test
 title: Новый 2011 год. 
 ---
 Дикие пьянки. Ужос.
