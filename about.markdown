@@ -1,7 +1,7 @@
 --- 
 title: About Matt
 layout: post
-categories: about
+categories: about me
 ---
 Matt is an Internet Services Developer at <a href="http://netcraft.com">Netcraft</a>. He feels the need to stress that the opinions expressed here are his own.
 
