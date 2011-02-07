@@ -1,3 +1,7 @@
+require 'rake'
+require 'fileutils'
+require 'yaml'
+
 desc 'Generate tags pages'
 task :tags  => :tag_cloud do
   puts "Generating tags..."
