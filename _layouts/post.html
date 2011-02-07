@@ -8,7 +8,7 @@ layout: default
       <div class="date"><span>{{ page.date | date:"%Y" }}</span> {{ page.date | date:"%B %d" }}</div>
     </div>
     <div class="meta clear">
-      <div class="author">by stillru</div>
+      <div class="author">by stillru</div><span class="category">{{ page.categories | category_links }}</span>
     </div>
     <div class="entry clear">
       {{ content }}
