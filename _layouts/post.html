@@ -8,17 +8,17 @@ layout: default
       <div class="date"><span>{{ page.date | date:"%Y" }}</span> {{ page.date | date:"%B %d" }}</div>
     </div>
     <div class="meta clear">
-      <div class="author">by adam</div>
+      <div class="author">by stillru</div>
     </div>
     <div class="entry clear">
       {{ content }}
       {% if page.comments %}
       <div id="disqus_thread"></div>
       <script type="text/javascript">
-          var disqus_shortname = 'adamcoffman';
+          var disqus_shortname = 'stillru';
           var disqus_identifier = '{{ page.title }}';
           var disqus_title = '{{ page.title }}';
-          var disqus_url = 'http://thecoffman.com{{ page.url }}';
+          var disqus_url = 'http://stillru.github.com{{ page.url }}';
           (function() {
               var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
               dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';

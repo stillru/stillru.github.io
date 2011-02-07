@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Home
+title: Степан Илличевский
 current_home: current_page_item
 ---
 <div id="content">
 {% for post in site.posts limit:4 %}
 <div class="entries">
   <ul>
-    <li><a href="http://thecoffman.com{{ post.url }}" title="{{ post.title }}"><span class="archdate">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }}</span>{{ post.title }}</a>{{ post.content | strip_html | truncate:400  }}<a href="http://thecoffman.com/{{ post.url }}">Read More...</a></li>
+    <li><a href="http://stillru.github.ru{{ post.url }}" title="{{ post.title }}"><span class="archdate">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }}</span>{{ post.title }}</a>{{ post.content | strip_html | truncate:400  }}<a href="http://thecoffman.com/{{ post.url }}">Read More...</a></li>
   </ul>
 </div>
 {% endfor %}
-<h1><a href="http://thecoffman.com/all">Older Entries...</a></h1>
+<h1><a href="http://stillru.github.com/all">Предыдущие записи</a></h1>
 </div>
