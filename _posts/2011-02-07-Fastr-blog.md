@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Fastr Blog
+categories: 
+- food 
+- cooking 
+- italian 
 ---
 <h2>Categories:</h2>
 <ul>
