@@ -1,5 +1,8 @@
 ---
-layout: posts
+layout: post
+category:
+- shiping
+- TNT Post
 title: Как я заказывал подарок для моего брата...
 ---
 

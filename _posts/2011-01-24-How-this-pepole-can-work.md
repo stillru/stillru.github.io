@@ -1,5 +1,9 @@
 ---
-layout: posts
+layout: post
+category:
+- work
+- co-wokers
+- office
 title: Интересно, как эти люди собираются работать в современном офисе?
 ---
 

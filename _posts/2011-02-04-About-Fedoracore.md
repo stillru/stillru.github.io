@@ -1,6 +1,8 @@
 ---
-layout: posts
+layout: post
 title: О Fedora Core 12 
+category:
+- linux
 ---
 <h2> {{ page.title }} </h2>
 
