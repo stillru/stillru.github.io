@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Как я заказывал подарок для моего брата...
 ---
 

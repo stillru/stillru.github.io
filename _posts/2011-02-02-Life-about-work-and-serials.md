@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Лытыдбыр. О работе и сериалах.
 tags: [live, work]
 ---

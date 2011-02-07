@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: О Fedora Core 12 
 ---
 <h2> {{ page.title }} </h2>
