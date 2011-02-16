@@ -7,7 +7,7 @@ current_home: current_page_item
 {% for post in site.posts %}
 <div class="entries">
   <ul>
-    <li><a href="http://stillru.github.com{{ post.url }}" title="{{ post.title }}"><span class="archdate">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }}</span>{{ post.title }}</a>{{ post.content | strip_html | truncate:400  }}<a href="http://thecoffman.com/{{ post.url }}">Read More...</a></li>
+    <li><a href="http://stillru.github.com{{ post.url }}" title="{{ post.title }}"><span class="archdate">{{ post.date | date:"%m" }}.{{ post.date | date:"%d" }}.{{ post.date | date:"%Y" }}</span>{{ post.title }}</a>{{ post.content | strip_html | truncate:400  }}<a href="http://stillru.github.com{{ post.url }}">Read More...</a></li>
   </ul>
 </div>
 {% endfor %}
