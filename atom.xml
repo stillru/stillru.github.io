@@ -4,22 +4,22 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Adam Coffman</title>
- <link href="http://thecoffman.com/atom.xml" rel="self"/>
- <link href="http://thecoffman.com/"/>
+ <title>Степан Илличевский</title>
+ <link href="http://stillru.github.com/atom.xml" rel="self"/>
+ <link href="http://stillru.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://thecoffman.com</id>
+ <id>http://stillru.github.com</id>
  <author>
-   <name>Adam Coffman</name>
-   <email>coffman.adam@gmail.com</email>
+   <name>Steve Illichevsky</name>
+   <email>still.ru@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://thecoffman.com{{ post.url }}"/>
+   <link href="http://stillru.github.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://http://thecoffman.com{{ post.id }}</id>
+   <id>http://http://stillru.github.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
