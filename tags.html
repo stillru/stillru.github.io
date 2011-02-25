@@ -28,3 +28,6 @@ $(function(){
   });
 });
 </script>
+{% for post in site.categories.foo %}
+  <li><span>{{ post.date | date_to_string }}</span> - {{ post.title }}</li>
+{% endfor %}
