@@ -12,7 +12,7 @@ title: Первое знакомство с PowerShell
 
 Все настройки шелла хранятся в переменной $profile - файлом, аналогичном bashrc, и запускающимся перед получением приглашения в систему.
 
-{% highlight batch %}
+{% highlight bash %}
 $CYDWIN = 'C:\CygWIN\bin'
 $env:EDITOR = 'apad'
 
