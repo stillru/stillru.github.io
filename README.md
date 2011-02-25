@@ -1,6 +1,5 @@
-# thecoffman.com
+# Stillru.github.com
 
 What is this?
 ---------------
-This is my personal website and blog - I recently decided to ditch Wordpress and switch to [Jekyll](http://jekyllrb.com) which is what you see here.
-
+Это мой персональный блогю Ни о чём и обовсём одновременно :-)
