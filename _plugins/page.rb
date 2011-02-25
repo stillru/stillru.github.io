@@ -1,4 +1,15 @@
-    module Jekyll
+ module Jekyll
+      class Page
+
+        ...
+
+        def tags
+          (self.data['tags'] || '').split(',').map {|t| Tag.new(t)}
+        end
+      end
+    end
+
+ module Jekyll
 
       TAG_NAME_MAP = {
         "#"  => "sharp",
