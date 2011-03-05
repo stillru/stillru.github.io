@@ -5,7 +5,7 @@ title: Posts in Git
 <div id="categories">
   <h2>In this post:</h2>
   <ul class="categories">
-     {% for category in posts.categories  %}
+     {% for category in sites.categories  %}
       <li><a href="/{{ category[0]  }}.html"> {{ category[0]  }}</a></li>
      {% endfor %}
   </ul>
