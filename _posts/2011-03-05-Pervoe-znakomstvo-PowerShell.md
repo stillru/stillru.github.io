@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Первое знакомство с PowerShell
 categories:
