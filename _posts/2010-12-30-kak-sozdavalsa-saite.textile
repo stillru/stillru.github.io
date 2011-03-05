@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Как создавался сайт
-category:
+categories:
 - live
 ---
 Как то так :-)
