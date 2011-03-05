@@ -4,6 +4,16 @@ title: Как создавался сайт
 categories:
 - live
 ---
+<div id="categories">
+  <h2>In this post:</h2>
+  <ul class="categories">
+     {% for category in sites.categories  %}
+      <li><a href="/{{ category[0]  }}.html"> {{ category[0]  }}</a></li>
+     {% endfor %}
+  </ul>
+</div>
+
+
 Как то так :-)
 
 Просто однажды зайдя на страничку администрирования собственного проекта на <a 
