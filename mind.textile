@@ -1,0 +1,7 @@
+---
+layout: static
+title: Mind Tag
+---
+
+{% assign category_posts = site.categories.mind %}
+{% include category_page.textile %}

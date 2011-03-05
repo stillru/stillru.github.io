@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ещё один день 
-Category: 
+сategories: 
 - life
 ---
 Ещё один день из моей жизни.
