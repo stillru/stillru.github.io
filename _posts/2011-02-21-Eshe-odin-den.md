@@ -3,7 +3,6 @@ layout: post
 title: Ещё один день 
 сategories: 
 - life
-- baby
 ---
 Ещё один день из моей жизни.
 
