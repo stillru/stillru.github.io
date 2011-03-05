@@ -1,7 +1,7 @@
 ---
 layout: static
-title: code
+title: Live Tag
 ---
 
-{% assign category_posts = site.categories.code %}
+{% assign category_posts = site.categories.live %}
 {% include category_page.textile %}
