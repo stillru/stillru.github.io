@@ -3,7 +3,7 @@ layout: default
 title: Posts in Git
 ---
 
-{% for post in site.categories.live }
+{% for post in site.categories }
 
 {{post.title}} {{post.date | date_to_string }}
 
