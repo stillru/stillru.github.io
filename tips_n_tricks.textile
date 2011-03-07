@@ -3,5 +3,5 @@ layout: static
 title: Tips&Tricks Tag
 ---
 
-{% assign category_posts = site.categories.tips&tricks %}
+{% assign category_posts = site.categories.tips_n_tricks %}
 {% include category_page.textile %}
