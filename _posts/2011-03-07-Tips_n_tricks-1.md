@@ -9,8 +9,8 @@ categories:
 Задача: Быстрый доступ к определённым областям диска без набора полного пути.
 
 Решение: В PowerShell есть такая вещь как `PSDrive` - диск, доступный исключительно из PowerShell. Посмотреть все доступные диски можно командой `Get-PSDrive`.
-<pre>
-Name           Used (GB)     Free (GB) Provider      Root                                               CurrentLocation
+`Name           Used (GB)     Free (GB) Provider      Root                                               
+CurrentLocation
 ----           ---------     --------- --------      ----                                               ---------------
 Alias                                  Alias
 B                                66.33 FileSystem    C:\Users\Still\GIT\PersonalPakag...
@@ -25,7 +25,7 @@ HKLM                                   Registry      HKEY_LOCAL_MACHINE
 P                                66.33 FileSystem    C:\Users\Still\GIT\PersonalPakag...
 Variable                               Variable
 WSMan                                  WSMan
-</pre>
+`
 
 В даноом выводе нас интересует только диски `Blog` `P` и `B` - это диски созданные самим пользоветелем с помощью команд `New-PSDrive`.
 <pre>
