@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Устанавливаем сервер Windows 2003
+title: Tips n Tricks #1
 categories:
 - tips_n_tricks
 ---
