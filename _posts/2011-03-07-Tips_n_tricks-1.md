@@ -12,7 +12,7 @@ categories:
 <pre>
 Alias                       Alias
 B       66.33 FileSystem    C:\Users\Still\GIT\PersonalPakag...
-Blog    66.33 FileSystem    C:\Users\Still\GIT\stillru.githu... 
+Blog    66.33 FileSystem    C:\Users\Still\GIT\stillru.githu...
 P       66.33 FileSystem    C:\Users\Still\GIT\PersonalPakag...
 </pre>
 В данном выводе нас интересует только диски `Blog` `P` и `B` - это диски созданные самим пользователем с помощью команд `New-PSDrive`.
@@ -23,5 +23,5 @@ New-PSDrive Blog -PSProvider FileSystem -Root C:\Users\Still\GIT\stillru.github.
 </pre>
 Данные команды можно прописать в профиле и при каждом запуске консоли иметь быстрый доступ к этим директориям как к простым дискам с обозначениями `P:` `B:` и `Blog:` 
 
-`New-PSDrive <алиас диска> -PSProvider <Кто даёт доступ> -Root <путь к корню нового диска> -Scope область доступности
-</pre>
+
+`New-PSDrive <алиас диска> -PSProvider <Кто даёт доступ> -Root <путь к корню нового диска> -Scope область доступности`
