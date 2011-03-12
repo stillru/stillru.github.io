@@ -422,7 +422,7 @@ div.twitter-trackbacks{ }
 
 ul.ttw-inner{
 
-	border:silver 1px solid;
+	border:none;
 
 	height:48px;
 
@@ -498,7 +498,7 @@ ul.ttw-inner span.ttw-meta {
 
 	display:block;
 
-	font-size:0.764em;
+	font-size:0.9em;
 
 	margin:3px 0 0;
 
