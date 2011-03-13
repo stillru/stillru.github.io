@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Виджеты
+title: Р’РёРґР¶РµС‚С‹
 ---
-На этой странничке я буду собирать всевозможные виджеты :-)
+РќР° СЌС‚РѕР№ СЃС‚СЂР°РЅРЅРёС‡РєРµ СЏ Р±СѓРґСѓ СЃРѕР±РёСЂР°С‚СЊ РІСЃРµРІРѕР·РјРѕР¶РЅС‹Рµ РІРёРґР¶РµС‚С‹ :-)
 <script type="text/javascript" src="http://api.gdgt.com/js/widget/gadgetlist.js"></script> 
 <script> 
   gdgt.gadgetListWidget({ 
