@@ -284,6 +284,21 @@ h1.pagetitle, h2.pagetitle {
 	line-height: 1.1em;
 	border-bottom: 4px double #eee;
 }
+blockquote {
+font: 14px/20px italic Times, serif;
+padding-left: 70px;
+padding-top: 18px;
+padding-bottom: 18px;
+padding-right: 10px;
+background-color: #dadada;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+margin: 5px;
+background-image: url(images/float-quote.gif);
+background-position: middle left;
+background-repeat: no-repeat;
+text-indent: 23px;
+}
 /*Archives List
 ---------------------------------------*/
 img.archive-comment {
