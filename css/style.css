@@ -290,13 +290,11 @@ blockquote {
 	padding-top: 18px;
 	padding-bottom: 18px;
 	padding-right: 10px;
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
 	margin: 5px;
 	background-image: url(/images/float-quote.gif);
 	background-position: middle left;
 	background-repeat: no-repeat;
-	text-indent: 23px;
+	/*text-indent: 23px;*/
 }
 /*Archives List
 ---------------------------------------*/
