@@ -11,3 +11,27 @@ dns 113.10
 78.24.177.69
 
 91.194.112.53
+
+My home 
+Executing exec(traceroute, -m 30 -q 1 -w 3 -f 3, 81.200.20.195, 140)
+traceroute to 81.200.20.195 (81.200.20.195), 30 hops max, 140 byte packets
+ 3  rtr-border1-p2p-core2.slac.stanford.edu (134.79.252.137)  0.658 ms
+ 4  slac-mr2-p2p-rtr-border1.slac.stanford.edu (192.68.191.245)  0.319 ms
+ 5  sunnsdn2-ip-slacmr2.es.net (134.55.217.2)  0.832 ms
+ 6  sunncr1-sunnsdn2.es.net (134.55.209.98)  2.434 ms
+ 7  elpacr1-ip-sunncr1.es.net (134.55.38.185)  25.770 ms
+ 8  houscr1-ip-elpacr1.es.net (134.55.220.150)  40.670 ms
+ 9  atlacr1-ip-houscr1.es.net (134.55.39.106)  64.123 ms
+10  washcr1-atlacr1.es.net (134.55.221.6)  77.590 ms
+11  eqxashrt1-te-washcr1.es.net (134.55.221.146)  78.206 ms
+12  sd-cr01-gi1-6.nyc.stream-internet.net (206.223.115.180)  94.721 ms
+13  mil-cr01-te4-3.lnd.stream-internet.net (195.34.53.141)  171.101 ms
+14  195.34.53.225 (195.34.53.225)  225.658 ms
+15  bor-crs-1-be3.spb.stream-internet.net (195.34.53.101)  226.134 ms
+16  m9-crs-1-be1.msk.stream-internet.net (195.34.53.125)  221.292 ms
+17  m9-cr02-po6.msk.stream-internet.net (195.34.59.242)  221.209 ms
+18  m9-cr01-po1.msk.stream-internet.net (195.34.59.53)  220.783 ms
+19  212.188.41.118 (212.188.41.118)  225.749 ms
+20  bb2.westcall.ru (195.94.226.93)  220.857 ms
+21  gorcom2.GW.west-call.com (195.94.230.26)  222.093 ms
+22  81.200.20.195 (81.200.20.195)  222.011 ms
