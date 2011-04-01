@@ -67,11 +67,16 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
 
 {% highlight %}
 ui vesamenu.c32
+#Подгружаем возможность отображения картики
 menu title Utilities
+#Название Меню
 menu background wall.png
+#Обозначаем картинку
 
 label Boot from first hard disk
+#Отображаемый элемент
 localboot 0x80
+#Собственно загрузка по жёсткого диска
   TEXT HELP
   * Skip any load OS's. Just boot from First Boot Device
   * Default
@@ -81,6 +86,7 @@ label Clonezilla Live
 MENU LABEL Clonezilla Live
 KERNEL clone/vmlinuz1
 APPEND initrd=clone/initrd1.img boot=live live-config noswap nolocales edd=on nomodeset ocs_live_run="ocs-live-general"  ocs_live_extra_param="" ocs_live_keymap="" ocs_live_batch="no" ocs_lang="" vga=788 nosplash fetch=http://192.168.1.127/filesystem.squashfs
+#Тут стоит заметить что в данном конкретном случае загрузка происходит по HTTP и с другой машины в локальной сети - не с сервера DHCP
   TEXT HELP
   * Clonezilla live version: 1.2.6-59-i686. (C) 2003-2011, NCHC, Taiwan
   * Disclaimer: Clonezilla comes with ABSOLUTELY NO WARRANTY
@@ -90,6 +96,7 @@ label pmagic
 MENU LABEL Partition Magic
 LINUX pmagic/bzImage
 APPEND initrd=pmagic/initramfs edd=off noapic load_ramdisk=1 prompt_ramdisk=0 rw vga=791 loglevel=0 max_loop=256
+#Стадартная загрузка через TFTP
   TEXT HELP
   * Partition Magic Linux - Partition Tool
   * Disclaimer: Some time used tool for Administrators
@@ -99,6 +106,7 @@ label linux
 menu label PLOP Linux
 kernel ploplinux/kernel/bzImage
 append initrd=ploplinux/kernel/initramfs.gz vga=1 nfsmount=192.168.1.201:/usr/home/still/tftpboot/ploplinux
+#Пример загрузки с оспользованием NFS
   TEXT HELP
   * PLOP Linux
   * Disclaimer: Security tool
@@ -107,29 +115,22 @@ append initrd=ploplinux/kernel/initramfs.gz vga=1 nfsmount=192.168.1.201:/usr/ho
 label freebsd
 menu label FreeBSD 8.2 Install
 pxe boot/pxeboot
+#Старт инсталяционного пакета FreeBSD
   TEXT HELP
   * Tool for installing FreeBSD
   * Disclaimer: Extremly used for Gateways
   ENDTEXT
 
-label PLP Booting
-linux ploplinux/plop/plpbt.bin
-  TEXT HELP
-  * Boot from any device
-  ENDTEXT
-
-label trk3
-menu label  Run ^Trinity Rescue Kit 3.4 
-kernel kernel.trk
-append initrd=initrd.trk ramdisk_size=65536 root=/dev/ram0 vga=788 trknfs=192.168.1.201:/usr/home/still/tftpboot/trk ip=::::::dhcp splash=verbose
-
 label reboot
 menu label Reboot
 kernel reboot.c32
+#Вызов команды перезагрузки
   TEXT HELP
   * Do nothing. Just reboot...
   ENDTEXT
 
 PROMPT 1
+#Выбор параметра по умолчанию
 TIMEOUT 100
+#Таймаут до старта
 {% endhighlight %}
