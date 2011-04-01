@@ -135,6 +135,30 @@ TIMEOUT 100
 #Таймаут до старта
 {% endhighlight %}
 
+Таким образом структура папок у меня получилась следующая:
+
+{% highlight %}
+tftpboot
+|-pxelinux.0
+|-vesamenu.c32
+|-reboot.c32
+|-chain.c32
+|-gpxelinux.0
+|--clone
+|  |-initrd1
+|  ˪-vmlinuz1.img
+|--pmagic
+|  |-bzImage
+|  ˪-initramfs
+|--ploplinux
+|  ˪-kernel
+|    |-bzImage
+|    ˪-initramfs
+˪--boot
+   ˪-pxeboot
+
+{% endhighlight %}
+
 Все перечисленные образы лежат либо в соответственно сконфигурированной системе (NFS, HTTP) или в папке TFTP-сервера.
 
 Вот и всё :-)
