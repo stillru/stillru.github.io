@@ -23,7 +23,7 @@ categories:
 
 Первое что нам понадобится - это DHCP-сервер. В FreeBSD это `ics-dhcp`. Устанавливается через систему портов:
 
-{% highlight console %}
+{% highlight bash %}
 # cd /usr/ports/net/ics-dhcp
 # make install clean
 {% endhighlight %}
@@ -32,7 +32,7 @@ categories:
 
 Вот содержимое моего конфига:
 
-{% highlight console %}
+{% highlight bash %}
 # dhcpd.conf
 
 default-lease-time 86400;
@@ -65,7 +65,7 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
 
 В корневой папке tftpd создаем папку pxeboot.cfg, а внутри этой папки файл с именем default примерно следующего содержания:
 
-{% highlight console %}
+{% highlight bash %}
 ui vesamenu.c32
 #Подгружаем возможность отображения картинки
 menu title Utilities
@@ -137,7 +137,7 @@ TIMEOUT 100
 
 Таким образом структура папок у меня получилась следующая:
 
-{% highlight console %}
+{% highlight bash %}
 tftpboot
 |-pxelinux.0
 |-vesamenu.c32
