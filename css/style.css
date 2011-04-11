@@ -259,6 +259,13 @@ code {
 	color: #fff;
 }
 .highlight-box h2 { text-transform: uppercase; }
+
+p {
+        margin: 10px 0;
+        line-height: 1.4em;
+        font-size: 1.1em;
+
+}
 /*Post Footer
 ---------------------------------------*/
 .post-footer {
