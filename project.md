@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Виджеты
+title: Проекты
+current_project: current_page_item
 ---
 ### Мои Проекты ###
 
