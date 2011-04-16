@@ -6,3 +6,16 @@ current_project: current_page_item
 ### Мои Проекты ###
 
 Их не так много и в большинстве своём они размещаются на github.com :-)
+
+<SCRIPT LANGUAGE="JAVASCRIPT">   
+ccDayNow = new Date();   
+ccDayThen = new Date("april 18, 2011")   
+msPerDay = 24 * 60 * 60 * 1000 ;   
+timeLeft = (ccDayThen.getTime() - ccDayNow.getTime());   
+cc_daysLeft = timeLeft / msPerDay;   
+daysLeft = Math.floor(cc_daysLeft);   
+cc_hrsLeft = (cc_daysLeft - daysLeft)*24;   
+hrsLeft = Math.floor(cc_hrsLeft);   
+minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);   
+document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" - Слугиться мой День рождения :-)");   
+    </SCRIPT>
