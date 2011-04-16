@@ -17,5 +17,5 @@ daysLeft = Math.floor(cc_daysLeft);
 cc_hrsLeft = (cc_daysLeft - daysLeft)*24;   
 hrsLeft = Math.floor(cc_hrsLeft);   
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);   
-document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" - Слугиться мой День рождения :-)");   
+document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" - Случится мой День рождения :-)");   
     </SCRIPT></p>
