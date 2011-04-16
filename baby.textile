@@ -2,7 +2,7 @@
 layout: static
 title: Baby Tag
 ---
-div id="content" class="pad">
+<div id="content" class="pad">
   <h1 class="pagetitle">Мои Проекты</h1>
   <div class="entry page clear">
 {% assign category_posts = site.categories.baby %}
