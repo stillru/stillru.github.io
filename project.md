@@ -3,9 +3,10 @@ layout: default
 title: Проекты
 current_project: current_page_item
 ---
-# Мои Проекты #
-
-<p>Их не так много и в большинстве своём они размещаются на github.com :-)</p>
+<div id="content" class="pad">
+  <h1 class="pagetitle">Мои Проекты</h1>
+  <div class="entry page clear">
+    <p>Их не так много и в большинстве своём они размещаются на github.com :-)</p>
 <p>
 <SCRIPT LANGUAGE="JAVASCRIPT">   
 ccDayNow = new Date();   
@@ -19,3 +20,6 @@ hrsLeft = Math.floor(cc_hrsLeft);
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);   
 document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" - Случится мой День рождения :-)");   
     </SCRIPT></p>
+	
+	</div>
+</div>
