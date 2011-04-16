@@ -20,5 +20,6 @@ hrsLeft = Math.floor(cc_hrsLeft);
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);   
 document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минуту - Случится мой День рождения :-)");   
     </SCRIPT></p>
+<p><a href="http://keith-wood.name/countdown.html">http://keith-wood.name/countdown.html</a></p>
 </div>
 </div>
