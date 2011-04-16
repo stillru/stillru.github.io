@@ -2,6 +2,10 @@
 layout: static
 title: Baby Tag
 ---
-
+div id="content" class="pad">
+  <h1 class="pagetitle">Мои Проекты</h1>
+  <div class="entry page clear">
 {% assign category_posts = site.categories.baby %}
 {% include category_page.textile %}
+</div>
+</div>
