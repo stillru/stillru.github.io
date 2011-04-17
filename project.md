@@ -19,7 +19,7 @@ daysLeft = Math.floor(cc_daysLeft);
 cc_hrsLeft = (cc_daysLeft - daysLeft)*24;   
 hrsLeft = Math.floor(cc_hrsLeft);   
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);
-secLeft = Math.floor(cc_hrsLeft - hrsLeft);   
+secLeft = Math.floor(timeLeft / 1000);   
 document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минут "+secLeft+" секунд - Случится 27 лет как я хожу по этой знмле.");
 </script></p>
 <p>
