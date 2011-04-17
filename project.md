@@ -7,7 +7,9 @@ current_project: current_page_item
   <h1 class="pagetitle">Мои Проекты</h1>
   <div class="entry page clear">
     <p>Их не так много и в большинстве своём они размещаются на github.com :-)</p>
-<p><script LANGUAGE="JAVASCRIPT">   
+	<h2> Счётчик до дня рождения</h2>
+	<p> считает время до секунды. Считается что я родился 18 апреля в 17:45 и 40 секунд. Про секунды не уверен но счётчик считает именно до этого времени. Написан на JAVASCRIPT. </p>
+<p style=color:red>><script LANGUAGE="JAVASCRIPT">   
 ccDayNow = new Date();   
 ccDayThen = new Date("Apr 18 2011 17:45:40 GMT+0400")   
 msPerDay = 24 * 60 * 60 * 1000 ;   
