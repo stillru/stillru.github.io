@@ -23,9 +23,9 @@ document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft
 </script></p>
 <p>
 
-# Репозиторий Скриптов #
+<h2>Репозиторий Скриптов</h2>
 
-Здесь же, на github'е я собираю скрипты на `BASH` и `POWERSHELL`. Они доступны по адресу http://stillru.github.com/PersonalPakage/
+<p>Здесь же, на github'е я собираю скрипты на BASH и POWERSHELL. Они доступны по <a href="http://stillru.github.com/PersonalPakage/">этому адресу</a>. Со временем я допишу WiKi для этого проекта. Сейчас она доступна по <a href="http://github.com/stillru/PersonalPakage/wiki">этому адресу</a>.
  
 <a href="http://keith-wood.name/countdown.html">http://keith-wood.name/countdown.html</a>
 </p>
