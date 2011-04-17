@@ -8,6 +8,10 @@ current_project: current_page_item
   <div class="entry page clear">
     <p>Их не так много и в большинстве своём они размещаются на github.com :-)</p>
 <p>
+<SCRIPT LANGUAGE="JAVASCRIPT">
+ccDayNow = new Date();    
+document.write( "Дата "+ccDayNow+" по серверному времени"); 
+</script>
 <SCRIPT LANGUAGE="JAVASCRIPT">   
 ccDayNow = new Date();   
 ccDayThen = new Date("april 18, 2011")   
