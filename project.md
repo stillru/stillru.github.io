@@ -21,6 +21,7 @@ hrsLeft = Math.floor(cc_hrsLeft);
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);
 document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минут - Случится 27 лет как я хожу по этой знмле.");
 </script></p>
+<script type="text/javascript" src="http://cdn.widgetserver.com/syndication/subscriber/InsertWidget.js"></script><script type="text/javascript">if (WIDGETBOX) WIDGETBOX.renderWidget('428cebdd-9c23-4e9c-a4ff-08a885844a6e');</script><noscript>Get the <a href="http://www.widgetbox.com/widget/countuptimer">Count Up Timer 2.0 (Updated Version)</a> widget and many other <a href="http://www.widgetbox.com/">great free widgets</a> at <a href="http://www.widgetbox.com">Widgetbox</a>! Not seeing a widget? (<a href="http://docs.widgetbox.com/using-widgets/installing-widgets/why-cant-i-see-my-widget/">More info</a>)</noscript>
 
 <h2>Репозиторий Скриптов</h2>
 
