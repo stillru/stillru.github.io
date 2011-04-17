@@ -21,13 +21,9 @@ hrsLeft = Math.floor(cc_hrsLeft);
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);
 document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минут - Случится 27 лет как я хожу по этой знмле.");
 </script></p>
-<p>
 
 <h2>Репозиторий Скриптов</h2>
 
-<p>Здесь же, на github'е я собираю скрипты на BASH и POWERSHELL. Они доступны по <a href="http://stillru.github.com/PersonalPakage/">этому адресу</a>. Со временем я допишу WiKi для этого проекта. Сейчас она доступна по <a href="http://github.com/stillru/PersonalPakage/wiki">этому адресу</a>.
- 
-<a href="http://keith-wood.name/countdown.html">http://keith-wood.name/countdown.html</a>
-</p>
+<p>Здесь же, на github'е я собираю скрипты на BASH и POWERSHELL. Они доступны по <a href="http://stillru.github.com/PersonalPakage/">этому адресу</a>. Со временем я допишу WiKi для этого проекта. Сейчас она доступна по <a href="http://github.com/stillru/PersonalPakage/wiki">этому адресу</a>.</p>
 </div>
 </div>
