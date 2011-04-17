@@ -20,9 +20,8 @@ cc_hrsLeft = (cc_daysLeft - daysLeft)*24;
 hrsLeft = Math.floor(cc_hrsLeft);   
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);
 cc_secLeft = (minsLeft / 60);
-secLeft = Math.floor(cc_secLeft - minsLeft)*60);   
-document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минут - Случится 27 лет как я хожу по этой знмле.");
-document.write("Осталось "+secLeft+" секунд ");
+secLeft = Math.floor((cc_secLeft - minsLeft)*60);   
+document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минут - Случится 27 лет как я хожу по этой знмле. Осталось "+secLeft+" секунд.");
 </script></p>
 <p>
 <a href="http://keith-wood.name/countdown.html">http://keith-wood.name/countdown.html</a>
