@@ -12,7 +12,7 @@ current_project: current_page_item
 ccDayNow = new Date();    
 document.write( "Дата "+ccDayNow+" по серверному времени"); 
 </script>
-<SCRIPT LANGUAGE="JAVASCRIPT">   
+</p><p><SCRIPT LANGUAGE="JAVASCRIPT">   
 ccDayNow = new Date();   
 ccDayThen = new Date("april 18, 2011")   
 msPerDay = 24 * 60 * 60 * 1000 ;   
