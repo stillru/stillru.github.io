@@ -7,15 +7,9 @@ current_project: current_page_item
   <h1 class="pagetitle">Мои Проекты</h1>
   <div class="entry page clear">
     <p>Их не так много и в большинстве своём они размещаются на github.com :-)</p>
-<p>
-<script LANGUAGE="JAVASCRIPT">
-DayNow = new Date();    
-document.write( "Дата "+DayNow+" по серверному времени"); 
-</script>
-</p>
 <p><script LANGUAGE="JAVASCRIPT">   
 ccDayNow = new Date();   
-ccDayThen = new Date("april 18, 2011")   
+ccDayThen = new Date("Apr 18 2011 17:45:40 GMT+0400")   
 msPerDay = 24 * 60 * 60 * 1000 ;   
 timeLeft = (ccDayThen.getTime() - ccDayNow.getTime());   
 cc_daysLeft = timeLeft / msPerDay;   
