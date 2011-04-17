@@ -19,7 +19,8 @@ daysLeft = Math.floor(cc_daysLeft);
 cc_hrsLeft = (cc_daysLeft - daysLeft)*24;   
 hrsLeft = Math.floor(cc_hrsLeft);   
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);   
-document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минут - Случится 27 лет как я хожу по этой знмле.");   
+document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минут - Случится 27 лет как я хожу по этой знмле.");
+document.write( "Текущее время "+ccDayNow.getTime()+" по GMT");   
 </script></p>
 <p>
 <a href="http://keith-wood.name/countdown.html">http://keith-wood.name/countdown.html</a>
