@@ -23,7 +23,7 @@ document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft
 </script></p>
 <p style="color:red"><script LANGUAGE="JAVASCRIPT">   
 ccDayNow = new Date();   
-ccDayThen = new Date("Apr 18 1984 17:45:40 GMT+0400")   
+ccDayThen = new Date("Jul 22 1970 13:00:40 GMT+0400")   
 msPerDay = 24 * 60 * 60 * 1000 ;   
 timeLeft = (ccDayThen.getTime() - ccDayNow.getTime());   
 cc_daysLeft = timeLeft / msPerDay;   
