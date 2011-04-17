@@ -21,6 +21,18 @@ hrsLeft = Math.floor(cc_hrsLeft);
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);
 document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минут - Случится 27 лет как я хожу по этой знмле.");
 </script></p>
+<p style="color:red"><script LANGUAGE="JAVASCRIPT">   
+ccDayNow = new Date();   
+ccDayThen = new Date("Apr 18 1984 17:45:40 GMT+0400")   
+msPerDay = 24 * 60 * 60 * 1000 ;   
+timeLeft = (ccDayThen.getTime() - ccDayNow.getTime());   
+cc_daysLeft = timeLeft / msPerDay;   
+daysLeft = Math.floor(cc_daysLeft);   
+cc_hrsLeft = (cc_daysLeft - daysLeft)*24;   
+hrsLeft = Math.floor(cc_hrsLeft);   
+minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);
+document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минут - Случится 27 лет как я хожу по этой знмле.");
+</script></p>
 
 <h2>Репозиторий Скриптов</h2>
 
