@@ -15,18 +15,19 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://twitter-trackbacks-widget.googlecode.com/files/jquery.twittertrackbacks-1.0.min.js"></script>
     <script type="text/javascript">
-		$(document).ready(function(){
-			$('div.twitter-trackbacks').twitterTrackbacks({
-				url:'http://stillru.github.com{{ page.url }}'
-				,n:8
-				,show_n:0
-				,inf_tip:0
-				,show_avatar:1
-				,show_author:1
-				,info:''
-		});
-	});
-    </script>
+    $(document).ready(function(){
+            $('div.twitter-trackbacks').twitterTrackbacks({
+                    header:'<h2>Twitter trackback</h2>'
+                    ,url:'http://www.juev.ru/2011/03/07/twitter-trackback/'
+                    ,n:8
+                    ,show_n:0
+                    ,inf_tip:0
+                    ,show_avatar:0
+                    ,show_author:1
+                    ,info:''
+            });
+    });
+</script>
 
 <script type="text/javascript">
 
