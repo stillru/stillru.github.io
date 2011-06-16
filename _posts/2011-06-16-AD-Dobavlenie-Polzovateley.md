@@ -36,7 +36,7 @@ categories:
 
 Тут следует рассказать про структуру файла csv.
 
-{% highlight bash %}    
+{% highlight bash %}
 Character, Position, Rank, Department, Species, Starship, Series, Location
 Пупкин Василий,Directors,Финансовый Директор,Directors,Финансовый Директор,Рога и копыта Главный офис,Рога и копыта Главный офис,Устьзадрюпинск
 {% endhighlight %}
@@ -62,4 +62,3 @@ Character, Position, Rank, Department, Species, Starship, Series, Location
 Соответственно строчка `$NewConnection2 = "LDAP://OU=Users,OU=" + $Series + ($Domain.Replace(".",",DC=")).Insert(0,",DC=")` создаёт новое подключение используя данные из переменных csv-файла. Потом создаётся переменная `$NewOU2`. В следующей строчке мы снова инициализируем csv-файл а затем импортируем данные в переменную `$Department` из которой следующей строчкой создаётся структурное подразделение `UO=$Department,OU=Users,UO=Рога и копыта Главный офис,DC=domain,DC=com`.
 
 Вот и всё :-) Структура создана. Пользователей будем добавлять в следующий раз.
- 
