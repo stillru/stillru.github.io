@@ -43,22 +43,52 @@ Character, Position, Rank, Department, Species, Starship, Series, Location
 
 Все данные изменены - у нас тут новый закон "О защите персональных данных" вступает в силу :-)).
 
-В данном скрипте я дописал следующее:
-{% highlight bash %}
-		# Another connection
-		$NewConnection2 = "LDAP://OU=Users,OU=" + $Series + ($Domain.Replace(".",",DC=")).Insert(0,",DC=")
-		$NewOU2 = [adsi]$NewConnection2
-		$CsvFile2 = Import-Csv $Csv
-		$CsvFile2 | Select Department -unique | ForEach {
-		$Dep = $NewOU2.Create("OrganizationalUnit", "ou=$Department")
-		$Dep.SetInfo()
+В данном скрипте я дописал ещё одну функцию:
 
-		$Dep.put("l", $Location)
-		$Dep.put("Description", $Department)
-		$Dep.setinfo()
-		}
+{% highlight bash %}
+function Add-OU2 ([string]$Domain, [string]$Series, [string]$Location, [string]$Department) {
+    $distinguishedName = "OU="+ $Department + ",OU=Users,OU="+ $Series + ($Domain.Replace(".",",DC=")).Insert(0,",DC=")
+        Check-distinguishedName -Domain $Domain -OU $distinguishedName
+    if ($distinguishedNameDoesntExist -eq $True){
+    # Новое подключение
+    $NewConnection2 = "LDAP://OU=Users,OU=" + $Series ($Domain.Replace(".",",DC=")).Insert(0,",DC=")
+    $NewOU2 = [adsi]$NewConnection2
+    $Dep = $NewOU2.Create("OrganizationalUnit", "ou=$Department")
+    $Dep.SetInfo()
+    $Dep.put("l", $Location)
+    $Dep.put("Description", $Department)
+    $Dep.setinfo()
+    Write-Host "Added OU: $Department to Users in $Series" -ForegroundColor Green
+} else 
+    {
+        Write-Host "OU: $Department in Users at $Series Already Exists" -ForegroundColor Yellow
+    }
+
+    # Очищаем значение переменной
+    $Script:distinguishedNameDoesntExist = $False
+  }
+
 {% endhighlight %}
 
-Соответственно строчка `$NewConnection2 = "LDAP://OU=Users,OU=" + $Series + ($Domain.Replace(".",",DC=")).Insert(0,",DC=")` создаёт новое подключение используя данные из переменных csv-файла. Потом создаётся переменная `$NewOU2`. В следующей строчке мы снова инициализируем csv-файл а затем импортируем данные в переменную `$Department` из которой следующей строчкой создаётся структурное подразделение `UO=$Department,OU=Users,UO=Рога и копыта Главный офис,DC=domain,DC=com`.
+Функция абсолютно идентична первоначальной но с одним отличием - она создают ещё один уровень в нашей структуре домена. 
 
-Вот и всё :-) Структура создана. Пользователей будем добавлять в следующий раз.
+{% highlight bash %}
+$distinguishedName = "OU="+ $Department + ",OU=Users,OU="+ $Series + ($Domain.Replace(".",",DC=")).Insert(0,",DC=")
+{% endhighlight %}
+
+В этой строчке мы задаём значение переменной `$distinguishedName` соответственно нашей задаче.
+{% highlight bash %}
+Check-distinguishedName -Domain $Domain -OU $distinguishedName
+    if ($distinguishedNameDoesntExist -eq $True)
+{% endhighlight %}
+
+Проверка на существование и вход в цикл.
+
+Остальная часть функции описана точно так же как и в первой функции.
+
+Однако есть ещё один момент - поскольку эта функция новая и не где не используется в скрипте, то надо её поместить после вызова первой функции:
+{% highlight bash %}
+Add-OU -Domain $Domain -Series $_.Series -Starship $_.Starship -Location $_.Location
+Add-OU2 -Domain $Domain -Series $_.Series -Department $_.Department -Location $_.Location
+{% endhighlight %}
+Вот и всё :-) Структура создана. Пока я не разобрался со вложенными циклами и поэтому этот скрипт обладает излишней сложностью, но он работает. Пользователей будем добавлять в следующий раз.
