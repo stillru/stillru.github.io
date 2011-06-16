@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Добавление пользователей в Active Directory: Делаем в Powershell
+title: Добавление пользователей в Active Directory - Делаем в Powershell
 categories:
 - it
 ---
