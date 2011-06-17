@@ -437,73 +437,87 @@ li.widget select { margin-top: 10px; }
 #footer a:hover { color: #772124; }
 /* Trackback css
 ------------------------------------------------------------ */
-
 /* container */
-div.related-tweets{ }
-/* inner div */
-div.rrt-inner{
-	border:silver 1px solid;
-	height:48px;
-	padding:4px;
-	overflow:hidden;
-}
+div.twitter-trackbacks{ }
 /* ul list */
-div.rrt-inner ul{
-	float:left;
-	padding:0 0 0 0;
-	margin:0 0 0 0;
+ul.ttw-inner{
+	padding:0;
+	margin:0;
 }
-div.rrt-inner li{
+ul.ttw-inner li{
+	border-bottom:silver 1px dotted;
 	float:left;
-	margin:0 0 0 0;
+	margin:1px 0 1px 0;
+	padding:2px 2px 4px 2px;
 	list-style-type:none;
 	position:relative;
+	height:48px;
+	overflow:hidden;
+	width:100%;
 }
 /* author img */
-div.rrt-inner span.rrt-author-img{
+ul.ttw-inner span.ttw-author-img{
 	display:block;
 	width:48px;
 	height:48px;
-	margin:0 5px 0 0;
+	margin:0 5px 0 2px;
 	overflow:hidden;
 	left:0;
 	position:absolute;
 }
 /* author name */
-div.rrt-inner strong a{
+ul.ttw-inner strong a{
 	margin-right:5px;
 }
-
 /* tweet body */
-div.rrt-inner span.rrt-body {
+ul.ttw-inner span.ttw-body {
 	display:block;
 	margin-left:55px;
 }
 /* tweet content */
-div.rrt-inner span.rrt-content{
-}
-/* tweet date and source */
-div.rrt-inner span.rrt-meta {
+ul.ttw-inner span.ttw-content{}
+
+/* tweet meta : date, reply, retweet line */
+ul.ttw-inner span.ttw-meta {
 	color:#999999;
 	display:block;
 	font-size:0.764em;
 	margin:3px 0 0;
 }
-div.rrt-inner span.rrt-meta a{
+ul.ttw-inner span.ttw-meta a{
 	color:#999999;
 	text-decoration:none;
 }
-div.rrt-inner span.rrt-meta a:hover{
+ul.ttw-inner span.ttw-meta a:hover{
 	text-decoration:underline;
 }
-/* customize date link */
-div.rrt-inner a.rrt-date { }
-/* customize source link */
-div.rrt-inner a.rrt-source { }
+/* customize reply link */
+ul.ttw-inner a.ttw-reply { }
+/* customize retweet link */
+ul.ttw-inner a.ttw-retweet { }
 
 /* customize links */
-div.rrt-inner a.rrt-link { }
+ul.ttw-inner a.ttw-link { }
 /* customize @user links */
-div.rrt-inner a.rrt-at { }
+ul.ttw-inner a.ttw-at { }
 /* customize #hashtags links */
-div.rrt-inner a.rrt-hashtag { }
+ul.ttw-inner a.ttw-hashtag { }
+
+/* Customize tweets of users with influence levels from 0 to 10 */
+li.ttw-inf-0, li.ttw-inf-1, li.ttw-inf-2{ }
+li.ttw-inf-3, li.ttw-inf-4, li.ttw-inf-5, li.ttw-inf-6{ 
+	background:#ececec
+}
+li.ttw-inf-7, li.ttw-inf-8, li.ttw-inf-9, li.ttw-inf-10{
+	background:#e0e0e0
+}
+
+/* Customize users image with influence levels from 0 to 10 */
+li.ttw-inf-0 img{}
+/* ...... */
+li.ttw-inf-10 img{}
+
+/* Customize users name with influence levels from 0 to 10 */
+li.ttw-inf-0 strong{}
+/* ...... */
+li.ttw-inf-10 strong{}
