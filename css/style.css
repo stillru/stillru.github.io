@@ -473,6 +473,7 @@ ul.ttw-inner strong a{
 ul.ttw-inner span.ttw-body {
 	display:block;
 	margin-left:55px;
+	font-size: 1.3em;
 }
 /* tweet content */
 ul.ttw-inner span.ttw-content{}
