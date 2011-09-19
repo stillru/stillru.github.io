@@ -38,7 +38,6 @@ document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft
 
 <p>Здесь же, на github'е я собираю скрипты на BASH и POWERSHELL. Они доступны по <a href="http://stillru.github.com/PersonalPakage/">этому адресу</a>. Со временем я допишу WiKi для этого проекта. Сейчас она доступна по <a href="http://github.com/stillru/PersonalPakage/wiki">этому адресу</a>.</p>
 
-</div>
 <script src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script>
 new TWTR.Widget({
@@ -70,4 +69,5 @@ new TWTR.Widget({
   }
 }).render().setUser('stillru').start();
 </script>
-</div>
+
+</div></div>
