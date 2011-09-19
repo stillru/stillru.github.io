@@ -13,7 +13,7 @@ categories:
 Делаем так:
 
         На сервере запускаем Enable-PSRemoting от имени администратора
-		делаем set-item wsman:localhost\client\trustedhosts -value * # это для подключения с любого компьютера
+        делаем set-item wsman:localhost\client\trustedhosts -value * # это для подключения с любого компьютера
         PROFFIT!!!!
 		
 Ничего страншго в этом нет. Только я вместо звёздочки везде пишу имя своего ноутбука.
