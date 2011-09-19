@@ -11,6 +11,7 @@ categories:
 У меня есть несколько серверов под Windows 2008 R2 и хочется иметь возможность к ним подключаться.
 
 Делаем так:
+
         На сервере запускаем Enable-PSRemoting от имени администратора
 		делаем set-item wsman:localhost\client\trustedhosts -value * # это для подключения с любого компьютера
         PROFFIT!!!!
