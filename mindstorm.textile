@@ -1,0 +1,7 @@
+---
+layout: static
+title: MindStorm Tag
+---
+
+{% assign category_posts = site.categories.mindstorm %}
+{% include category_page.textile %}
