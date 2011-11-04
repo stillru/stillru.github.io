@@ -35,12 +35,12 @@ a:hover {
 }
 #content2 {
 	float: left;
-	width: 930px;
+	width: 900px;
 	padding: 10px 30px 20px 0;
 }
 #sidebar {
 	float: right;
-	width: 300px;
+	width: 2800px;
 	padding-bottom: 20px;
 }
 .thin-sidebar {
