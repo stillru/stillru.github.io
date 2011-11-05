@@ -8,9 +8,9 @@ categories:
 
 А теперь немного фоток.
 
-![Родилась!](http://img-fotki.yandex.ru/get/5700/jarelle.4/0_54357_4f9a5b7d_M.jpg)
+![Родилась](http://img-fotki.yandex.ru/get/5700/jarelle.4/0_54357_4f9a5b7d_M.jpg)
 
-Родилась!
+Родилась
 
 ![Нам два месяца. Мы спим с папой.](http://img-fotki.yandex.ru/get/5501/jarelle.6/0_54903_2a0a0c6c_M.jpg)
 
