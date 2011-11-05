@@ -8,8 +8,7 @@ categories:
 
 А теперь немного фоток.
 
-<a href="http://fotki.yandex.ru/users/jarelle/view/344919/"><img src="http://img-fotki.yandex.ru/get/5700/jarelle.4/0_54357_4f9a5b7d_M.jpg" width="225" height="300" title="" alt="" border="0"/></a><br/><a href="http://fotki.yandex.ru/users/jarelle/view/344919/">Родилась!</a></br>
-
+![Родилась!](http://img-fotki.yandex.ru/get/5700/jarelle.4/0_54357_4f9a5b7d_M.jpg)
 
 <a href="http://fotki.yandex.ru/users/jarelle/view/346371/"><img src="http://img-fotki.yandex.ru/get/5501/jarelle.6/0_54903_2a0a0c6c_M.jpg" width="300" height="225" title="" alt="" border="0"/></a><br/><a href="http://fotki.yandex.ru/users/jarelle/view/346371/">Нам два месяца. Мы спим с папой.</a></br>
 
