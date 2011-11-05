@@ -43,3 +43,5 @@ categories:
 Ну и наконец - Нам целый ГОД!
 
 ![Нам ГОД!](https://lh5.googleusercontent.com/-hOXEJXgXIUU/TrT2RupreEI/AAAAAAAAAZE/7IKnVV3JNKE/s320/PB054281.JPG)
+
+P.S. Отдельная благодарность моей жене, котороя выносла и родила это маленькое чудо. Я их обеих нежно люблю :-).
