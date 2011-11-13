@@ -1,6 +1,5 @@
 ---
 layout:clear
-rooturi:stillru.github.com
 ---
 User-agent: *
 Allow: /
