@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  С днём рожденья! Дочке год!
 categories:
