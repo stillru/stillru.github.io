@@ -40,9 +40,11 @@
       <div>
         {{ content }}
       </div>
+	  {% if page.layout == 'default' %}
       <div>
         {% include sidebar.html %}
       </div>
+	  {% endif %}
       <div>
         {% include footer.html %}
       </div>
