@@ -8,24 +8,24 @@ categories:
 
 А теперь немного фоток.
 
-http://img-fotki.yandex.ru/get/5700/jarelle.4/0_54357_4f9a5b7d_M.jpg
+!(http://img-fotki.yandex.ru/get/5700/jarelle.4/0_54357_4f9a5b7d_M.jpg)
 
-http://img-fotki.yandex.ru/get/5501/jarelle.6/0_54903_2a0a0c6c_M.jpg
+!(http://img-fotki.yandex.ru/get/5501/jarelle.6/0_54903_2a0a0c6c_M.jpg)
 
-ttp://img-fotki.yandex.ru/get/4513/jarelle.8/0_59cff_8fe2bc32_M.jpg
+!(http://img-fotki.yandex.ru/get/4513/jarelle.8/0_59cff_8fe2bc32_M.jpg)
 
-http://img-fotki.yandex.ru/get/5208/jarelle.9/0_5b5a3_ed42f424_M.jpg
+!(http://img-fotki.yandex.ru/get/5208/jarelle.9/0_5b5a3_ed42f424_M.jpg)
 
-http://img-fotki.yandex.ru/get/4809/jarelle.b/0_5e4f5_d73f553d_M.jpg
+!(http://img-fotki.yandex.ru/get/4809/jarelle.b/0_5e4f5_d73f553d_M.jpg)
 
-http://img-fotki.yandex.ru/get/5807/jarelle.18/0_6280d_b7a6fe04_L.jpg
+!(http://img-fotki.yandex.ru/get/5807/jarelle.18/0_6280d_b7a6fe04_L.jpg)
 
-http://img-fotki.yandex.ru/get/5706/jarelle.18/0_6281d_96fa1c1d_L.jpg
+!(http://img-fotki.yandex.ru/get/5706/jarelle.18/0_6281d_96fa1c1d_L.jpg)
 
-http://img-fotki.yandex.ru/get/4610/18394142.2f/0_6d51c_bb9aca06_L.jpg
+!(http://img-fotki.yandex.ru/get/4610/18394142.2f/0_6d51c_bb9aca06_L.jpg)
 
 Ну и наконец - Нам целый ГОД!
 
-https://lh5.googleusercontent.com/-hOXEJXgXIUU/TrT2RupreEI/AAAAAAAAAZE/7IKnVV3JNKE/s320/PB054281.JPG
+!(https://lh5.googleusercontent.com/-hOXEJXgXIUU/TrT2RupreEI/AAAAAAAAAZE/7IKnVV3JNKE/s320/PB054281.JPG)
 
 P.S. Отдельная благодарность моей жене (http://jarelle.ru), котороя выносла и родила это маленькое чудо. Я их обеих нежно люблю :-).
