@@ -1,7 +1,43 @@
----
-layout: default
----
-<div id="content2" class="pad">
+﻿<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+  <head>
+    <title>Степан Илличевский - {{ page.title }}</title>
+	<link rel="shortcut icon"href="/images/HOT.jpg">
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW"><meta http-equiv="content-type" content="text/html; charset=UTF-8"  />
+    <meta name="description" content="Блог имени меня :-). Тут собраны мои размышления обо всём, немного технических статей о PowerShell, Linux, Bash и прочих high-tech вещах. Добро пожаловать."/>
+    <meta name="keywords" content="nano,powershell,steve,illichevsky,scripting,steve illichevsky,live,life,russian,git,политика,скриптинг,администрирование"/>
+    <meta name="author" content="Степан Илличевский" />
+    <meta name="copyright" content="Copyright 2011 - Степан Илличевский"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+    <link rel="alternate" type="application/atom+xml" href="http://stillru.github.com/atom.xml" />
+    <link rel="canonical" href="http://stillru.github.com{{ page.url }}"/>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21797509-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </head>  
+  <body>
+    <div id="wrapper">
+      <div id="header" class="clear">
+        <h1 id="title"><a href="http://stillru.github.com">Степан Илличевский</a></h1>
+        <div id="description">
+          <h2>Сисадмин... иногда хороший...</h2>
+        </div>
+        <div id="nav">
+          {% include nav.html %}
+        </div>
+      </div>
+      <div id="content2" class="pad">
   <div class="post type-post">
     <div class="post-header">
       <h1>{{ page.title }}</h1>
@@ -31,3 +67,12 @@ layout: default
 	</script><g:plusone size="small"></g:plusone></div>
 	<iframe src="http://www.facebook.com/plugins/like.php?href=stillru.github.com{{ page.url }}" scrolling="no" frameborder="0" style="border:none; width:450px; height:80px"></iframe>
 </div>
+	        <div>
+        {% include footer.html %}
+      </div>
+    </div>
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: 'ru'}
+</script>
+  </body>
+</html>
