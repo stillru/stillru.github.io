@@ -12,13 +12,13 @@
     <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
     <link rel="alternate" type="application/atom+xml" href="http://stillru.github.com/atom.xml" />
     <link rel="canonical" href="http://stillru.github.com{{ page.url }}"/>
-	<!-- Put this script tag to the <head> of your page -->
+	<!-- VK Script -->
 <script type="text/javascript" src="http://userapi.com/js/api/openapi.js?45"></script>
 
 <script type="text/javascript">
   VK.init({apiId: API_ID, onlyWidgets: true});
 </script>
-
+	<!-- Google Analytics -->
 	<script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -44,6 +44,8 @@
           {% include nav.html %}
         </div>
       </div>
+	  
+	  <!-- Post layout -->
       <div id="content2" class="pad">
   <div class="post type-post">
     <div class="post-header">
@@ -56,6 +58,7 @@
     <div class="entry clear">
       {{ content }}
     </div>
+	<!-- Disquis Coments -->
       <div id="disqus_thread"></div>
       <script type="text/javascript">
           var disqus_shortname = 'stillru';
@@ -70,16 +73,17 @@
       </script>
       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
    </div> 
-<div>
-	</script><g:plusone size="small"></g:plusone></div>
+   <!-- Google Plus One Button -->
+<div><g:plusone size="small"></g:plusone></div>
+	<!-- Facebook plugin -->
 	<iframe src="http://www.facebook.com/plugins/like.php?href=stillru.github.com{{ page.url }}" scrolling="no" frameborder="0" style="border:none; width:450px; height:80px"></iframe>
+	<!-- Put this div tag to the place, where the Like block will be -->
+	<div id="vk_like"></div>
 </div>
-<!-- Put this div tag to the place, where the Like block will be -->
-<div id="vk_like"></div>
 <script type="text/javascript">
 VK.Widgets.Like("vk_like", {type: "full", height: 18});
 </script>
-
+		<!-- End Post Layout -->
 	        <div>
         {% include footer.html %}
       </div>
