@@ -446,5 +446,4 @@ li.widget select { margin-top: 10px; }
 }
 /* Coments Layout
 ------------------------------------------------------------ */
-#dsq-content #dsq-comments .dsq-comment-message { font-size: 12px; }
-
+#dsq-content #dsq-comments #sq-comment-text .dsq-comment-message { font-size: 12px; }
