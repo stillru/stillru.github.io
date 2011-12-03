@@ -435,6 +435,8 @@ li.widget select { margin-top: 10px; }
 	text-decoration: underline;
 }
 #footer a:hover { color: #772124; }
+/* G Button
+------------------------------------------------------------ */
 #gbutton {	
 		float: left;
 		width: 60px;
@@ -442,3 +444,7 @@ li.widget select { margin-top: 10px; }
 		border: 0px solid #fff;
 		margin: 10px 10px 10px 0px;
 }
+/* Coments Layout
+------------------------------------------------------------ */
+#dsq-content #dsq-comments .dsq-comment-message { font-size: 12px; }
+
