@@ -437,8 +437,8 @@ li.widget select { margin-top: 10px; }
 #footer a:hover { color: #772124; }
 #gbutton {	
 		float: left;
-		width: 65px;
-		height: 55px;
-		border: 1px solid #eaeaea;
+		width: 60px;
+		height: 65px;
+		border: 0px solid #fff;
 		margin: 10px 10px 10px 0px;
 }
