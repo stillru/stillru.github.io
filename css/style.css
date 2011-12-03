@@ -435,6 +435,10 @@ li.widget select { margin-top: 10px; }
 	text-decoration: underline;
 }
 #footer a:hover { color: #772124; }
-.gbutton {
-	line-height: 32 px;
+#gbutton {	
+		float: left;
+		width: 300px;
+		height: 250px;
+		border: 1px solid #eaeaea;
+		margin: 10px 10px 10px 0px;
 }
