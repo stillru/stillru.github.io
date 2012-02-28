@@ -7,7 +7,7 @@ current_project: current_page_item
 <h1 class="pagetitle">Мои Проекты</h1>
 <div class="entry page clear">
 
-Их не так много и в большинстве своём они размещаются на github.com :-)</p>
+Их не так много и в большинстве своём они размещаются на github.com :-)
 
 == Счётчик до дня рождения
 
@@ -32,3 +32,4 @@ document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft
 
 == Test for QR Code
 
+</div></div>
