@@ -4,6 +4,7 @@ title: Проекты
 current_project: current_page_item
 ---
 <!--<script type="text/javascript" src="/js/jquery.qrcode.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.qrcode.js"></script>
 <script type="text/javascript" src="/js/qrcode.js"></script>
 <div id="content" class="pad">
@@ -30,9 +31,10 @@ document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft
 <h2>Test for QR Code</h2>
 <div id="qrcode"></div>
 <script>
+	//jQuery('#qrcode').qrcode("this plugin is great");
 	jQuery('#qrcode').qrcode({
 		render	: "table",
-		text	: "http://stillru.github.com"
+		text	: "http://jetienne.com"
 	});	
 </script>
 </div>
