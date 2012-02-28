@@ -3,15 +3,13 @@ layout: default
 title: Проекты
 current_project: current_page_item
 ---
-<div id="content" class="pad">
-<h1 class="pagetitle">Мои Проекты</h1>
-<div class="entry page clear">
+*** Мои Проекты
 
 Их не так много и в большинстве своём они размещаются на github.com :-)
 
 == Счётчик до дня рождения
 
-Cчитает время до секунды. Считается что я родился 18 апреля в 17:45 и 40 секунд. Про секунды не уверен но счётчик считает именно до этого времени. Написан на JAVASCRIPT. </p>
+Cчитает время до секунды. Считается что я родился 18 апреля в 17:45 и 40 секунд. Про секунды не уверен но счётчик считает именно до этого времени. Написан на JAVASCRIPT.
 
 <p style="color:red"><script LANGUAGE="JAVASCRIPT">
 ccDayNow = new Date();
