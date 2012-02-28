@@ -3,6 +3,7 @@ layout: default
 title: Проекты
 current_project: current_page_item
 ---
+<script type="text/javascript" src="js/jquery.qrcode.min.js"></script>
 <div id="content" class="pad">
   <h1 class="pagetitle">Проекты</h1>
   <div class="entry page clear">
@@ -25,7 +26,11 @@ document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft
 <h2>Репозиторий Скриптов</h2>
 <p>Здесь же, на github'е я собираю скрипты на BASH и POWERSHELL. Они доступны по <a href="http://stillru.github.com/PersonalPakage/">этому адресу</a>. Со временем я допишу WiKi для этого проекта. Сейчас она доступна по <a href="http://github.com/stillru/PersonalPakage/wiki">этому адресу</a>.</p>
 <h2>Test for QR Code</h2>
-<img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=http://stillru.github.com"/>
-
+<div id="qrcode"></div>
+<script>
+	jQuery('#qrcode').qrcode({
+		text	: "http://stillru.github.com"
+	});	
+</script>
 </div>
 </div>
