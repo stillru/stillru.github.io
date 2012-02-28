@@ -3,9 +3,9 @@ layout: default
 title: Проекты
 current_project: current_page_item
 ---
-div id="content" class="pad">
+<div id="content" class="pad">
   <h1 class="pagetitle">Contact</h1>
-  <div class="entry page clear">
+  <div class="entry_page_clear">
 		Их не так много и в большинстве своём они размещаются на github.com :-)
 		
 		*** Счётчик до дня рождения
@@ -32,3 +32,4 @@ document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft
 == Test for QR Code
 
 	</div>
+</div>
