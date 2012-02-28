@@ -38,36 +38,6 @@ document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft
 
 <p>Здесь же, на github'е я собираю скрипты на BASH и POWERSHELL. Они доступны по <a href="http://stillru.github.com/PersonalPakage/">этому адресу</a>. Со временем я допишу WiKi для этого проекта. Сейчас она доступна по <a href="http://github.com/stillru/PersonalPakage/wiki">этому адресу</a>.</p>
 
-<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
-  width: 'auto',
-  height: 300,
-  theme: {
-    shell: {
-      background: '#ffffff',
-      color: '#000000'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#000000',
-      links: '#4aed05'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: true,
-    live: true,
-    hashtags: false,
-    timestamp: false,
-    avatars: false,
-    behavior: 'default'
-  }
-}).render().setUser('stillru').start();
-</script>
+<h2>Test for QR Code</h2>
 
-</div></div>
+<img src="http://0.chart.apis.google.com/chart?cht=https://market.android.com/"></img>
