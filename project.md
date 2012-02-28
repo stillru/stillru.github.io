@@ -6,11 +6,11 @@ current_project: current_page_item
 <div id="content" class="pad">
   <h1 class="pagetitle">Contact</h1>
   
-		Их не так много и в большинстве своём они размещаются на github.com :-)
+Их не так много и в большинстве своём они размещаются на github.com :-)
 		
-		*** Счётчик до дня рождения
+*** Счётчик до дня рождения
 
-		Cчитает время до секунды. Считается что я родился 18 апреля в 17:45 и 40 секунд. Про секунды не уверен но счётчик считает именно до этого времени. Написан на JAVASCRIPT.
+Cчитает время до секунды. Считается что я родился 18 апреля в 17:45 и 40 секунд. Про секунды не уверен но счётчик считает именно до этого времени. Написан на JAVASCRIPT.
 
 <p style="color:red"><script LANGUAGE="JAVASCRIPT">
 ccDayNow = new Date();
@@ -25,11 +25,11 @@ minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);
 document.write( "Через "+daysLeft+" дн, "+hrsLeft+" часов "+minsLeft+" минут - Случится 28 лет как я хожу по этой знмле.");
 </script></p>
 
-		*** Репозиторий Скриптов
+*** Репозиторий Скриптов
 
-		Здесь же, на github'е я собираю скрипты на BASH и POWERSHELL. Они доступны по <a href="http://stillru.github.com/PersonalPakage/">этому адресу</a>. Со временем я допишу WiKi для этого проекта. Сейчас она доступна по <a href="http://github.com/stillru/PersonalPakage/wiki">этому адресу</a>
+Здесь же, на github'е я собираю скрипты на BASH и POWERSHELL. Они доступны по <a href="http://stillru.github.com/PersonalPakage/">этому адресу</a>. Со временем я допишу WiKi для этого проекта. Сейчас она доступна по <a href="http://github.com/stillru/PersonalPakage/wiki">этому адресу</a>
 
-== Test for QR Code
+=== Test for QR Code
 
 
 </div>
