@@ -190,10 +190,10 @@ pre {
 	color: #000;
 }
 code {
-	padding: 2px 3px;
+	padding: 3px 3px;
 	font: 1em Consolas, Courier New, sans-serif;
 	background-color: #f3f3f3;
-	color: #000;
+	color: #450000;
 }
 .entry ul, .c-body ul { margin: 0 0 10px 10px; }
 .entry ul li, .c-body ul li {
