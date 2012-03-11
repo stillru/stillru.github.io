@@ -25,7 +25,7 @@ hrsLeft = Math.floor(cc_hrsLeft);
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);
 birthdayY = ccDayThen.getFullYear();
 nowY = ccDayNow.getFullYear();
-age = (nowY - birthdayY);
+age = Math.floor((nowY - birthdayY));
 document.write( "Через "+daysLeft+" дн(ей), "+hrsLeft+" часов "+minsLeft+" минут - Случится "+age+" лет как я хожу по этой знмле.");
 </script></p>
 
