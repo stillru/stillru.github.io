@@ -296,7 +296,7 @@ h1.pagetitle, h2.pagetitle {
 	line-height: 1.1em;
 	border-bottom: 4px double #eee;
 }
-blockquote {
+/* blockquote {
 	font: 14px/20px italic Times, serif;
 	padding-left: 20px;
 	padding-top: 18px;
@@ -306,8 +306,40 @@ blockquote {
 	background-image: url(/images/float-quote.gif);
 	background-position: middle left;
 	background-repeat: no-repeat;
-	/*text-indent: 23px;*/
+	<!--text-indent: 23px;-->
+} */
+.blockquote blockquote p .start-quote {
+background-position: 0 -193px;
+background-position-x: 0px;
+background-position-y: -193px;
 }
+.blockquote blockquote p .start-quote {
+background: transparent url(http://wscdn.bbc.co.uk/worldservice/images/core/2/sprites/module.png) no-repeat;
+height: 46px;
+width: 100%;
+display: block;
+position: absolute;
+top: 0px;
+text-indent: -5000px;
+border-top: 1px solid #D8D8D8;
+border-bottom: 1px solid #D8D8D8;
+}
+
+.bodytext .blockquote .body blockquote p {
+font-size: 16px;
+line-height: 20px;
+}
+.blockquote .body blockquote p {
+color: #505050;
+}
+.blockquote .body blockquote p {
+font-weight: bold;
+}
+.bodytext p {
+font-size: 14px;
+line-height: 20px;
+}
+
 /*Archives List
 ---------------------------------------*/
 img.archive-comment {
