@@ -3,11 +3,3 @@ lsi: true
 permalink: pretty
 category_dir: cat
 description: "Блог имени меня :-). Тут собраны мои размышления обо всём, немного технических статей о PowerShell, Linux, Bash и прочих high-tech вещах. Добро пожаловать."
-keywords: -powershell
--scripting
--live
--russian
--git
--политика
--скриптинг
--администрирование
