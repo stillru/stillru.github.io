@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Умный город - Геолокация
+description: Test
 categories:
 - SmartCity
 ---
