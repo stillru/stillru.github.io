@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Умный город - Геолокация
-description: Test
+description: {{ post.content | strip_html | truncate:200  }}
 categories:
 - SmartCity
 ---
