@@ -1,0 +1,7 @@
+---
+layout: static
+title: Ingress Tag
+---
+
+{% assign category_posts = site.categories.ingress %}
+{% include category_page.textile %}
