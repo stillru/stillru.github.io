@@ -7,6 +7,37 @@ ul, ol, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockq
 a img, :link img, :visited img { border: none; }
 address { font-style: normal; }
 
+/* By still at 15.01.2013 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+    #wrapper {
+       width: 980px;
+       margin: 0 auto;
+    }
+    #header {
+       height: 160px;
+    }
+    #content {
+       width: 600px;
+       float: left;
+    }
+    #sidebar {
+       width: 280px;
+       float: right;
+    }
+    #footer {
+       clear: both;
+    }
+
+
+
+
+
+
+
+
 /*Body & Links
 ------------------------------------------------------------ */
 body {

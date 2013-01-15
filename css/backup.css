@@ -7,13 +7,17 @@ ul, ol, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockq
 a img, :link img, :visited img { border: none; }
 address { font-style: normal; }
 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
 /*Body & Links
 ------------------------------------------------------------ */
 body {
 	font-size: 62.5%;
 	font-family: Georgia, "Times New Roman", Times, Serif;
 	line-height: 2.2em;
-	color: #fff;
+	color: #333;
 	background-color: #fff;
 }
 a:link, a:visited { color: #772124; }
