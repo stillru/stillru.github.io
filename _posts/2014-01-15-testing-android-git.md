@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Testing android git
+title: Testing Android Git
+description:
 categories:
 - it
 ---
