@@ -17,9 +17,7 @@ categories:
 Тут всё просто
 
 ```
-./configure
-./make
-sudo checkinstall
+./configure && ./make && sudo checkinstall
 ```
 
 Но это при условии что в секции `Makefile` есть инструкция `install`. В нашем случае её нету. Да и хтелось добавить пару файлов к пакету. Например упомянутые выше man-странички.
