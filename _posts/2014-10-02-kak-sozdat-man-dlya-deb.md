@@ -18,7 +18,9 @@ categories:
 
 ```
 ./configure
+
 ./make
+
 sudo checkinstall
 ```
 
