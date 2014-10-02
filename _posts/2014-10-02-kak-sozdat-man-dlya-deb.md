@@ -16,7 +16,7 @@ categories:
 
 Тут всё просто
 
-```
+```bash
 ./configure
 ./make
 sudo checkinstall
