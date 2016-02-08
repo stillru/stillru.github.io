@@ -1,0 +1,7 @@
+---
+layout: static
+title: Health Tag
+---
+
+{% assign category_posts = site.categories.live %}
+{% include category_page.textile %}
