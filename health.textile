@@ -3,5 +3,5 @@ layout: static
 title: Health Tag
 ---
 
-{% assign category_posts = site.categories.live %}
+{% assign category_posts = site.categories.health %}
 {% include category_page.textile %}
