@@ -4,7 +4,7 @@ title: Первые выходные на новой квартире
 description:
 categories:
 - live
-- Mind
+- mind
 ---
 Наконец закончили перевозить вещи.
 
