@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 58, Community rise...
+title: Первые выходные на новой квартире
 description:
 categories:
 - live
