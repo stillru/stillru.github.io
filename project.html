@@ -3,7 +3,7 @@ layout: default
 title: Проекты
 current_project: current_page_item
 ---
-<!--<script type="text/javascript" src="/js/jquery.qrcode.min.js"></script>-->
+        <!--<script type="text/javascript" src="/js/jquery.qrcode.min.js"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.qrcode.js"></script>
 <script type="text/javascript" src="/js/qrcode.js"></script>
@@ -15,7 +15,7 @@ current_project: current_page_item
 <p>Cчитает время до секунды. Считается что я родился 18 апреля в 17:45 и 40 секунд. Про секунды не уверен но счётчик считает именно до этого времени. Написан на JAVASCRIPT.</p>
 <p style="color:red"><script LANGUAGE="JAVASCRIPT">
 ccDayNow = new Date() ;
-ccDayThen = new Date("Apr 18 "+ (ccDayNow.getFullYear() + 1)+" 17:45:40 GMT+0400")
+ccDayThen = new Date("Apr 18 "+ ccDayNow.getFullYear() +" 17:45:40 GMT+0400")
 msPerDay = 24 * 60 * 60 * 1000 ;
 timeLeft = (ccDayThen.getTime() - ccDayNow.getTime());
 cc_daysLeft = timeLeft / msPerDay;
@@ -23,12 +23,12 @@ daysLeft = Math.floor(cc_daysLeft);
 cc_hrsLeft = (cc_daysLeft - daysLeft)*24;
 hrsLeft = Math.floor(cc_hrsLeft);
 minsLeft = Math.floor((cc_hrsLeft - hrsLeft)*60);
-age = ccDayNow.getFullYear() - 1983;
+age = ccDayNow.getFullYear() - 1984;
 document.write( "Через "+daysLeft+" дн(ей), "+hrsLeft+" часов "+minsLeft+" минут - Случится "+age+" лет как я хожу по этой знмле.");
 </script></p>
 
 <script LANGUAGE="JAVASCRIPT">
-cc1DayThen = new Date("Apr 18 "+ (ccDayNow.getFullYear() +1 )+" 8:10:40 GMT+0400")
+cc1DayThen = new Date("Apr 18 "+ ccDayNow.getFullYear()+" 8:10:40 GMT+0400")
 msPerDay = 24 * 60 * 60 * 1000 ;
 timeLeft = (cc1DayThen.getTime() - ccDayNow.getTime());
 cc1_daysLeft = timeLeft / msPerDay;
@@ -36,12 +36,12 @@ daysLeft = Math.floor(cc1_daysLeft);
 cc1_hrsLeft = (cc1_daysLeft - daysLeft)*24;
 hrsLeft = Math.floor(cc1_hrsLeft);
 minsLeft = Math.floor((cc1_hrsLeft - hrsLeft)*60);
-age1 = ccDayNow.getFullYear() - 2015;
+age1 = ccDayNow.getFullYear() - 2016;
 document.write( "Через "+daysLeft+" дн(ей), "+hrsLeft+" часов "+minsLeft+" минут - Случится "+age1+" год(а)  Стасу.");
 </script></p>
 
 <script LANGUAGE="JAVASCRIPT">
-cc2DayThen = new Date("Nov 5 "+ (ccDayNow.getFullYear() )+" 12:25:40 GMT+0400")
+cc2DayThen = new Date("Nov 5 "+ ccDayNow.getFullYear() +" 12:25:40 GMT+0400")
 msPerDay = 24 * 60 * 60 * 1000 ;
 timeLeft = (cc2DayThen.getTime() - ccDayNow.getTime());
 cc2_daysLeft = timeLeft / msPerDay;
@@ -55,7 +55,7 @@ document.write( "Через "+daysLeft+" дн(ей), "+hrsLeft+" часов "+mi
 
 
 <script LANGUAGE="JAVASCRIPT">
-cc3DayThen = new Date("Oct 11 "+ (ccDayNow.getFullYear() )+" 13:25:40 GMT+0400")
+cc3DayThen = new Date("Oct 11 "+ ccDayNow.getFullYear() +" 13:25:40 GMT+0400")
 msPerDay = 24 * 60 * 60 * 1000 ;
 timeLeft = (cc3DayThen.getTime() - ccDayNow.getTime());
 cc3_daysLeft = timeLeft / msPerDay;
