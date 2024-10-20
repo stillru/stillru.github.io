@@ -1,5 +1,5 @@
 ---
-date: 2007-12-01T00:00:00+01:00
+date: 2002-12-01T00:00:00+01:00
 draft: false
 title: "Juninor Typesetter"
 jobTitle: "Typesetter"
@@ -13,3 +13,5 @@ duration: "2002 - 2008"
 As newbie in publisher industry, I work 4 hours a day. My job was:
  - Preparing newspaper pages in ps-files for printing
  - Control quality of product
+
+My color correction, preparing text for newspaper sheets and control process of printing.

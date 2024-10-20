@@ -1,5 +1,5 @@
 ---
-date: 2007-12-01T00:00:00+01:00
+date: 2002-11-01T00:00:00+01:00
 draft: false
 title: "Typesetter"
 jobTitle: "Typesetter, Out Of Staff"
@@ -20,3 +20,5 @@ Some of my projects:
  - Echelon
  - Echelon 2
  - Petka i Vasiliy Ianovich
+
+My work was adaptation english manuals to russian players, color correction of pictures and full process of preparing materials to publisher.
