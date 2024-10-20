@@ -1,7 +1,0 @@
----
-layout: static
-title: games Tag
----
-
-{% assign category_posts = site.categories.games %}
-{% include category_page.textile %}

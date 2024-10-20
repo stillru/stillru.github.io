@@ -1,6 +1,0 @@
----
-layout: static
-title: Country Tag
----
-{% assign category_posts = site.categories.country %}
-{% include category_page.textile %}

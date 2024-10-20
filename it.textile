@@ -1,7 +1,0 @@
----
-layout: static
-title: It Tag
----
-
-{% assign category_posts = site.categories.it %}
-{% include category_page.textile %}

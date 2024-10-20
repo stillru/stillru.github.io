@@ -1,6 +1,0 @@
----
-layout: static
-title: Baby Tag
----
-{% assign category_posts = site.categories.baby %}
-{% include category_page.textile %}
