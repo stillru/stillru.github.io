@@ -1,0 +1,172 @@
+# page title
+head:
+  title: "Stepan Illichevskii - Personal Site"
+  description: "Site about my work, experience & honors"
+# showcase
+showcase:
+  enable: true
+  #title: "Hello, I’m Cool."
+  #subtitle: "This is my title"
+  description: >
+    Experienced DevOps/SRE and Linux Specialist with over 16 years in IT. Expertise in cloud automation, containerization, and monitoring solutions. Strong background in infrastructure deployment, technical support, and automation of internal systems. Proficient in a wide range of technologies, including Docker, Terraform, Prometheus, Ansible, and more. Passionate about continuous improvement and problem‑solving in complex systems.
+  image:
+    x: "images/showcase/showcase.png"
+    _2x: "images/showcase/showcase@2x.png"
+  imageMobile:
+    x: "images/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/stillru/"
+
+    - icon: "github"
+      URL: "https://github.com/stillru"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/stillru"
+
+    #- icon: "dribbble"
+    #  URL: "#"
+
+    #- icon: "behance"
+    #  URL: "#"
+
+    #- icon: "youtube"
+    #  URL: "#"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/stillru/"
+
+    #- icon: "facebook"
+    #  URL: "https://www.facebook.com/zetxek/"
+
+    #- icon: "codepen"
+    #  URL: "#"
+
+    #- icon: "yelp"
+    #  URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: >
+    <p class="lead">
+    My journy to IT start from early 2000's - since I graduated from Moscow Pedagogical State University.
+      </p>
+    <p class="lead">
+    I worked in different positions: as technican, typesetter, system administrator, manager and so on.
+    </p>
+    <p class="lead">
+    Now i want focus on DevOps/SRE and work on fintech, highload projects.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/stillru/"
+  image:
+    x: "images/who-am-i/user-picture.png"
+    _2x: "images/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Russian All-State Social University"
+      year: "2020-2022"
+      degree: "Masters of Computer Science (MdCS), Ungraduated"
+
+    - university: "Moscow Pedagogical State University"
+      year: "2006-2008"
+      degree: "Masters of Sociology (MdS), Sociology"
+
+    - university: "Moscow Pedagogical State University"
+      year: "2002-2006"
+      degree: "Bachelor of Sociology (BS), Sociology"
+
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: >
+    This is where you can highlight a bit over your experience. Years of total experience, specialization, etc.
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/adrianmoreno/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+  button3:
+    icon: "icon-arrow-right"
+    btnText: "View All"
+    URL: "/experience"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: false
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "images/testimonials/daniel-jordan.jpg"
+        _2x: "images/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "images/testimonials/jonathan-peters.jpg"
+        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "images/testimonials/antonio-willis.jpg"
+        _2x: "images/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+381 (62) 143 49 32"
+  email:
+    title: "Email"
+    email: '<a href="mailto:still.ru@gmail.com">still.ru@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Ustanička 175<br />11050, Beograd, Serbia"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
