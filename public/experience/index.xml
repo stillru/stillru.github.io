@@ -10,17 +10,17 @@
     <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SRE Engineer</title>
-      <link>http://localhost:1313/experience/job-10/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/experience/job-10/</guid>
-      <description>&lt;h3 id=&#34;work-with-people&#34;&gt;Work with people&lt;/h3&gt;&#xA;&lt;p&gt;As a Presales Engineer and Product Consultant at LTD &amp;ldquo;New Cloud Technologies&amp;rdquo; from January 2019 to April 2023, I worked closely with clients to ensure smooth product integration and deployment. My role involved setting up test environments, diagnosing potential issues early on, and offering technical support throughout the sales cycle. I specialized in understanding client needs, addressing unique requests, and providing tailored solutions.&lt;/p&gt;&#xA;&lt;p&gt;I also conducted initial audits of clients&amp;rsquo; technology landscapes to create detailed profiles that helped guide the implementation process. Additionally, I advised clients on product integration through APIs and SDKs, ensuring seamless compatibility. A key part of my work was preparing thorough documentation for tenders, helping secure critical business opportunities. This role allowed me to combine my technical expertise with client-facing responsibilities, making a direct impact on the success of each project.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>SRE Engineer</title>
       <link>http://localhost:1313/experience/job-11/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0100</pubDate>
       <guid>http://localhost:1313/experience/job-11/</guid>
-      <description>&lt;h3 id=&#34;work-with-people&#34;&gt;Work with people&lt;/h3&gt;&#xA;&lt;p&gt;As a Presales Engineer and Product Consultant at LTD &amp;ldquo;New Cloud Technologies&amp;rdquo; from January 2019 to April 2023, I worked closely with clients to ensure smooth product integration and deployment. My role involved setting up test environments, diagnosing potential issues early on, and offering technical support throughout the sales cycle. I specialized in understanding client needs, addressing unique requests, and providing tailored solutions.&lt;/p&gt;&#xA;&lt;p&gt;I also conducted initial audits of clients&amp;rsquo; technology landscapes to create detailed profiles that helped guide the implementation process. Additionally, I advised clients on product integration through APIs and SDKs, ensuring seamless compatibility. A key part of my work was preparing thorough documentation for tenders, helping secure critical business opportunities. This role allowed me to combine my technical expertise with client-facing responsibilities, making a direct impact on the success of each project.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;sre-in-startup&#34;&gt;SRE in startup&lt;/h3&gt;&#xA;&lt;p&gt;At LTD &amp;ldquo;Nebius&amp;rdquo; (formerly Yandex), I worked as an SRE Engineer, where my focus was on automating cloud systems and ensuring the reliability of complex infrastructures like Kubernetes. I deployed servers using Terraform and streamlined operations by automating Jira tasks.&lt;/p&gt;&#xA;&lt;p&gt;I provided internal staff with technical support, created observability alerts to monitor system performance, and ensured the smooth functioning of the cloud environment. This role allowed me to combine automation and infrastructure management to enhance system efficiency and reliability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Presale Engineer</title>
+      <link>http://localhost:1313/experience/job-10/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/job-10/</guid>
+      <description>&lt;h3 id=&#34;work-with-pepole&#34;&gt;Work with pepole&lt;/h3&gt;&#xA;&lt;p&gt;As a Presales Engineer and Product Consultant at LTD &amp;ldquo;New Cloud Technologies&amp;rdquo; from January 2019 to April 2023, I worked closely with clients to ensure smooth product integration and deployment. My role involved setting up test environments, diagnosing potential issues early on, and offering technical support throughout the sales cycle. I specialized in understanding client needs, addressing unique requests, and providing tailored solutions.&lt;/p&gt;&#xA;&lt;p&gt;I also conducted initial audits of clients&amp;rsquo; technology landscapes to create detailed profiles that helped guide the implementation process. Additionally, I advised clients on product integration through APIs and SDKs, ensuring seamless compatibility. A key part of my work was preparing thorough documentation for tenders, helping secure critical business opportunities. This role allowed me to combine my technical expertise with client-facing responsibilities, making a direct impact on the success of each project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Again System Administrator</title>

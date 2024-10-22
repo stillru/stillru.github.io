@@ -10,10 +10,10 @@ showcase:
   description: >
     Experienced DevOps/SRE and Linux Specialist with over 16 years in IT. Expertise in cloud automation, containerization, and monitoring solutions. Strong background in infrastructure deployment, technical support, and automation of internal systems. Proficient in a wide range of technologies, including Docker, Terraform, Prometheus, Ansible, and more. Passionate about continuous improvement and problem‑solving in complex systems.
   image:
-    x: "images/showcase/showcase.png"
-    _2x: "images/showcase/showcase@2x.png"
+    x: "images/showcase/showcase_ops.png"
+    _2x: "images/showcase/showcase_ops@2x.png"
   imageMobile:
-    x: "images/showcase/showcase-mobile.jpg"
+    x: "images/showcase/showcase_ops.png"
 
   button:
     icon: "icon-mail-fill"
@@ -57,7 +57,7 @@ about:
   title: "Who am I?"
   content: >
     <p class="lead">
-    My journy to IT start from early 2000's - since I graduated from Moscow Pedagogical State University.
+    My journey to IT start from early 2000's - since I graduated from Moscow Pedagogical State University.
       </p>
     <p class="lead">
     I worked in different positions: as technican, typesetter, system administrator, manager and so on.
@@ -70,7 +70,7 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/stillru/"
   image:
-    x: "images/who-am-i/user-picture.png"
+    x: "images/who-am-i/user-picture_still.png"
     _2x: "images/who-am-i/user-picture@2x.png"
 
 # education
@@ -80,15 +80,15 @@ education:
   items:
     - university: "Russian All-State Social University"
       year: "2020-Present"
-      degree: "Masters of Computer Science (MdCS), In progress"
+      degree: "Master of Science in Computer Science (MSCS), In progress"
 
     - university: "Moscow Pedagogical State University"
       year: "2006-2008"
-      degree: "Masters of Sociology (MdS), Sociology"
+      degree: "Master of Science in Sociology (MS in Sociology), Sociology"
 
     - university: "Moscow Pedagogical State University"
       year: "2002-2006"
-      degree: "Bachelor of Sociology (BS), Sociology"
+      degree: "Bachelor of Science in Sociology (BS), Sociology"
 
 
 # experience
