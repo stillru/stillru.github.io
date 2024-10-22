@@ -12,7 +12,7 @@ duration: "October 2002 - June 2008"
 
 The beginning of a career.
 
-I work on several projects as typsetter for enduser manuals for <a href="https://buka.ru/" target="_blank"> publisher "Buka"</a>. Booklets for games.
+I work on several projects as typesetter for enduser manuals for [publisher "Buka"](https://buka.ru). Booklets for games.
 
 Some of my projects:
 
@@ -21,4 +21,4 @@ Some of my projects:
  - Echelon 2
  - Petka i Vasiliy Ianovich
 
-My work was adaptation english manuals to russian players, color correction of pictures and full process of preparing materials to publisher.
+My work was adaptation english manuals to russian players, color correction of pictures and full process of preparing materials to Prepress.

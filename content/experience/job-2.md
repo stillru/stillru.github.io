@@ -14,4 +14,4 @@ As newbie in publisher industry, I work 4 hours a day. My job was:
  - Preparing newspaper pages in ps-files for printing
  - Control quality of product
 
-My color correction, preparing text for newspaper sheets and control process of printing.
+My work was color correction, preparing text for newspaper sheets and control process of printing.

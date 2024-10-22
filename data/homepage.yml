@@ -96,11 +96,11 @@ experience:
   enable: true
   title: "Experience"
   description: >
-    This is where you can highlight a bit over your experience. Years of total experience, specialization, etc.
+    With over 16 years of experience in IT, I've held various roles, including Technician, Support Engineer, Head of Support, and Presales Engineer. While not all my work has been directly IT-related, computers have always been my passion.
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/adrianmoreno/"
+    URL: "https://www.linkedin.com/in/stillru/"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
@@ -146,7 +146,8 @@ contact:
   enable: true
   title: "Contact"
   form:
-    action: "#"
+    method: "POST"
+    action: "https://formspree.io/still.ru@gmail.com"
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
