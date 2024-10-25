@@ -162,7 +162,7 @@ contact:
   title: "Contact"
   form:
     method: "POST"
-    action: "https://formspree.io/still.ru@gmail.com"
+    action: "https://formspree.io/f/mnnqnnko"
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
