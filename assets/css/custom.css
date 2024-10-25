@@ -7,12 +7,12 @@
 }
 
 html body ::selection{
-  background-color:##ffa500;
+  background-color:#ffa500;
   color:#fff
 }
 
 .btn-primary{
-  background-color:##ffa500;
+  background-color:#ffa500;
 }
 
 .skill__title {

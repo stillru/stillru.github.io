@@ -2,6 +2,7 @@
 head:
   title: "Stepan Illichevskii - Personal Site"
   description: "Site about my work, experience & honors"
+  theme_color: "#ffa500"
 # showcase
 showcase:
   enable: true
