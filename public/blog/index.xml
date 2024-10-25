@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on </title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://stillru.github.io/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Jun 2024 14:38:33 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stillru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sample blog content 3</title>
-      <link>http://localhost:1313/blog/sample-3/</link>
+      <link>https://stillru.github.io/blog/sample-3/</link>
       <pubDate>Mon, 24 Jun 2024 14:38:33 +0200</pubDate>
-      <guid>http://localhost:1313/blog/sample-3/</guid>
+      <guid>https://stillru.github.io/blog/sample-3/</guid>
       <description>&lt;p&gt;Sample blog content. Like a lorem ipsum but saying something more interesting.&lt;/p&gt;&#xA;&lt;p&gt;Welcome to the world of &amp;ldquo;Content Ipsum,&amp;rdquo; the fresh alternative to the classic lorem ipsum. It&amp;rsquo;s the perfect blend for designers and writers who crave a dash of creativity and meaning in their placeholder text. Imagine a text that not only fills the space but also sparks the imagination, a text that weaves tales of innovation, inspiration, and the endless possibilities that creativity brings.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sample blog content 2</title>
-      <link>http://localhost:1313/blog/sample-2/</link>
+      <link>https://stillru.github.io/blog/sample-2/</link>
       <pubDate>Sun, 23 Jun 2024 14:38:33 +0200</pubDate>
-      <guid>http://localhost:1313/blog/sample-2/</guid>
+      <guid>https://stillru.github.io/blog/sample-2/</guid>
       <description>&lt;p&gt;Sample blog content. Like a lorem ipsum but saying something more interesting.&lt;/p&gt;&#xA;&lt;p&gt;Welcome to the world of &amp;ldquo;Content Ipsum,&amp;rdquo; the fresh alternative to the classic lorem ipsum. It&amp;rsquo;s the perfect blend for designers and writers who crave a dash of creativity and meaning in their placeholder text. Imagine a text that not only fills the space but also sparks the imagination, a text that weaves tales of innovation, inspiration, and the endless possibilities that creativity brings.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sample blog content 1</title>
-      <link>http://localhost:1313/blog/sample/</link>
+      <link>https://stillru.github.io/blog/sample/</link>
       <pubDate>Fri, 21 Jun 2024 14:38:33 +0200</pubDate>
-      <guid>http://localhost:1313/blog/sample/</guid>
+      <guid>https://stillru.github.io/blog/sample/</guid>
       <description>&lt;p&gt;Sample blog content. Like a lorem ipsum but saying something more interesting.&lt;/p&gt;&#xA;&lt;p&gt;Welcome to the world of &amp;ldquo;Content Ipsum,&amp;rdquo; the fresh alternative to the classic lorem ipsum. It&amp;rsquo;s the perfect blend for designers and writers who crave a dash of creativity and meaning in their placeholder text. Imagine a text that not only fills the space but also sparks the imagination, a text that weaves tales of innovation, inspiration, and the endless possibilities that creativity brings.&lt;/p&gt;</description>
     </item>
   </channel>

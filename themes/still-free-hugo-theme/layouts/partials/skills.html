@@ -1,0 +1,23 @@
+{{ if .Site.Data.homepage.skills.enable }}
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.skills.title }}</h2>
+                <div class="row pt-2 pt-md-6">
+                    {{ range .Site.Data.homepage.skills.items }}
+                    <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                        <div class="skill">
+                            <div class="skill__title">{{ .group }}</div>
+                            <div class="skill__list">
+                                {{ .list }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

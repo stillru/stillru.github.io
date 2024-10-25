@@ -110,6 +110,21 @@ experience:
     btnText: "View All"
     URL: "/experience"
 
+skills:
+  enable: true
+  title: Skills
+  items:
+    - group: "Programming Languages"
+      list: "Python, Bash, Go, LaTeX, Sql, Lua"
+    - group: "Methodology"
+      list: "Aglie, Scrum, Kanban, ITIL"
+    - group: "Python stack"
+      list: "Flask, FastAPI, JiraAPI"
+    - group: "Automation Tools"
+      list: "Ansible, Gitlab CI/CD, Packer, Terraform, Hugo, Prometheus, Logstash, Kibana, Grafana, Zabbix"
+    - group: "Operation Systems"
+      list: "Linux, MS Windows, MacOS"
+
 # Client & Work
 client_and_work:
   title: "Clients & Works"

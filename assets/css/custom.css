@@ -14,3 +14,10 @@ html body ::selection{
 .btn-primary{
   background-color:##ffa500;
 }
+
+.skill__title {
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 2;
+}

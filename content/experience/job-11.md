@@ -4,8 +4,8 @@ draft: false
 title: "SRE Engineer"
 jobTitle: "SRE Engineer"
 company: "LTD \"Nebius\" (ex-Yandex)"
-location: "Moscow, Russia"
-duration: "January 2019 - April 2023"
+location: "Beograd, Serbia"
+duration: "April 2023 - October 2024"
 
 ---
 ### SRE in startup

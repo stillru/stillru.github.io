@@ -1,0 +1,18 @@
+/* You can customize theme styles here */
+.header .navbar-brand span:first-child{
+    color: #478079;
+}
+.header .container{
+    padding-left: 10px;
+}
+
+html body ::selection{
+    background-color:#488079;color:#fff
+}
+
+.skill__title {
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 2;
+}

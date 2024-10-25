@@ -1,6 +1,6 @@
 baseURL = "https://stillru.github.io"
 languageCode = "en-us"
-theme = "adritian-free-hugo-theme"
+theme = "still-free-hugo-theme"
 
 # Plugins
 [params.plugins]
@@ -68,16 +68,16 @@ theme = "adritian-free-hugo-theme"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "contact", "newsletter"]
+  sections = ["showcase", "about", "skills", "education", "experience", "contact", "newsletter"]
 
-  homepageExperienceCount = 6
+  homepageExperienceCount = 4
 
   [params.google_analytics]
       code = "UA-XXXXX-Y"
-      enabled = false
+      enabled = true
   [params.google_tag_manager]
-      code = "GTM-XXXXX"
-      enabled = false
+      code = "G-CFCF17QFBJ"
+      enabled = true
   
   [params.logo]
     text1 = "Stepan"
