@@ -175,7 +175,7 @@ contact:
     email: '<a href="mailto:still.ru@gmail.com">still.ru@gmail.com</a>'
   address:
     title: "Address"
-    address: "Ustanička 175<br />11050, Beograd, Serbia"
+    address: "Ustanička<br />11050, Beograd, Serbia"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
