@@ -2,4 +2,4 @@ _drafts/
 _site/
 *.db
 *~
-#/public/
+/public/
