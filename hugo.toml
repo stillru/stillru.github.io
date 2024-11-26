@@ -2,9 +2,6 @@ baseURL = "https://stillru.github.io"
 languageCode = "en-us"
 theme = "still-free-hugo-theme"
 
-[services.disqus]
-shortname = "stillru"
-
 # Plugins
 [params.plugins]
 
