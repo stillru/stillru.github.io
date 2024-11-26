@@ -64,7 +64,7 @@ about:
     I worked in different positions: as technican, typesetter, system administrator, manager and so on.
     </p>
     <p class="lead">
-    Now i want focus on DevOps/SRE and work on fintech, highload projects.
+    Now i want focus on DevOps/SRE and work on fintech, gamedev and/or  highload projects.
     </p>
   button:
     icon: "icon-smile-fill"
@@ -105,7 +105,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "/files/CV_Stepan_Illichevskii_simple.pdf"
   button3:
     icon: "icon-arrow-right"
     btnText: "View All"
