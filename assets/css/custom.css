@@ -21,3 +21,82 @@ html body ::selection{
     font-weight: 600;
     z-index: 2;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote{
+  font-size: 1.4em;
+  width:90%;
+  margin:10px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #ffa500;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #ffa500 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#ffa500;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+/* Общие стили для блока кода */
+pre {
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: auto;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/* Стиль для inline-блока кода */
+code {
+  background-color: #272822;
+  color: #ffffff;
+  padding: 0 5px;
+  border-radius: 3px;
+  font-family: inherit;
+}
+
+/* Стили для подсветки синтаксиса */
+code .comment { color: #75715e; } /* Комментарии */
+code .string { color: #e6db74; }  /* Строки */
+code .keyword { color: #f92672; } /* Ключевые слова */
+code .function { color: #66d9ef; } /* Функции */
+code .number { color: #ae81ff; } /* Числа */
+
+/* Скролл-бар для длинного кода */
+pre::-webkit-scrollbar {
+  width: 8px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background-color: #44475a;
+  border-radius: 5px;
+}
+
+pre::-webkit-scrollbar-track {
+  background-color: #272822;
+}

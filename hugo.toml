@@ -2,6 +2,9 @@ baseURL = "https://stillru.github.io"
 languageCode = "en-us"
 theme = "still-free-hugo-theme"
 
+[services.disqus]
+shortname = "stillru"
+
 # Plugins
 [params.plugins]
 
@@ -40,10 +43,10 @@ theme = "still-free-hugo-theme"
   URL = "#experience"
   weight = 4
 
-#  [[menu.header]]
-#  name = "Blog"
-#  URL = "/blog"
-#  weight = 5
+  [[menu.header]]
+  name = "Blog"
+  URL = "/blog"
+  weight = 5
 
   [[menu.header]]
   name = "Contact"
