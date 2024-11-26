@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<meta name="theme-color" content="#ffa500" >
+
+
+
+<title>Stepan Illichevskii - Personal Site</title>
+<meta name="description" content="Site about my work, experience &amp; honors">
+
+
+<style data-generator="critical-css">
+
+</style>
+
+
+
+    
+        
+        
+    
+
+    
+        
+        
+    
+
+    
+        
+        
+    
+
+
+
+
+
+ 
+
+
+<link
+  rel="preload"
+  href="/css/bundle.css"
+  as="style"
+  data-generator="purgeCSS"
+  onload="this.onload=null;this.rel='stylesheet'"
+  
+/>
+<noscript>
+  <link 
+    rel="stylesheet" 
+    href="/css/bundle.css"
+    
+  />
+</noscript>
+
+
+
+<script src='http://localhost:1313/js/library/lozad.min.js'></script>
+
+ 
+
+  </head>
+
+  <body>
+    
+
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="http://localhost:1313/">
+          <span>Stepan</span>
+          <span>Illichevskii</span>
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent, #header"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="http://localhost:1313/">HOME</a>
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#about"
+                >ABOUT</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#experience"
+                >EXPERIENCE</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/blog"
+                >BLOG</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#contact"
+                >CONTACT</a
+              >
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+<section id="breadcrumb-bar" class="breadcrumb-bar container">
+        <ul class="breadcrumbs">
+            <li class="breadcrum-item"><span><a href="/">Home</a></span></li><li class="breadcrum-item"><span><a href="/blog">Blog</a></span></li><li class="breadcrum-item current">PXE Booting</li></ul>
+</section>
+
+
+    <section id="blog-single" class="section section--border-bottom rad-animation-group">
+      <div class="container">
+        <h1><a href="/blog/2011-04-01-pxe-booting/">PXE Booting</a></h1>
+        <aside id="meta" class="light-border-bottom">
+          <div>
+            <section>
+              Published on
+              <h4 id="date">Fri Apr 1, 2011</h4>
+              <h4 id="wordcount">871 Words</h4>
+            </section>
+             
+          </div>
+        </aside>
+
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12"><blockquote>
+<p>Disclaimer: This is a VERY old article. I wrote it over 10 years ago when I was working as a system administrator for a small online store.</p>
+<p>Many of the setup processes described look terrible now. ​​In today&rsquo;s reality, I would use other tools to set up and maintain such a service.</p>
+</blockquote>
+<p>I have a bootable USB flash drive that contains several tools for loading live systems. Knoppix, Slax, Alkid, Windows XP SP3 distribution, and so on.</p>
+<p>One day, I arrived at work without this flash drive. That’s when the idea came to use the built-in feature of most network cards—network booting, also known as PXE technology.</p>
+<p>The idea is that when a computer boots up, the network card&rsquo;s bootloader activates, connects to a DHCP server, receives boot instructions via TFTP, and loads the bootloader into memory. This brings up a selection menu for OS boot options over the network. After selecting an OS, it is loaded via NFS or SAMBA.</p>
+<p>We&rsquo;ll need a DHCP server, a TFTP server, and either NFS or SAMBA servers.</p>
+<p>I already had the first two servers—they were set up on FreeBSD 8.1, which acts as our gateway to the external world. This is one downside: network booting requires significant bandwidth, and when a system starts booting over the network, it might slow down data exchange between other clients and the gateway.</p>
+<p>The systems we&rsquo;ll use for booting are Trinity, Partition Magic, FreeBSD booting, and CloneZilla. The most advanced users might ask: why so many similar distributions that perform almost the same tasks?</p>
+<p>Here’s the answer—the Unix way. Each task requires its own tool. Trinity is an excellent tool for solving Windows-related problems. Partition Magic is a full-fledged Linux distro for identifying and solving complex issues. FreeBSD booting provides a minimal environment to start a FreeBSD installation. CloneZilla is a ready-made tool for cloning already-installed systems.</p>
+<p>Now that the goals are clear, let&rsquo;s implement this.</p>
+<h3 id="setting-up-the-dhcp-server">Setting up the DHCP Server</h3>
+<p>The first thing we need is a DHCP server. On FreeBSD, this is <code>ics-dhcp</code>, which can be installed using the ports system:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>cd /usr/ports/net/ics-dhcp
+</span></span><span style="display:flex;"><span>make install clean
+</span></span></code></pre></div><p>I use <code>webmin</code> for configuration, but you can also configure it via the config files.</p>
+<p>Here’s my configuration file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># dhcpd.conf</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>default-lease-time 86400;
+</span></span><span style="display:flex;"><span>max-lease-time 864000;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>log-facility local7;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>subnet 192.168.1.0 netmask 255.255.255.0 <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>	next-server 192.168.1.201;
+</span></span><span style="display:flex;"><span>	filename <span style="color:#e6db74">&#34;pxelinux.0&#34;</span>;
+</span></span><span style="display:flex;"><span>	range 192.168.1.1 192.168.1.127;
+</span></span><span style="display:flex;"><span>	option domain-name-servers 192.168.1.201;
+</span></span><span style="display:flex;"><span>	option domain-name <span style="color:#e6db74">&#34;mega-lex.local&#34;</span>;
+</span></span><span style="display:flex;"><span>	option routers 192.168.1.201;
+</span></span><span style="display:flex;"><span>	option broadcast-address 192.168.1.255;
+</span></span><span style="display:flex;"><span>	default-lease-time 86400;
+</span></span><span style="display:flex;"><span>	max-lease-time 864000;
+</span></span><span style="display:flex;"><span>&lt;-- Skipped --&gt;
+</span></span></code></pre></div><p>The line <code>filename &quot;pxelinux.0&quot;</code> is of interest here. What it is and where it came from will be explained below. For now, just note that this is the executable code for the network bootloader.</p>
+<h3 id="setting-up-the-tftp-server">Setting up the TFTP Server</h3>
+<p>Next, we need a TFTP server, which is included by default. It can be enabled by uncommenting the relevant line in <code>/etc/inetd.conf</code>. You can also configure its root directory there.</p>
+<h3 id="creating-the-bootloader">Creating the Bootloader</h3>
+<p>The third step involves creating the bootloader specified in the configuration for the subnet <code>192.168.1.0/24</code>.</p>
+<p>Essentially, this involves copying some slightly modified files from a standard Linux/Unix bootloader. There’s even a dedicated project, <code>syslinux</code>, from which you can download everything you need.</p>
+<p>We’re interested in the bootloader itself and a few files responsible for forming the menu and additional bootloader functions. These files include <code>gpxelinux.0</code>, <code>pxelinux.0</code>, <code>vesamenu.c32</code>, <code>reboot.c32</code>, and <code>chain.c32</code>.</p>
+<p>In the TFTP server’s root folder, create a directory called <code>pxeboot.cfg</code> and inside it, a file named <code>default</code> with the following content:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ui vesamenu.c32
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Load image display support</span>
+</span></span><span style="display:flex;"><span>menu title Utilities
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Menu title</span>
+</span></span><span style="display:flex;"><span>menu background wall.png
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Background image</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>label Boot from first hard disk
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Displayed item</span>
+</span></span><span style="display:flex;"><span>localboot 0x80
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Boot from the first hard disk</span>
+</span></span><span style="display:flex;"><span>  TEXT HELP
+</span></span><span style="display:flex;"><span>  * Skip any loaded OSs. Boot from the First Boot Device.
+</span></span><span style="display:flex;"><span>  * Default
+</span></span><span style="display:flex;"><span>  ENDTEXT
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>label Clonezilla Live
+</span></span><span style="display:flex;"><span>MENU LABEL Clonezilla Live
+</span></span><span style="display:flex;"><span>KERNEL clone/vmlinuz1
+</span></span><span style="display:flex;"><span>APPEND initrd<span style="color:#f92672">=</span>clone/initrd1.img boot<span style="color:#f92672">=</span>live live-config noswap nolocales edd<span style="color:#f92672">=</span>on nomodeset ocs_live_run<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ocs-live-general&#34;</span>  ocs_live_extra_param<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span> ocs_live_keymap<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span> ocs_live_batch<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;no&#34;</span> ocs_lang<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span> vga<span style="color:#f92672">=</span><span style="color:#ae81ff">788</span> nosplash fetch<span style="color:#f92672">=</span>http://192.168.1.127/filesystem.squashfs
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Note: In this case, the boot occurs via HTTP from another local network machine, not the DHCP server</span>
+</span></span><span style="display:flex;"><span>  TEXT HELP
+</span></span><span style="display:flex;"><span>  * Clonezilla live version: 1.2.6-59-i686. <span style="color:#f92672">(</span>C<span style="color:#f92672">)</span> 2003-2011, NCHC, Taiwan
+</span></span><span style="display:flex;"><span>  * Disclaimer: Clonezilla comes with ABSOLUTELY NO WARRANTY
+</span></span><span style="display:flex;"><span>  ENDTEXT
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>label pmagic
+</span></span><span style="display:flex;"><span>MENU LABEL Partition Magic
+</span></span><span style="display:flex;"><span>LINUX pmagic/bzImage
+</span></span><span style="display:flex;"><span>APPEND initrd<span style="color:#f92672">=</span>pmagic/initramfs edd<span style="color:#f92672">=</span>off noapic load_ramdisk<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> prompt_ramdisk<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span> rw vga<span style="color:#f92672">=</span><span style="color:#ae81ff">791</span> loglevel<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span> max_loop<span style="color:#f92672">=</span><span style="color:#ae81ff">256</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Standard boot via TFTP</span>
+</span></span><span style="display:flex;"><span>  TEXT HELP
+</span></span><span style="display:flex;"><span>  * Partition Magic Linux - Partition Tool
+</span></span><span style="display:flex;"><span>  * Disclaimer: Sometimes used by administrators.
+</span></span><span style="display:flex;"><span>  ENDTEXT
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>label linux
+</span></span><span style="display:flex;"><span>menu label PLOP Linux
+</span></span><span style="display:flex;"><span>kernel ploplinux/kernel/bzImage
+</span></span><span style="display:flex;"><span>append initrd<span style="color:#f92672">=</span>ploplinux/kernel/initramfs.gz vga<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> nfsmount<span style="color:#f92672">=</span>192.168.1.201:/usr/home/still/tftpboot/ploplinux
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example boot using NFS</span>
+</span></span><span style="display:flex;"><span>  TEXT HELP
+</span></span><span style="display:flex;"><span>  * PLOP Linux
+</span></span><span style="display:flex;"><span>  * Disclaimer: Security tool
+</span></span><span style="display:flex;"><span>  ENDTEXT
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>label freebsd
+</span></span><span style="display:flex;"><span>menu label FreeBSD 8.2 Install
+</span></span><span style="display:flex;"><span>pxe boot/pxeboot
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Start FreeBSD installation</span>
+</span></span><span style="display:flex;"><span>  TEXT HELP
+</span></span><span style="display:flex;"><span>  * Tool <span style="color:#66d9ef">for</span> installing FreeBSD
+</span></span><span style="display:flex;"><span>  * Disclaimer: Mainly used <span style="color:#66d9ef">for</span> gateways.
+</span></span><span style="display:flex;"><span>  ENDTEXT
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>label reboot
+</span></span><span style="display:flex;"><span>menu label Reboot
+</span></span><span style="display:flex;"><span>kernel reboot.c32
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Reboot command</span>
+</span></span><span style="display:flex;"><span>  TEXT HELP
+</span></span><span style="display:flex;"><span>  * Do nothing. Just reboot...
+</span></span><span style="display:flex;"><span>  ENDTEXT
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>PROMPT <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Default option selection</span>
+</span></span><span style="display:flex;"><span>TIMEOUT <span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Timeout before boot</span>
+</span></span></code></pre></div><h3 id="directory-structure">Directory Structure</h3>
+<p>The resulting directory structure looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>tftpboot
+</span></span><span style="display:flex;"><span>|-pxelinux.0
+</span></span><span style="display:flex;"><span>|-vesamenu.c32
+</span></span><span style="display:flex;"><span>|-reboot.c32
+</span></span><span style="display:flex;"><span>|-chain.c32
+</span></span><span style="display:flex;"><span>|-gpxelinux.0
+</span></span><span style="display:flex;"><span>|--clone
+</span></span><span style="display:flex;"><span>|  |-initrd1
+</span></span><span style="display:flex;"><span>|  ˪-vmlinuz1.img
+</span></span><span style="display:flex;"><span>|--pmagic
+</span></span><span style="display:flex;"><span>|  |-bzImage
+</span></span><span style="display:flex;"><span>|  ˪-initramfs
+</span></span><span style="display:flex;"><span>|--ploplinux
+</span></span><span style="display:flex;"><span>|  ˪-kernel
+</span></span><span style="display:flex;"><span>|    |-bzImage
+</span></span><span style="display:flex;"><span>|    ˪-initramfs
+</span></span><span style="display:flex;"><span>˪--boot
+</span></span><span style="display:flex;"><span>   ˪-pxeboot
+</span></span></code></pre></div><p>All the mentioned images are either on a properly configured system (NFS, HTTP) or in the TFTP server folder.</p>
+<p>And that&rsquo;s it! :-)</p>
+</div>
+        </div>
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "stillru" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+        <aside class="content-browser light-border-top">
+            Continue reading
+            <div>
+                
+                 ■
+                
+                    <a class="next" href="/blog/chat_gpt_roast/"> Fan facts about me from ChatGPT ↪</a>
+                
+            </div>
+        </aside>
+      </div>
+    </section>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Stepan Illichevsky. Free Hugo theme by Adrián Moreno Peña.
+      </div>
+    </div>
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/">🏠 HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">ABOUT</a>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="footer__right">
+      
+    </div>
+  </div>
+</footer>
+ <script>
+  window.addEventListener("load", function() {
+    try{
+      var observer = window.lozad(".lozad", {
+        rootMargin: window.innerHeight / 2 + "px 0px",
+        threshold: 0.01
+      }); 
+      observer.observe();
+    } catch(e) {
+      console.error(e);
+    }
+  });
+</script>
+<script defer src='http://localhost:1313/js/rad-animations.js'></script>
+<script defer src='http://localhost:1313/js/library/smooth-scroll.polyfills.min.js'></script>
+<script defer src='http://localhost:1313/js/sticky-header.js'></script>
+<script defer src='http://localhost:1313/js/smooth-scroll-init.js'></script>
+<script defer src='http://localhost:1313/js/library/bootstrap.min.js'></script>
+
+  </body>
+</html>
+

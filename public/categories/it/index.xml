@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>It on </title>
+    <link>http://localhost:1313/categories/it/</link>
+    <description>Recent content in It on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Apr 2011 14:49:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PXE Booting</title>
+      <link>http://localhost:1313/blog/2011-04-01-pxe-booting/</link>
+      <pubDate>Fri, 01 Apr 2011 14:49:00 +0200</pubDate>
+      <guid>http://localhost:1313/blog/2011-04-01-pxe-booting/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Disclaimer: This is a VERY old article. I wrote it over 10 years ago when I was working as a system administrator for a small online store.&lt;/p&gt;&#xA;&lt;p&gt;Many of the setup processes described look terrible now. ​​In today&amp;rsquo;s reality, I would use other tools to set up and maintain such a service.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I have a bootable USB flash drive that contains several tools for loading live systems. Knoppix, Slax, Alkid, Windows XP SP3 distribution, and so on.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
