@@ -20,6 +20,10 @@ showcase:
     icon: "icon-mail-fill"
     btnText: "Contact"
     URL: "#contact"
+  button:
+    icon: "icon-calendar-fill"
+    btnText: "Contact"
+    URL: "https://calendly.com/still-ru"
 
   socialLinks:
     - icon: "linkedin"
@@ -129,7 +133,7 @@ skills:
 # Client & Work
 client_and_work:
   title: "Clients & Works"
-  enable: false
+  enable: true
 
 # testimonial
 testimonial:
@@ -188,4 +192,6 @@ newsletter:
   error_message: "Error while subscribing."
   note: "We'll never share your email with anyone else."
 blog:
+  enable: true
+projects:
   enable: true

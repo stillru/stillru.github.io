@@ -46,6 +46,12 @@ theme = "still-free-hugo-theme"
   weight = 5
 
   [[menu.header]]
+  name = "Projects"
+  URL = "/projects"
+  weight = 3
+
+
+  [[menu.header]]
   name = "Contact"
   URL = "#contact"
   weight = 6
@@ -68,7 +74,7 @@ theme = "still-free-hugo-theme"
 
 [params]
 
-  sections = ["showcase", "about", "skills", "education", "experience", "contact", "newsletter"]
+  sections = ["showcase", "about", "skills", "education", "experience",  "contact", "newsletter"]
 
   homepageExperienceCount = 4
 
