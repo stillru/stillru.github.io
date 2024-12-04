@@ -2,9 +2,6 @@
 title: Flask databus application
 date: '2024-12-02T14:10:00+02:00'
 ---
-Here’s the English translation of the article:
-
----
 ## Databus for Scrapers – Part 2
 
 ### Introduction
