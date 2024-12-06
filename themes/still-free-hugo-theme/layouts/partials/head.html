@@ -28,9 +28,9 @@
 
 
 <!-- Purge CSS -->
-{{ $css := $cssBundle | css.PostCSS }} 
-{{ if hugo.IsProduction }} 
-    {{ $css = $css | minify | fingerprint | resources.PostProcess }} 
+{{ $css := $cssBundle | css.PostCSS }}
+{{ if hugo.IsProduction }}
+    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
 {{ end }}
 
 <link
@@ -39,15 +39,15 @@
   as="style"
   data-generator="purgeCSS"
   onload="this.onload=null;this.rel='stylesheet'"
-  {{ if hugo.IsProduction -}} 
+  {{ if hugo.IsProduction -}}
     integrity="{{ $css.Data.Integrity }}"
   {{- end }}
 />
 <noscript>
-  <link 
-    rel="stylesheet" 
+  <link
+    rel="stylesheet"
     href="{{ $css.RelPermalink }}"
-    {{ if hugo.IsProduction -}} 
+    {{ if hugo.IsProduction -}}
     integrity="{{ $css.Data.Integrity }}"
     {{- end }}
   />
@@ -67,5 +67,4 @@
 {{ else }}
 <!-- no google tag displayed -->
 {{ end }}
-<script src='{{ "js/library/lozad.min.js" | absURL }}'></script>
-
+<script src='{{ "js/library/lozad.min.js" | relURL }}'></script>
