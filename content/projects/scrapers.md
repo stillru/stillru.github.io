@@ -81,6 +81,8 @@ class BaseScraper:
 
 Each specific scraper overrides these methods based on the website's structure.
 
+! DO NOT USE INTERNAL API'S OF SITES WITHOUT PERMISSIONS !
+
 ---
 
 ### Future Development
@@ -88,12 +90,11 @@ Each specific scraper overrides these methods based on the website's structure.
 At this stage, the project focuses on data collection. Future plans include:
 
 1. **Adding data processing modules**:
-   - Analyzing collected data for ranking listings.
    - Sending notifications about new offers via a Telegram bot.
 
 2. **System optimization**:
-   - Support for additional data sources.
    - Configuring fault tolerance and caching.
+   - Add monitoring
 
 3. **Integrating additional features**:
    - Custom filters for users.

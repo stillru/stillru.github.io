@@ -1,6 +1,7 @@
 baseURL = "https://stillru.github.io"
 languageCode = "en-us"
 theme = "still-free-hugo-theme"
+relativeURLs = true
 
 # Plugins
 [params.plugins]
