@@ -111,7 +111,7 @@ metrics = PrometheusMetrics.for_app_factory()
 ```
  - make custom metrics in manager.py for example:
 
-```python {linenos=table,hl_lines=[3,11-18, 54, 71],linenostart=1}
+```python {linenos=table,hl_lines=[3,11-18, 31, 38],linenostart=1}
 import logging
 
 from app.metrics import metrics
@@ -173,7 +173,7 @@ This is how we can export to Prometheus counter with data "How many times functi
 
  - On top of file lets add new counter:
 
-``` python
+``` python {linenos=table,linenostart=19}
 error_count_configure_all = Counter(
     "error_configure_all", "How many times was error in functions", ["scraper"]
 )
@@ -183,7 +183,7 @@ In this snippet I create counter for errors in for function `configure_all`. Add
 
  - Increment counter, when exception catched:
 
-``` python
+``` python {linenos=table,hl_lines=[8],linenostart=37}
     def configure_all(self, config):
         run_configure_all_counter.inc()
         for scraper in self.scrapers:
@@ -208,9 +208,10 @@ mkdir monitoring
 cd monitoring
 ```
 
-Next, I need write configuration file with tagerts for prometheus:
+Next, I need write configuration file with targets for Prometheus:
 
 ``` yaml
+# monitoring/prometheus.yaml
 global:
   scrape_interval:     15s # Global scrape interval
   evaluation_interval: 15s # Rule evaluation interval
@@ -243,6 +244,7 @@ scrape_configs:
 Step directory up and create docker compose file:
 
 ``` yaml
+# docker-compose.yaml
 version: "3.5"
 services:
   prometheus:
