@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ $badges := getJSON "https://www.credly.com/users/steve-illichevsky/badges.json" }}
+<div class="badges">
+  {{ range $badges.badges }}
+    <div class="badge">
+      <img src="{{ .image_url }}" alt="{{ .name }}">
+      <h2>{{ .name }}</h2>
+      <p><strong>Дата выдачи:</strong> {{ .issued_at }}</p>
+      <p>{{ .description }}</p>
+      <p><strong>Навыки:</strong> {{ delimit .skills ", " }}</p>
+    </div>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,4 @@
+---
+title: "Сертификаты"
+layout: "certificates"
+---
