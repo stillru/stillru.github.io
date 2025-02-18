@@ -51,6 +51,10 @@ relativeURLs = true
   URL = "/projects"
   weight = 3
 
+  [[menu.header]]
+  name = "Certificates"
+  URL = "#certificates"
+  weight = 5
 
   [[menu.header]]
   name = "Contact"
