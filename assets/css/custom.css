@@ -101,19 +101,46 @@ pre::-webkit-scrollbar-track {
   background-color: #272822;
 }
 
-.badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+.badge-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px; /* Space between badges */
+    justify-content: center; /* Centers badges in the container */
 }
 
-.badge {
-  width: 250px;
-  text-align: center;
+.badge-card {
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s ease-in-out;
 }
 
-.badge img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+.badge-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.badge-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.badge-org {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.badge-date {
+    font-size: 12px;
+    color: #999;
+}
+
+.badge-card:hover {
+    transform: scale(1.25); /* Adds a hover effect */
 }

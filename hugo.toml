@@ -75,7 +75,7 @@ relativeURLs = true
 
 [params]
 
-  sections = ["showcase", "about", "skills", "education", "experience",  "contact", "newsletter"]
+  sections = ["showcase", "about", "skills","experience", "certificates", "education", "contact", "newsletter"]
 
   homepageExperienceCount = 4
 

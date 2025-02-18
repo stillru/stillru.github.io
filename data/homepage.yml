@@ -195,3 +195,5 @@ blog:
   enable: true
 projects:
   enable: true
+certificates:
+  enable: true
