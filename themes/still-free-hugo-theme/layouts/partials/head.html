@@ -55,16 +55,15 @@
     {{- end }}
   />
 </noscript>
-{{ if .Site.Params.analytics.google_tag_manager.enabled }}
+{{ if .Site.Params.google_tag_manager.enabled }}
 <!-- Google tag (gtag.js), google analytics -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics.google_tag_manager.code }}"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', '{{ .Site.Params.analytics.google_tag_manager.code }}');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.google_tag_manager.code }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ .Site.Params.google_tag_manager.code }}');
+    </script>
 {{ $analytics := resources.Get "js/gtag.js" | resources.Minify }}
 <script defer src="{{ $analytics.Permalink }}"></script>
 {{ else }}
