@@ -2,6 +2,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 <meta name="theme-color" content="{{ .Site.Data.homepage.head.theme_color }}" >
+<meta name="keywords" content="DevOps, Site Reliability Engineering, SRE, Automation, Kubernetes, Cloud, Infrastructure as Code, IaC, Terraform, Monitoring, Observability">
+<meta name="author" content="Stepan Illichevskii">
+<meta name="robots" content="index, follow">
 
 {{ if .Site.Params.analytics.google_tag_manager.enabled }}
 <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -67,4 +70,30 @@
 {{ else }}
 <!-- no google tag displayed -->
 {{ end }}
+<!-- Open Graph -->
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}/images/preview.jpg">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Description }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}/images/preview.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Stepan Illichevskii",
+  "url": "{{ .Site.BaseURL }}",
+  "sameAs": [
+    "https://www.linkedin.com/in/stillru",
+    "https://github.com/stillru"
+  ],
+  "jobTitle": "DevOps/SRE Engineer",
+}
+</script>
 <script src='{{ "js/library/lozad.min.js" | relURL }}'></script>
