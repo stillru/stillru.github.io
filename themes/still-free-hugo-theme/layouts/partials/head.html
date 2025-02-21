@@ -85,15 +85,63 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Stepan Illichevskii",
-  "url": "{{ .Site.BaseURL }}",
-  "sameAs": [
-    "https://www.linkedin.com/in/stillru",
-    "https://github.com/stillru"
+  "@context": "https://schema.org/",
+  "@type": "Occupation",
+  "name": "DevOps Engineer, SRE",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "lastReviewed": "2025-02-21T14:20:00+01:00"
+  },
+  "description": "Ensures reliability, automation, and scalability of cloud infrastructure and DevOps processes.",
+  "estimatedSalary": [
+    {
+      "@type": "MonetaryAmountDistribution",
+      "name": "base",
+      "currency": "USD",
+      "duration": "P1Y",
+      "percentile10": 42000,
+      "percentile25": 48000,
+      "median": 54000,
+      "percentile75": 60000,
+      "percentile90": 70000
+    }
   ],
-  "jobTitle": "DevOps/SRE Engineer"
+  "occupationLocation": [
+    {
+      "@type": "City",
+      "name": "Belgrade"
+    }
+  ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "dateCreated": "2025-02-21T12:00:00+01:00",
+  "dateModified": "2025-02-21T14:00:00+01:00",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Stepan Illichevskii",
+    "alternateName": "stillru",
+    "description": "DevOps Engineer, SRE | Cloud Automation | Kubernetes | Monitoring",
+    "image": "https://1.gravatar.com/avatar/b67f785e260f9ccda9d4c3192a7abc3c128d662355520abf2ddc8f5a9d7aa565?size=256",
+    "sameAs": [
+      "https://github.com/stillru",
+      "https://www.linkedin.com/in/stillru",
+      "https://gravatar.com/stepanillichevskii"
+    ],
+    "knowsAbout": [
+      "DevOps",
+      "Site Reliability Engineering",
+      "Cloud Automation",
+      "Infrastructure as Code",
+      "Kubernetes",
+      "Monitoring",
+      "Python"
+    ]
+  }
+}
+</script>
+
 <script src='{{ "js/library/lozad.min.js" | relURL }}'></script>
