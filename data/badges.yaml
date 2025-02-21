@@ -1,4 +1,149 @@
 data:
+- accepted_at: '2025-02-21T03:18:27.665-06:00'
+  badge_template:
+    alignments: []
+    badge_template_activities:
+    - activity_type: Assessment
+      id: 7b2b3a4b-ab2d-4a25-aab5-4a5aa314f6a6
+      required_badge_template_id: null
+      title: For customers and AWS Partners, use this link and successfully pass the
+        Cloud Essentials Knowledge Badge Assessment.
+      url: https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-essentials-learning-plan
+    - activity_type: Assessment
+      id: 70034942-9a05-45ae-9cdf-2cbfdbf2e762
+      required_badge_template_id: null
+      title: For Amazon employees, use this link and successfully pass the Cloud Essentials
+        Knowledge Badge Assessment.
+      url: https://explore.skillbuilder.aws/learn/learning_plan/view/19/cloud-essentials-learning-plan-amazon
+    badge_template_earnable: false
+    cost: null
+    description: Earners of this badge have developed knowledge of foundational AWS
+      Cloud concepts with a focus on AWS Compute, Storage, Networking and Database
+      services, security, architecture, pricing, and support.
+    earn_this_badge_url: null
+    enable_detail_attribute_visibility: true
+    enable_earn_this_badge: false
+    endorsements: []
+    global_activity_url: https://aws.amazon.com/training/badges/
+    id: ead5b6ed-3850-43b8-9703-6ce29c812c91
+    image:
+      id: ec621e2a-c8f0-4459-806c-ae11829d372a
+      url: https://images.credly.com/images/ec621e2a-c8f0-4459-806c-ae11829d372a/image.png
+    image_url: https://images.credly.com/images/ec621e2a-c8f0-4459-806c-ae11829d372a/image.png
+    issuer:
+      entities:
+      - entity:
+          id: 7b741b5c-231d-4925-8041-c64b6846f1c8
+          internationalize_badge_templates: false
+          name: Amazon Web Services Training and Certification
+          share_to_ziprecruiter: true
+          twitter_url: https://twitter.com/awscloud
+          type: Organization
+          url: https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8
+          vanity_url: https://www.credly.com/org/amazon-web-services
+          verified: false
+        label: Issued by
+        primary: true
+      summary: issued by Amazon Web Services Training and Certification
+    level: null
+    name: 'AWS Knowledge: Cloud Essentials'
+    owner_vanity_slug: amazon-web-services
+    public: true
+    recipient_type: User
+    recommendable: true
+    related_badge_templates:
+    - id: 05d90430-f3b8-4e70-ba81-925d1386ff8d
+      image:
+        id: 519a6dba-f145-4c1a-85a2-1d173d6898d9
+        url: https://images.credly.com/images/519a6dba-f145-4c1a-85a2-1d173d6898d9/image.png
+      image_url: https://images.credly.com/images/519a6dba-f145-4c1a-85a2-1d173d6898d9/image.png
+      name: 'AWS Knowledge: Architecting'
+      url: https://www.credly.com/org/amazon-web-services/badge/aws-knowledge-architecting
+    - id: da15094a-7aba-4e05-884e-74c067174d57
+      image:
+        id: eba18772-5ecf-471b-b8af-dda79815b544
+        url: https://images.credly.com/images/eba18772-5ecf-471b-b8af-dda79815b544/image.png
+      image_url: https://images.credly.com/images/eba18772-5ecf-471b-b8af-dda79815b544/image.png
+      name: 'AWS Knowledge: Compute'
+      url: https://www.credly.com/org/amazon-web-services/badge/aws-knowledge-compute
+    - id: fcfb21f0-33a1-446a-ba76-875342079c9f
+      image:
+        id: c483e5e6-580a-4ed8-b4b6-91219526a326
+        url: https://images.credly.com/images/c483e5e6-580a-4ed8-b4b6-91219526a326/image.png
+      image_url: https://images.credly.com/images/c483e5e6-580a-4ed8-b4b6-91219526a326/image.png
+      name: 'AWS Cloud Quest: Networking'
+      url: https://www.credly.com/org/amazon-web-services/badge/aws-cloud-quest-networking
+    settings_enable_related_badges: true
+    show_badge_lmi: true
+    show_skill_tag_links: true
+    skills:
+    - id: 71fefbab-eb2d-46bd-add8-18eb5c6ae51e
+      name: Amazon Web Services (AWS)
+      vanity_slug: amazon-web-services-aws
+    - id: 682d4927-14e7-490c-96d3-c8f3ef0995de
+      name: AWS
+      vanity_slug: aws
+    - id: 918edc32-0894-4957-a91f-d96300b8b8d3
+      name: AWS Cloud
+      vanity_slug: aws-cloud
+    - id: b1b039a0-13e7-492d-b357-0502ba27171d
+      name: AWS Compute
+      vanity_slug: aws-compute
+    - id: ab8ae57e-d867-43d4-b5e8-9131eb67a895
+      name: AWS Databases
+      vanity_slug: aws-databases
+    - id: ae665388-1433-4bba-8da6-ca4671c1f9fb
+      name: AWS Networking
+      vanity_slug: aws-networking
+    - id: f9c17905-2b33-4c50-8cb0-2ef8ffa52728
+      name: AWS Security
+      vanity_slug: aws-security
+    - id: 5b62abbb-b0d4-4941-bcb0-3d290ef3690d
+      name: AWS storage
+      vanity_slug: aws-storage
+    time_to_earn: null
+    translatable: false
+    type_category: Learning
+    url: https://www.credly.com/org/amazon-web-services/badge/aws-knowledge-cloud-essentials
+    vanity_slug: aws-knowledge-cloud-essentials
+  earner_path: /users/steve-illichevsky
+  earner_photo_url: https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg
+  evidence: []
+  expires_at: null
+  expires_at_date: null
+  id: 4ce70c3f-bfe1-44cf-b96e-f9ac8798284e
+  image:
+    id: ec621e2a-c8f0-4459-806c-ae11829d372a
+    url: https://images.credly.com/images/ec621e2a-c8f0-4459-806c-ae11829d372a/image.png
+  image_url: https://images.credly.com/images/ec621e2a-c8f0-4459-806c-ae11829d372a/image.png
+  is_private_badge: false
+  issued_at: '2025-02-19T18:00:00.000-06:00'
+  issued_at_date: '2025-02-20'
+  issued_to: Stepan Illichevskii
+  issuer:
+    entities:
+    - entity:
+        id: 7b741b5c-231d-4925-8041-c64b6846f1c8
+        internationalize_badge_templates: false
+        name: Amazon Web Services Training and Certification
+        share_to_ziprecruiter: true
+        twitter_url: https://twitter.com/awscloud
+        type: Organization
+        url: https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8
+        vanity_url: https://www.credly.com/org/amazon-web-services
+        verified: false
+      label: Issued by
+      primary: true
+    summary: issued by Amazon Web Services Training and Certification
+  last_updated_at: '2025-02-21T03:18:27.665-06:00'
+  locale: en
+  printable: false
+  public: true
+  recommendations: []
+  state: accepted
+  translate_metadata: false
+  updated_at: '2025-02-21T03:18:27.666-06:00'
+  user_is_earner: false
 - accepted_at: '2025-02-14T01:25:45.692-06:00'
   badge_template:
     alignments: []
@@ -767,6 +912,136 @@ data:
   translate_metadata: false
   updated_at: '2025-02-11T15:46:00.309-06:00'
   user_is_earner: false
+- accepted_at: '2025-02-20T10:12:25.617-06:00'
+  badge_template:
+    alignments: []
+    badge_template_activities:
+    - activity_type: Course
+      id: 1ec22550-e984-4597-94b0-6cb77466aac6
+      required_badge_template_id: null
+      title: Must complete eLearning course.
+      url: null
+    badge_template_earnable: false
+    cost: Free
+    description: 'Earners of the LFS157: Introduction to Serverless on Kubernetes
+      badge have demonstrated the ability to develop and deploy serverless functions
+      across platforms, including Kubernetes and Docker, using OpenFaaS. They are
+      proficient in turning code into scalable, managed services, understanding serverless
+      technology, and leveraging container technology for deployment. Skills include
+      configuring functions, managing secrets, and ensuring secure, scalable deployments
+      with auto-scaling and TLS.'
+    earn_this_badge_url: null
+    enable_detail_attribute_visibility: true
+    enable_earn_this_badge: false
+    endorsements: []
+    global_activity_url: https://training.linuxfoundation.org/training/introduction-to-serverless-on-kubernetes-lfs157/
+    id: 1829ea33-12e8-47b3-b637-9a3a7c341678
+    image:
+      id: 3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0
+      url: https://images.credly.com/images/3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0/blob
+    image_url: https://images.credly.com/images/3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0/blob
+    issuer:
+      entities:
+      - entity:
+          id: f4b8d042-0072-4a1a-8d00-260b513026e8
+          internationalize_badge_templates: false
+          name: The Linux Foundation
+          share_to_ziprecruiter: true
+          twitter_url: https://twitter.com/linuxfoundation
+          type: Organization
+          url: https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8
+          vanity_url: https://www.credly.com/org/the-linux-foundation
+          verified: false
+        label: Issued by
+        primary: true
+      summary: issued by The Linux Foundation
+    level: Foundational
+    name: 'LFS157: Introduction to Serverless on Kubernetes'
+    owner_vanity_slug: the-linux-foundation
+    public: true
+    recipient_type: User
+    recommendable: true
+    related_badge_templates:
+    - id: 067f5afd-160d-42df-961e-31d19e117173
+      image:
+        id: cc8adc83-1dc6-4d57-8e20-22171247e052
+        url: https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob
+      image_url: https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob
+      name: 'CKAD: Certified Kubernetes Application Developer'
+      url: https://www.credly.com/org/the-linux-foundation/badge/ckad-certified-kubernetes-application-developer
+    - id: 62cce7cd-4bc2-45f6-b7ab-3fe01f1192f4
+      image:
+        id: f906b6db-2dc5-4908-b27d-8f05beec8dad
+        url: https://images.credly.com/images/f906b6db-2dc5-4908-b27d-8f05beec8dad/blob
+      image_url: https://images.credly.com/images/f906b6db-2dc5-4908-b27d-8f05beec8dad/blob
+      name: 'LFD259: Kubernetes for Developers'
+      url: https://www.credly.com/org/the-linux-foundation/badge/lfd259-kubernetes-for-developers
+    - id: 81728c5e-3769-4ed1-bc47-97ffa16472b8
+      image:
+        id: c52b0e6e-e171-41c2-a459-b8e618ea1e72
+        url: https://images.credly.com/images/c52b0e6e-e171-41c2-a459-b8e618ea1e72/blob
+      image_url: https://images.credly.com/images/c52b0e6e-e171-41c2-a459-b8e618ea1e72/blob
+      name: 'LFS151: Introduction to Cloud Infrastructure Technologies'
+      url: https://www.credly.com/org/the-linux-foundation/badge/lfs151-introduction-to-cloud-infrastructure-technol
+    settings_enable_related_badges: true
+    show_badge_lmi: false
+    show_skill_tag_links: true
+    skills:
+    - id: f2777485-8f70-497b-9fc4-2ed5c74c1c1f
+      name: Kubernetes
+      vanity_slug: kubernetes
+    - id: 66f1ad39-fda5-43ee-a1e8-304c8d2c52da
+      name: OpenFaaS
+      vanity_slug: openfaas
+    - id: a09daa3f-9c2e-44e2-8c98-1c5152e3064f
+      name: Secrets
+      vanity_slug: secrets
+    - id: faa297cd-d3af-42e5-bd52-6532b1b70057
+      name: Serverless
+      vanity_slug: serverless
+    time_to_earn: Hours
+    translatable: false
+    type_category: Learning
+    url: https://www.credly.com/org/the-linux-foundation/badge/lfs157-introduction-to-serverless-on-kubernetes
+    vanity_slug: lfs157-introduction-to-serverless-on-kubernetes
+  earner_path: /users/steve-illichevsky
+  earner_photo_url: https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg
+  evidence: []
+  expires_at: null
+  expires_at_date: null
+  id: a90211d8-faf0-4763-9aca-404a46a85542
+  image:
+    id: 3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0
+    url: https://images.credly.com/images/3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0/blob
+  image_url: https://images.credly.com/images/3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0/blob
+  is_private_badge: false
+  issued_at: '2025-02-19T18:00:00.000-06:00'
+  issued_at_date: '2025-02-20'
+  issued_to: Steve Illichevskiy
+  issuer:
+    entities:
+    - entity:
+        id: f4b8d042-0072-4a1a-8d00-260b513026e8
+        internationalize_badge_templates: false
+        name: The Linux Foundation
+        share_to_ziprecruiter: true
+        twitter_url: https://twitter.com/linuxfoundation
+        type: Organization
+        url: https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8
+        vanity_url: https://www.credly.com/org/the-linux-foundation
+        verified: false
+      label: Issued by
+      primary: true
+    summary: issued by The Linux Foundation
+  last_updated_at: '2025-02-20T10:12:25.649-06:00'
+  locale: en
+  printable: false
+  public: true
+  recommendations: []
+  state: accepted
+  translate_metadata: false
+  updated_at: '2025-02-20T10:12:25.649-06:00'
+  user_is_earner: false
 - accepted_at: '2025-02-12T02:54:15.463-06:00'
   badge_template:
     alignments: []
@@ -909,10 +1184,10 @@ data:
   updated_at: '2025-02-12T02:54:15.485-06:00'
   user_is_earner: false
 metadata:
-  count: 6
+  count: 8
   current_page: 1
   next_page_url: null
   per: 48
   previous_page_url: null
-  total_count: 6
+  total_count: 8
   total_pages: 1
