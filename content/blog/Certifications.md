@@ -7,7 +7,6 @@ categories:
   - 'certification'
   - 'it'
 ---
-
 In the dynamic world of Information Technology (IT), certifications are not just credentials—they are key to career progression. They validate expertise, showcase commitment to professional growth, and can differentiate you in a competitive job market. I personally experienced the value of certifications when, during a period of unemployment, I dedicated time to earn nine certifications in just one week. This intensive week of focused learning was possible because I had the time to dive deep into various domains of IT, a luxury that my previous job schedule didn’t allow for.
 
 ### The Importance of IT Certifications in My Career
