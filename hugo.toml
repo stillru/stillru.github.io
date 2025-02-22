@@ -100,3 +100,5 @@ relativeURLs = true
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
         alt = "Design & Code - Radity"
+[security]
+  enableInlineShortcodes = true
