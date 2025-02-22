@@ -1,6 +1,6 @@
 ---
 title: "Certifications in IT: A Gateway to Career Growth"
-date: 2024-11-25T14:49:00+02:00
+date: 2025-02-22T12:04:00+02:00
 draft: false
 type: 'blog'
 categories:
