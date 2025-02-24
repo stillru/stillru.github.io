@@ -1042,6 +1042,129 @@ data:
   translate_metadata: false
   updated_at: '2025-02-20T10:12:25.649-06:00'
   user_is_earner: false
+- accepted_at: '2025-02-24T07:05:01.830-06:00'
+  badge_template:
+    alignments: []
+    badge_template_activities:
+    - activity_type: Course
+      id: 75f9e51a-acb9-4eef-bbd6-580510935262
+      required_badge_template_id: null
+      title: Must complete eLearning course.
+      url: null
+    badge_template_earnable: false
+    cost: Free
+    description: 'Earners of the LFEL1009: Getting Started with OpenTofu badge understand
+      the benefits of Infrastructure as Code (IaC) tools and workflows and can use
+      OpenTofu to provision and manage basic infrastructure with simple configurations.'
+    earn_this_badge_url: null
+    enable_detail_attribute_visibility: true
+    enable_earn_this_badge: false
+    endorsements: []
+    global_activity_url: https://training.linuxfoundation.org/express-learning/getting-started-with-opentofu-lfel1009/
+    id: 1740bca4-21a5-4b59-86ac-8ec2e98e7c3a
+    image:
+      id: e05777b4-2eba-4421-9741-90547ac41d58
+      url: https://images.credly.com/images/e05777b4-2eba-4421-9741-90547ac41d58/blob
+    image_url: https://images.credly.com/images/e05777b4-2eba-4421-9741-90547ac41d58/blob
+    issuer:
+      entities:
+      - entity:
+          id: f4b8d042-0072-4a1a-8d00-260b513026e8
+          internationalize_badge_templates: false
+          name: The Linux Foundation
+          share_to_ziprecruiter: true
+          twitter_url: https://twitter.com/linuxfoundation
+          type: Organization
+          url: https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8
+          vanity_url: https://www.credly.com/org/the-linux-foundation
+          verified: false
+        label: Issued by
+        primary: true
+      summary: issued by The Linux Foundation
+    level: Foundational
+    name: 'LFEL1009: Getting Started with OpenTofu'
+    owner_vanity_slug: the-linux-foundation
+    public: true
+    recipient_type: User
+    recommendable: true
+    related_badge_templates:
+    - id: 06b68757-3e1d-47e2-b8b4-64e0371881b0
+      image:
+        id: ff8fd7aa-5277-4441-b346-195dbbbab1b0
+        url: https://images.credly.com/images/ff8fd7aa-5277-4441-b346-195dbbbab1b0/image.png
+      image_url: https://images.credly.com/images/ff8fd7aa-5277-4441-b346-195dbbbab1b0/image.png
+      name: CDEvents Most Valuable Contributor Award 2024 🏆
+      url: https://www.credly.com/org/the-linux-foundation/badge/cdevents-most-valuable-contributor-award-2024
+    - id: 09b3ac03-1b59-4419-ba19-be2f37d08867
+      image:
+        id: 598deb01-729d-430b-a79d-5b12e9687a04
+        url: https://images.credly.com/images/598deb01-729d-430b-a79d-5b12e9687a04/image.png
+      image_url: https://images.credly.com/images/598deb01-729d-430b-a79d-5b12e9687a04/image.png
+      name: Top CDF Contributor Award 2024 🏆
+      url: https://www.credly.com/org/the-linux-foundation/badge/top-cdf-contributor-award-2024
+    - id: 00bc29c6-d7a8-4886-941e-2331b02e9ad2
+      image:
+        id: 89161758-c43b-4b79-bcdd-3f6c0b381384
+        url: https://images.credly.com/images/89161758-c43b-4b79-bcdd-3f6c0b381384/image.png
+      image_url: https://images.credly.com/images/89161758-c43b-4b79-bcdd-3f6c0b381384/image.png
+      name: Speaker - KCD Oslo 2024
+      url: https://www.credly.com/org/the-linux-foundation/badge/speaker-kcd-oslo-2024
+    settings_enable_related_badges: false
+    show_badge_lmi: false
+    show_skill_tag_links: false
+    skills:
+    - id: 2c8a6c30-a1e4-40d1-84af-dc446f933239
+      name: Infrastructure As Code
+      vanity_slug: infrastructure-as-code
+    - id: 140e55c5-1874-4e20-9582-ad6f4b371560
+      name: Infrastructure Provisioning and Management
+      vanity_slug: infrastructure-provisioning-and-management
+    - id: aa344b45-ceed-45c2-b4b9-722ecbabebc5
+      name: Open Source
+      vanity_slug: open-source
+    time_to_earn: Hours
+    translatable: false
+    type_category: Learning
+    url: https://www.credly.com/org/the-linux-foundation/badge/lfel1009-getting-started-with-opentofu
+    vanity_slug: lfel1009-getting-started-with-opentofu
+  earner_path: /users/steve-illichevsky
+  earner_photo_url: https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg
+  evidence: []
+  expires_at: null
+  expires_at_date: null
+  id: 295051f3-5779-4445-b5ed-9e08aa73b6db
+  image:
+    id: e05777b4-2eba-4421-9741-90547ac41d58
+    url: https://images.credly.com/images/e05777b4-2eba-4421-9741-90547ac41d58/blob
+  image_url: https://images.credly.com/images/e05777b4-2eba-4421-9741-90547ac41d58/blob
+  is_private_badge: false
+  issued_at: '2025-02-23T18:00:00.000-06:00'
+  issued_at_date: '2025-02-24'
+  issued_to: Steve Illichevskiy
+  issuer:
+    entities:
+    - entity:
+        id: f4b8d042-0072-4a1a-8d00-260b513026e8
+        internationalize_badge_templates: false
+        name: The Linux Foundation
+        share_to_ziprecruiter: true
+        twitter_url: https://twitter.com/linuxfoundation
+        type: Organization
+        url: https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8
+        vanity_url: https://www.credly.com/org/the-linux-foundation
+        verified: false
+      label: Issued by
+      primary: true
+    summary: issued by The Linux Foundation
+  last_updated_at: '2025-02-24T07:05:01.852-06:00'
+  locale: en
+  printable: false
+  public: true
+  recommendations: []
+  state: accepted
+  translate_metadata: false
+  updated_at: '2025-02-24T07:05:01.852-06:00'
+  user_is_earner: false
 - accepted_at: '2025-02-12T02:54:15.463-06:00'
   badge_template:
     alignments: []
@@ -1184,10 +1307,10 @@ data:
   updated_at: '2025-02-12T02:54:15.485-06:00'
   user_is_earner: false
 metadata:
-  count: 8
+  count: 9
   current_page: 1
   next_page_url: null
   per: 48
   previous_page_url: null
-  total_count: 8
+  total_count: 9
   total_pages: 1
