@@ -324,6 +324,129 @@ data:
   translate_metadata: false
   updated_at: '2025-02-14T01:25:45.693-06:00'
   user_is_earner: false
+- accepted_at: '2025-02-26T01:44:09.572-06:00'
+  badge_template:
+    alignments: []
+    badge_template_activities:
+    - activity_type: Course
+      id: e4744dda-d0f0-43f2-aa3c-5453a44b3089
+      required_badge_template_id: null
+      title: Complete the AWS Well-Architected course.
+      url: null
+    - activity_type: Course
+      id: 3a102696-9bd2-4a74-a3f5-406a63b12edf
+      required_badge_template_id: null
+      title: If you are a Partner, please use this URL to access the Course
+      url: https://explore.skillbuilder.aws/learn/course/internal/view/elearning/108/aws-well-architected-badge
+    - activity_type: Course
+      id: e2e91307-60f1-4ca0-a10f-3464e0850b13
+      required_badge_template_id: null
+      title: If you are an Amazonian, please use this URL to access the Course
+      url: https://kiku.aws.training/learningobject/curriculum?id=64259
+    - activity_type: Assessment
+      id: 12f22732-1df2-4757-84b3-fbb682eeaf0d
+      required_badge_template_id: null
+      title: Successfully pass the Well-Architected assessment.
+      url: null
+    badge_template_earnable: false
+    cost: null
+    description: Earners of this badge understand the strategies and best practices
+      for architecting in the cloud using the AWS Well-Architected Framework. Earners
+      are able to conduct a Well-Architected review using the Well-Architected Tool.
+    earn_this_badge_url: null
+    enable_detail_attribute_visibility: true
+    enable_earn_this_badge: false
+    endorsements: []
+    global_activity_url: https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc
+    id: 9a316ab0-cd5b-432c-a1f4-8e832ab64e1a
+    image:
+      id: b870667f-00a3-48d7-b988-9c02b441b883
+      url: https://images.credly.com/images/b870667f-00a3-48d7-b988-9c02b441b883/image.png
+    image_url: https://images.credly.com/images/b870667f-00a3-48d7-b988-9c02b441b883/image.png
+    issuer:
+      entities:
+      - entity:
+          id: 7b741b5c-231d-4925-8041-c64b6846f1c8
+          internationalize_badge_templates: false
+          name: Amazon Web Services Training and Certification
+          share_to_ziprecruiter: true
+          twitter_url: https://twitter.com/awscloud
+          type: Organization
+          url: https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8
+          vanity_url: https://www.credly.com/org/amazon-web-services
+          verified: false
+        label: Issued by
+        primary: true
+      summary: issued by Amazon Web Services Training and Certification
+    level: null
+    name: Well-Architected Proficient
+    owner_vanity_slug: amazon-web-services
+    public: false
+    recipient_type: User
+    recommendable: false
+    related_badge_templates: []
+    settings_enable_related_badges: true
+    show_badge_lmi: true
+    show_skill_tag_links: true
+    skills:
+    - id: 682d4927-14e7-490c-96d3-c8f3ef0995de
+      name: AWS
+      vanity_slug: aws
+    - id: d280fbce-cf74-4968-a5a3-19dd83910173
+      name: AWS Cloud Best Practices
+      vanity_slug: aws-cloud-best-practices
+    - id: 827c21c5-2760-4f53-aede-3c9b4f1dbe5d
+      name: AWS Well-Architected
+      vanity_slug: aws-well-architected
+    - id: 26b7c1f6-e932-4cc3-b7ba-bf09f114e7db
+      name: AWS Well-Architected Framework
+      vanity_slug: aws-well-architected-framework
+    - id: 1a5e6e76-8ea2-49db-8ad9-1b4132970c60
+      name: AWS Well-Architected Tool
+      vanity_slug: aws-well-architected-tool
+    time_to_earn: null
+    translatable: false
+    type_category: Learning
+    url: https://www.credly.com/org/amazon-web-services/badge/well-architected-proficient
+    vanity_slug: well-architected-proficient
+  earner_path: /users/steve-illichevsky
+  earner_photo_url: https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg
+  evidence: []
+  expires_at: null
+  expires_at_date: null
+  id: 60f7b01f-9abd-49fe-b2a1-dfbbd6144adc
+  image:
+    id: b870667f-00a3-48d7-b988-9c02b441b883
+    url: https://images.credly.com/images/b870667f-00a3-48d7-b988-9c02b441b883/image.png
+  image_url: https://images.credly.com/images/b870667f-00a3-48d7-b988-9c02b441b883/image.png
+  is_private_badge: false
+  issued_at: '2025-02-24T18:00:00.000-06:00'
+  issued_at_date: '2025-02-25'
+  issued_to: Stepan Illichevskii
+  issuer:
+    entities:
+    - entity:
+        id: 7b741b5c-231d-4925-8041-c64b6846f1c8
+        internationalize_badge_templates: false
+        name: Amazon Web Services Training and Certification
+        share_to_ziprecruiter: true
+        twitter_url: https://twitter.com/awscloud
+        type: Organization
+        url: https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8
+        vanity_url: https://www.credly.com/org/amazon-web-services
+        verified: false
+      label: Issued by
+      primary: true
+    summary: issued by Amazon Web Services Training and Certification
+  last_updated_at: '2025-02-26T01:44:09.593-06:00'
+  locale: en
+  printable: false
+  public: true
+  recommendations: []
+  state: accepted
+  translate_metadata: false
+  updated_at: '2025-02-26T01:44:09.593-06:00'
+  user_is_earner: false
 - accepted_at: '2025-02-12T06:54:33.713-06:00'
   badge_template:
     alignments: []
@@ -613,6 +736,167 @@ data:
   state: accepted
   translate_metadata: false
   updated_at: '2025-02-20T09:01:25.534-06:00'
+  user_is_earner: false
+- accepted_at: '2025-02-25T23:47:39.231-06:00'
+  badge_template:
+    alignments: []
+    badge_template_activities:
+    - activity_type: Course
+      id: 57a1b664-6355-466f-b778-f01a49b86af2
+      required_badge_template_id: null
+      title: Must complete eLearning course.
+      url: null
+    badge_template_earnable: false
+    cost: Paid
+    description: 'Earners of the LFS207: Linux System Administration Essentials badge
+      have the tools and concepts they need to efficiently build and manage an enterprise
+      Linux infrastructure. They know how to work with Git and perform essential collaborative
+      tasks, and can use state-of-the-art system administration techniques in real-life
+      scenarios.'
+    earn_this_badge_url: null
+    enable_detail_attribute_visibility: true
+    enable_earn_this_badge: false
+    endorsements: []
+    global_activity_url: https://training.linuxfoundation.org/training/linux-system-administration-essentials-lfs207/
+    id: e72089f8-acdc-41a5-b11d-1a7ffcbf439c
+    image:
+      id: b9a64860-cb15-42fe-9c9b-99114021473a
+      url: https://images.credly.com/images/b9a64860-cb15-42fe-9c9b-99114021473a/blob
+    image_url: https://images.credly.com/images/b9a64860-cb15-42fe-9c9b-99114021473a/blob
+    issuer:
+      entities:
+      - entity:
+          id: f4b8d042-0072-4a1a-8d00-260b513026e8
+          internationalize_badge_templates: false
+          name: The Linux Foundation
+          share_to_ziprecruiter: true
+          twitter_url: https://twitter.com/linuxfoundation
+          type: Organization
+          url: https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8
+          vanity_url: https://www.credly.com/org/the-linux-foundation
+          verified: false
+        label: Issued by
+        primary: true
+      summary: issued by The Linux Foundation
+    level: Foundational
+    name: 'LFS207: Linux System Administration Essentials'
+    owner_vanity_slug: the-linux-foundation
+    public: true
+    recipient_type: User
+    recommendable: true
+    related_badge_templates:
+    - id: 8eb96798-f011-4ba1-8cec-5f2463cfe61c
+      image:
+        id: 059980b8-878d-4415-b1d3-81740fa5c493
+        url: https://images.credly.com/images/059980b8-878d-4415-b1d3-81740fa5c493/blob
+      image_url: https://images.credly.com/images/059980b8-878d-4415-b1d3-81740fa5c493/blob
+      name: 'LFS307: Linux System Administration'
+      url: https://www.credly.com/org/the-linux-foundation/badge/lfs307-linux-system-administration
+    - id: 19cde9e6-7955-42d5-9105-01f1bc50062c
+      image:
+        id: 0498414f-41d1-421b-9c5d-50df6e0d7247
+        url: https://images.credly.com/images/0498414f-41d1-421b-9c5d-50df6e0d7247/LF_logobadge.png
+      image_url: https://images.credly.com/images/0498414f-41d1-421b-9c5d-50df6e0d7247/LF_logobadge.png
+      name: 'LFS201: Essentials of Linux System Administration'
+      url: https://www.credly.com/org/the-linux-foundation/badge/lfs201-essentials-of-linux-system-administration
+    - id: a6a668d4-7bfe-4ace-946a-f1ce1584b5ee
+      image:
+        id: 1e6611ca-8afe-4ecc-ad4d-305fba52ee7e
+        url: https://images.credly.com/images/1e6611ca-8afe-4ecc-ad4d-305fba52ee7e/1_LFCS-600x600.png
+      image_url: https://images.credly.com/images/1e6611ca-8afe-4ecc-ad4d-305fba52ee7e/1_LFCS-600x600.png
+      name: 'LFCS: Linux Foundation Certified Systems Administrator'
+      url: https://www.credly.com/org/the-linux-foundation/badge/lfcs-linux-foundation-certified-systems-administrator.2
+    settings_enable_related_badges: true
+    show_badge_lmi: false
+    show_skill_tag_links: true
+    skills:
+    - id: 431e3c93-5ab1-4ae7-b023-d16021b05a15
+      name: Apt
+      vanity_slug: apt
+    - id: 50d0df69-1bf0-4621-a58b-092b3b30e153
+      name: Debian/Ubuntu
+      vanity_slug: debian-ubuntu
+    - id: 75c2db4a-063a-400e-9f6f-c70e35734570
+      name: Disk Partitioning
+      vanity_slug: disk-partitioning
+    - id: 6dba35fd-2487-45a3-8bbd-ac0b6501619c
+      name: Dpkg
+      vanity_slug: dpkg
+    - id: 9f0642b0-4ec9-4361-99fb-7bc1f8e5fb61
+      name: Filesystem Hierarchy Standard
+      vanity_slug: filesystem-hierarchy-standard
+    - id: 9d6c62cd-9ab1-4b3e-a165-1e95e571f1fd
+      name: Git
+      vanity_slug: git
+    - id: f6681515-8e58-4d21-8e3f-c8da2c6edfd4
+      name: Linux
+      vanity_slug: linux
+    - id: 79c5d8c4-6f56-4f41-bd4e-80deaeeca507
+      name: Linux Administrator
+      vanity_slug: linux-administrator
+    - id: 24ee4f39-16a2-4924-bc8a-0e17c09c279c
+      name: Logical Volume Management
+      vanity_slug: logical-volume-management
+    - id: a830e2ee-4fbc-4fdf-a847-415ea01bde4a
+      name: Package Management Systems
+      vanity_slug: package-management-systems
+    - id: ea368854-57e7-46b2-bb1f-5cd0ce312e01
+      name: Red Hat
+      vanity_slug: red-hat
+    - id: e8814f43-9c5f-4165-8bea-dcf89763a7dc
+      name: RPM
+      vanity_slug: rpm
+    - id: 19b7554f-8bba-466d-a1e2-c4e7dc3c11bc
+      name: Site Reliability Engineer
+      vanity_slug: site-reliability-engineer
+    - id: f3c11f11-209b-4688-9836-31ad5cf6e58d
+      name: YUM
+      vanity_slug: yum
+    - id: 3e62213a-ac7f-475f-b3c2-6290632dffda
+      name: Zypper
+      vanity_slug: zypper
+    time_to_earn: Days
+    translatable: false
+    type_category: Learning
+    url: https://www.credly.com/org/the-linux-foundation/badge/lfs207-linux-system-administration-essentials
+    vanity_slug: lfs207-linux-system-administration-essentials
+  earner_path: /users/steve-illichevsky
+  earner_photo_url: https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg
+  evidence: []
+  expires_at: null
+  expires_at_date: null
+  id: 6742d315-2a5c-41b9-b952-89351e10c80e
+  image:
+    id: b9a64860-cb15-42fe-9c9b-99114021473a
+    url: https://images.credly.com/images/b9a64860-cb15-42fe-9c9b-99114021473a/blob
+  image_url: https://images.credly.com/images/b9a64860-cb15-42fe-9c9b-99114021473a/blob
+  is_private_badge: false
+  issued_at: '2025-02-25T18:00:00.000-06:00'
+  issued_at_date: '2025-02-26'
+  issued_to: Steve Illichevskiy
+  issuer:
+    entities:
+    - entity:
+        id: f4b8d042-0072-4a1a-8d00-260b513026e8
+        internationalize_badge_templates: false
+        name: The Linux Foundation
+        share_to_ziprecruiter: true
+        twitter_url: https://twitter.com/linuxfoundation
+        type: Organization
+        url: https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8
+        vanity_url: https://www.credly.com/org/the-linux-foundation
+        verified: false
+      label: Issued by
+      primary: true
+    summary: issued by The Linux Foundation
+  last_updated_at: '2025-02-25T23:47:39.257-06:00'
+  locale: en
+  printable: false
+  public: true
+  recommendations: []
+  state: accepted
+  translate_metadata: false
+  updated_at: '2025-02-25T23:47:39.257-06:00'
   user_is_earner: false
 - accepted_at: '2025-02-11T13:39:07.149-06:00'
   badge_template:
@@ -1307,10 +1591,10 @@ data:
   updated_at: '2025-02-12T02:54:15.485-06:00'
   user_is_earner: false
 metadata:
-  count: 9
+  count: 11
   current_page: 1
   next_page_url: null
   per: 48
   previous_page_url: null
-  total_count: 9
+  total_count: 11
   total_pages: 1
