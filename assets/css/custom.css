@@ -109,7 +109,7 @@ pre::-webkit-scrollbar-track {
 }
 
 .badge-card {
-    width: 250px;
+    width: 185px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -120,7 +120,7 @@ pre::-webkit-scrollbar-track {
 }
 
 .badge-card img {
-    max-width: 100px;
+    max-width: 60px;
     margin-bottom: 10px;
 }
 
@@ -142,5 +142,5 @@ pre::-webkit-scrollbar-track {
 }
 
 .badge-card:hover {
-    transform: scale(1.25); /* Adds a hover effect */
+    transform: scale(1.50); /* Adds a hover effect */
 }
