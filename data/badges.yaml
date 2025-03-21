@@ -45,6 +45,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by Amazon Web Services Training and Certification
+    job_board_url: null
     level: null
     name: 'AWS Knowledge: Cloud Essentials'
     owner_vanity_slug: amazon-web-services
@@ -197,6 +198,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by Aviatrix
+    job_board_url: null
     level: Foundational
     name: Multicloud Network Associate
     owner_vanity_slug: aviatrix
@@ -378,6 +380,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by Amazon Web Services Training and Certification
+    job_board_url: null
     level: null
     name: Well-Architected Proficient
     owner_vanity_slug: amazon-web-services
@@ -490,6 +493,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by The Linux Foundation
+    job_board_url: null
     level: Intermediate
     name: 'LFD259: Kubernetes for Developers'
     owner_vanity_slug: the-linux-foundation
@@ -635,6 +639,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by The Linux Foundation
+    job_board_url: null
     level: Foundational
     name: 'LFS158: Introduction to Kubernetes'
     owner_vanity_slug: the-linux-foundation
@@ -778,6 +783,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by The Linux Foundation
+    job_board_url: null
     level: Foundational
     name: 'LFS207: Linux System Administration Essentials'
     owner_vanity_slug: the-linux-foundation
@@ -940,6 +946,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by The Linux Foundation
+    job_board_url: null
     level: Foundational
     name: 'LFS162: Introduction to DevOps and Site Reliability Engineering'
     owner_vanity_slug: the-linux-foundation
@@ -1082,6 +1089,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by The Linux Foundation
+    job_board_url: null
     level: Foundational
     name: 'LFS151: Introduction to Cloud Infrastructure Technologies'
     owner_vanity_slug: the-linux-foundation
@@ -1239,6 +1247,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by The Linux Foundation
+    job_board_url: null
     level: Foundational
     name: 'LFS157: Introduction to Serverless on Kubernetes'
     owner_vanity_slug: the-linux-foundation
@@ -1365,6 +1374,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by The Linux Foundation
+    job_board_url: null
     level: Foundational
     name: 'LFEL1009: Getting Started with OpenTofu'
     owner_vanity_slug: the-linux-foundation
@@ -1491,6 +1501,7 @@ data:
         label: Issued by
         primary: true
       summary: issued by The Linux Foundation
+    job_board_url: null
     level: Intermediate
     name: 'LFS256: DevOps and Workflow Management with Argo'
     owner_vanity_slug: the-linux-foundation
