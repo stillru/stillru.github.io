@@ -180,9 +180,9 @@ data:
     global_activity_url: https://aviatrix.com/ace/
     id: 6ce92f41-5db9-4be2-bb0e-1567359ef7b8
     image:
-      id: 87eec792-3c63-4526-aafb-da866a30fa54
-      url: https://images.credly.com/images/87eec792-3c63-4526-aafb-da866a30fa54/image.png
-    image_url: https://images.credly.com/images/87eec792-3c63-4526-aafb-da866a30fa54/image.png
+      id: e3c001fd-161d-433a-a7a4-049556d6112d
+      url: https://images.credly.com/images/e3c001fd-161d-433a-a7a4-049556d6112d/blob
+    image_url: https://images.credly.com/images/e3c001fd-161d-433a-a7a4-049556d6112d/blob
     issuer:
       entities:
       - entity:
@@ -208,23 +208,23 @@ data:
     related_badge_templates:
     - id: 7495ca5c-6926-4009-bd71-d80f2afcfb63
       image:
-        id: 173c4783-c3f6-49f0-9684-8c2021b8adf6
-        url: https://images.credly.com/images/173c4783-c3f6-49f0-9684-8c2021b8adf6/image.png
-      image_url: https://images.credly.com/images/173c4783-c3f6-49f0-9684-8c2021b8adf6/image.png
+        id: 1fbe426f-c278-4e94-a69f-c4a2b4af77d0
+        url: https://images.credly.com/images/1fbe426f-c278-4e94-a69f-c4a2b4af77d0/blob
+      image_url: https://images.credly.com/images/1fbe426f-c278-4e94-a69f-c4a2b4af77d0/blob
       name: Multicloud Network Associate SAP Specialty
       url: https://www.credly.com/org/aviatrix/badge/multicloud-network-associate-sap-specialty
     - id: 51fb5e98-e346-4ebe-89d6-e177406855d3
       image:
-        id: 5b22143c-8806-41af-b4c9-7c5043edcbe3
-        url: https://images.credly.com/images/5b22143c-8806-41af-b4c9-7c5043edcbe3/image.png
-      image_url: https://images.credly.com/images/5b22143c-8806-41af-b4c9-7c5043edcbe3/image.png
+        id: f5b13fe0-5fdb-4032-a990-86616f5b7e1d
+        url: https://images.credly.com/images/f5b13fe0-5fdb-4032-a990-86616f5b7e1d/blob
+      image_url: https://images.credly.com/images/f5b13fe0-5fdb-4032-a990-86616f5b7e1d/blob
       name: Multicloud Network Professional
       url: https://www.credly.com/org/aviatrix/badge/multicloud-network-professional
     - id: a2af32cf-7f75-440c-8538-e924cb1267bd
       image:
-        id: a2210e79-902b-4adf-8bf9-5a371844af75
-        url: https://images.credly.com/images/a2210e79-902b-4adf-8bf9-5a371844af75/image.png
-      image_url: https://images.credly.com/images/a2210e79-902b-4adf-8bf9-5a371844af75/image.png
+        id: b1a3f80b-fa14-44e8-b05a-c02a6ed6d6b6
+        url: https://images.credly.com/images/b1a3f80b-fa14-44e8-b05a-c02a6ed6d6b6/blob
+      image_url: https://images.credly.com/images/b1a3f80b-fa14-44e8-b05a-c02a6ed6d6b6/blob
       name: Multicloud Network Operations Specialty
       url: https://www.credly.com/org/aviatrix/badge/multicloud-network-operations-specialty
     settings_enable_related_badges: true
@@ -295,9 +295,9 @@ data:
   expires_at_date: '2028-02-14'
   id: 68bf7e6d-e26b-49f4-a156-7a8172969ab5
   image:
-    id: 87eec792-3c63-4526-aafb-da866a30fa54
-    url: https://images.credly.com/images/87eec792-3c63-4526-aafb-da866a30fa54/image.png
-  image_url: https://images.credly.com/images/87eec792-3c63-4526-aafb-da866a30fa54/image.png
+    id: e3c001fd-161d-433a-a7a4-049556d6112d
+    url: https://images.credly.com/images/e3c001fd-161d-433a-a7a4-049556d6112d/blob
+  image_url: https://images.credly.com/images/e3c001fd-161d-433a-a7a4-049556d6112d/blob
   is_private_badge: false
   issued_at: '2025-02-13T18:00:00.000-06:00'
   issued_at_date: '2025-02-14'
