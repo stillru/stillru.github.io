@@ -10829,95 +10829,112 @@ aside.content-browser{
         color: #fff;
         background-color: #181818;
     }
-    .header .navbar-brand span:nth-child(2){
+    .header .navbar-brand span:nth-child(2),
+    .header .navbar-light .navbar-nav .nav-link,
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,
+    .display-1,
+    .lead,
+    p a, span a,
+    .education__title,
+    .contact__info span,
+    .btn-frameless {
         color: #fff;
     }
-    .header--sticky-triggered{
-        background: #181818;
-    }
-    .header .navbar-light .navbar-nav .nav-link{
-        color: #fff;
-    }
-    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
-        color: #fff;
-    }
-    .display-1{
-        color: #fff;
-    }
-    .lead{
-        color: #fff;
-    }
-    p a, span a{
-        color: #fff;
-    }
-    p{
+    p {
         color: #a6a6a6;
     }
-    .rad-showcase .platform-links [class^="icon-"]{
+    .rad-showcase .platform-links [class^="icon-"],
+    .experience a {
         color: #fff;
     }
-    .experience a{
-        color: #fff;
-    }
-    .experience__company{
+    .experience__company {
         color: #6EAFAA;
     }
-
-    .education__degree, .experience__date{
+    .education__degree, .experience__date,
+    .contact__info h3 {
         color: #a6a6a6;
     }
-    .education__title{
-        color: #fff;
-    }
-    .education__date{
+    .education__date {
         color: #d5d5d5;
     }
-    .education::before{
+    .education::before {
         background-color: #202020;
     }
-    .testimonial__author-info span{
+    .testimonial__author-info span {
         color: #F18983;
     }
-    .section--contact .container{
+    .section--contact .container {
         background-color: #181818;
     }
-    .contact__info span{
-        color: #fff;
-    }
-    .contact__info h3{
-        color: #bebdbd;
-    }
-    .btn-primary{
+    .btn-primary {
         background-color: #fff;
         color: #000;
     }
-    .btn-primary:hover{
+    .btn-primary:hover {
         border-color: #fff;
         color: #fff;
-    }
-    .btn-frameless{
-        color: #fff;
-        border-color: #fff;
     }
     .btn-frameless.disabled, .btn-frameless.focus, .btn-frameless:disabled, .btn-frameless:focus, .btn-frameless:hover, .btn-frameless:not(:disabled):not(.disabled).active, .btn-frameless:not(:disabled):not(.disabled):active, .show > .btn-frameless.dropdown-toggle {
-        background-color: white;
+        background-color: #fff;
         border-color: #fff;
         color: #181818;
     }
-    input[type="text"], input[type="email"], textarea{
+    input[type="text"], input[type="email"], textarea {
         color: #fff;
         border-bottom: 1px solid #fff;
         background-color: #181818;
     }
-    input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder{
+    input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
         color: #6e6e6e;
     }
-    input[type="text"]:focus, input[type="text"]:active, input[type="email"]:focus, input[type="email"]:active, textarea:focus, textarea:active{
+    input[type="text"]:focus, input[type="text"]:active, input[type="email"]:focus, input[type="email"]:active, textarea:focus, textarea:active {
         border-bottom: 2px solid #fff;
     }
-    .posts-list article.summary{
+    .posts-list article.summary {
         color: #c3c3c3;
     }
+    body {
+        background-color: #121212;
+        color: #f5f5f5;
+    }
+    header,
+    footer,
+    .section {
+        background-color: #1e1e1e;
+    }
+    a {
+        color: #80cbc4;
+    }
+    .cert-img {
+        filter: brightness(0.9) contrast(1.1);
+    }
+
+    .header {
+        background-color: #1e1e1e;
+      }
+    
+      .navbar,
+      .navbar-light {
+        background-color: transparent;
+      }
+    
+      .nav-link {
+        color: #e0e0e0;
+      }
+    
+      .nav-link.active {
+        color: #80cbc4;
+      }
+    
+      .navbar-toggler-icon {
+        filter: invert(100%);
+      }
+
+      .section li,
+      li > ul > li,
+      li > ol > li {
+        color: #f5f5f5;
+      }
 }
 
 [alt=drawing] { width: 8px; }

@@ -144,3 +144,19 @@ pre::-webkit-scrollbar-track {
 .badge-card:hover {
     transform: scale(1.50); /* Adds a hover effect */
 }
+
+@media (prefers-color-scheme: dark) {
+  .badge-card {
+    background: #333;
+    color: #fff;
+  }
+  .badge-title {
+    color: #fff;
+  }
+  .badge-org {
+    color: #ccc;
+  }
+  .badge-date {
+    color: #aaa;
+  }
+}
