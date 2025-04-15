@@ -5,6 +5,8 @@ draft: false
 categories: it
 date: 2011-04-01T14:49:00+02:00
 ---
+## PXE Booting
+
 > Disclaimer: This is a VERY old article. I wrote it over 10 years ago when I was working as a system administrator for a small online store.
 >
 > Many of the setup processes described look terrible now. ​​In today's reality, I would use other tools to set up and maintain such a service.

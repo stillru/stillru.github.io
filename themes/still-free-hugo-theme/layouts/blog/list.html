@@ -1,17 +1,15 @@
 <!-- inject:../components/baseHead/baseHeadStart.html -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   {{ partial "head.html" . }} {{ partial "head_custom.html" . }}
 </head>
-
 <body>
   {{ partial "header.html" . }}
 
   <main class="blog"> 
     <section class="container section">
-      <h1 class="rad-fade-down rad-waiting rad-animate">{{ .Title }}</h1>
+      <!-- <h1 class="rad-fade-down rad-waiting rad-animate">{{ .Title }}</h1> -->
       <div class="posts-list container">
         <!-- Renders the li.html content view for each content/posts/*.md -->
         {{ range .Pages }}
@@ -25,6 +23,5 @@
 
   {{ partial "footer.html" . }} {{ partial "base-foot.html" . }}
 </body>
-
 </html>
 <!-- endinject -->

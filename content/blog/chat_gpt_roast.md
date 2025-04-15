@@ -4,6 +4,7 @@ date: 2024-11-25T14:49:00+02:00
 draft: false
 type: 'blog'
 ---
+## Fan facts about me from ChatGPT
 
 New trend in twitter - make "roast" about user.
 To do it you can ask ChatGPT something like:

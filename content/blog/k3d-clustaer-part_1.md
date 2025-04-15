@@ -5,20 +5,21 @@ draft: false
 categories: it
 date: 2025-03-21T11:13:00+02:00
 ---
-## Task
+## Home Services - Part 1 - Preparations
+### Task
 The goal is to learn Kubernetes (k8s) usage and deliver services to users. In this first part of the article series, I’ll prepare my server to handle real workloads.
 
-## Description:
+### Description:
 I’m transforming an old HP notebook into a home server. It currently functions as a print server and scan station, leveraging its multifunction unit (MFU) printer. My aim is to migrate ScanserverJS (a scanning service) and Paperless-NGX (a document management solution) into a k3d cluster—a lightweight Kubernetes setup running in Docker. This project serves as a hands-on way to learn Kubernetes while enhancing service management on constrained hardware.
 
-## Planing
+### Planing
 - Create a separate Docker network for service isolation.
 - Set up a k3d cluster using a custom configuration file.
 - Expose the cluster to the local network via NAT.
 - Deploy ScanserverJS and make it accessible.
 - Deploy Paperless-NGX and make it accessible.
-## Diagrams
-### Network diagram in C4 notation
+### Diagrams
+#### Network diagram in C4 notation
 
 The diagram below illustrates the interactions between the local network, server, and Kubernetes components, showing how they collaborate to deliver services.
 
