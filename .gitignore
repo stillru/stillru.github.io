@@ -3,3 +3,4 @@ _site/
 *.db
 *~
 /public/
+node_modules/
