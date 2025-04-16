@@ -9,6 +9,14 @@ relativeURLs = true
   # CSS Plugins
   [[params.plugins.css]]
   URL = "css/main.css"
+  # [[params.plugins.css]]
+  # URL = "css/vendor/bootstrap.css"
+  # [[params.plugins.css]]
+  # URL = "css/vendor/bootstrap-grid.css"
+  # [[params.plugins.css]]
+  # URL = "css/vendor/bootstrap-reboot.css"
+  [[params.plugins.css]]
+  URL = "css/base-theme.css"
   [[params.plugins.css]]
   URL = "css/rad-icons.css"
   [[params.plugins.css]]

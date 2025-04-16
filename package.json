@@ -1,7 +1,14 @@
 {
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "postcss-cli": "^11.0.0"
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "postcss-sorting": "^9.1.0",
+    "stylelint": "^16.18.0",
+    "stylelint-config-standard": "^38.0.0"
+  },
+  "dependencies": {
+    "postcss-modules": "^6.0.1",
+    "stylelint-order": "^6.0.4"
   }
 }
