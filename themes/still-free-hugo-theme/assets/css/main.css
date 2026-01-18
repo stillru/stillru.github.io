@@ -1,4 +1,4 @@
-.popover,
+q.popover,
 .tooltip,
 address {
     font-style: normal;
@@ -2969,7 +2969,7 @@ textarea.form-control.is-invalid {
 }
 
 .btn {
-    color: #212529;
+    color: "orange";
     text-align: center;
     vertical-align: middle;
     user-select: none;
@@ -11710,7 +11710,7 @@ input[type="email"]::placeholder {
 .rad-subscription-group input[type="email"]::input-placeholder,
 .rad-subscription-group input[type="email"]::placeholder,
 .rad-subscription-group input[type="email"]::input-placeholder,
-.rad-subscription-group input[type="email"]::placeholder 
+.rad-subscription-group input[type="email"]::placeholder
 {
     color: #fff;
 }
@@ -12921,7 +12921,7 @@ body.home div.experience{
 .experience.selected a,
 .experience:hover a,
 .experience:active a,
-.experience a:hover, 
+.experience a:hover,
 .experience a:active{
     display: block;
     background-color: #488079;
@@ -13026,7 +13026,7 @@ aside.content-browser{
 }
 
 @media only screen and (width >= 992px) and (width <= 1280px){
-    .header{ 
+    .header{
         padding-top: 10px;
     }
 }
@@ -13037,10 +13037,10 @@ aside.content-browser{
     }
 }
 
-@media only screen and (width >= 992px) {    
+@media only screen and (width >= 992px) {
     .rad-showcase{
         padding-top: 40px;
-    }    
+    }
 }
 
 /* end adritian custom css */
@@ -13095,7 +13095,7 @@ aside.content-browser{
     .experience__company{
         color: #6EAFAA;
     }
-    
+
     .education__degree, .experience__date{
         color: #a6a6a6;
     }
