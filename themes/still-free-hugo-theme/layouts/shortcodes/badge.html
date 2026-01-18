@@ -1,15 +1,30 @@
 {{ $badges := .Site.Data.badges }}
-<br/>
-<div class="badge-container">
+{{ $now := now }}
 
-    {{ range $badges.data }}
-    <div class="badge-card">
-        <a href="https://www.credly.com/badges/{{ .id }}"><img src="{{ .image_url}}"
-                                                               alt="{{ .badge_template.name }}"></a>
-        <div class="badge-title">{{ .badge_template.name}}</div>
-        <div class="badge-org">{{ .badge_template.issuer.summary}}</div>
-        <div class="badge-date">Issued {{ .issued_at | time.Format ":date_medium" }}</div>
+<br/>
+    <div class="badge-container">
+        {{ range $badges.data }}
+            {{ $expired := false }}
+            {{ if .expires_at }}
+                {{ $expiresAt := time .expires_at }}
+                {{ if lt $expiresAt $now }}
+                    {{ $expired = true }}
+                {{ end }}
+            {{ end }}
+
+            {{ if not $expired }}
+                <div class="badge-card">
+                    <a href="https://www.credly.com/badges/{{ .id }}">
+                        <img src="{{ .image_url }}" alt="{{ .badge_template.name }}">
+                    </a>
+                    <div class="badge-title">{{ .badge_template.name }}</div>
+                    <div class="badge-org">{{ .badge_template.issuer.summary }}</div>
+                    <div class="badge-date">Issued {{ .issued_at | time.Format ":date_medium" }}</div>
+                    {{ if .expires_at }}
+                    <div class="badge-expiry">Expires {{ .expires_at | time.Format ":date_medium" }}</div>
+                    {{ end }}
+                </div>
+                {{ end }}
+                {{ end }}
     </div>
-    {{ end }}
-</div>
 <br/>
