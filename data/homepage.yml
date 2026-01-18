@@ -98,7 +98,11 @@ experience:
   enable: true
   title: "Experience"
   description: >
-    With over 16 years of experience in IT, I've held various roles, including Technician, Support Engineer, Head of Support, and Presales Engineer. While not all my work has been directly IT-related, computers have always been my passion.
+<p class="lead">My career spans over 20 years in IT, starting from hands-on roles in system administration, networking, and field engineering, progressing through team leadership positions, and later transitioning into cloud automation, reliability engineering, and DevOps practices.</p>
+    <p class="lead">From 2019 to 2023, I worked as a Presales Engineer and Product Consultant, collaborating closely with customers to design technical solutions, deploy test environments, perform infrastructure audits, and support complex integrations via APIs and SDKs. This role strengthened my ability to translate business and customer needs into technical architectures.</p>
+    <p class="lead">Between 2023 and 2024, I worked as an SRE Engineer at Nebius (ex-Yandex), focusing on cloud automation, Kubernetes-based systems, infrastructure provisioning with Terraform, observability, and internal platform reliability.</p>
+    <p class="lead">Currently, I am the founder and DevOps / SRE Engineer of an independent practice based in Belgrade, working with telecom and IPTV companies. I design, automate, and operate streaming and media infrastructures, with a strong focus on observability, incident response, and infrastructure scalability.</p>
+    <p class="lead">My core expertise lies at the intersection of infrastructure automation, system reliability, and complex production environments.</p>
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
