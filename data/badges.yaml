@@ -1160,10 +1160,11 @@
         endorsements: []
         skills: 
           - 
-            id: "8808ad35-11de-4612-8bb5-2695c577014b"
-            name: "Oracle Cloud Infrastructure Networking"
-            vanity_slug: "oracle-cloud-infrastructure-networking"
-            canonical: false
+            id: "374343e1-56c0-4935-8acd-668c45bb0847"
+            name: "Multi-Cloud"
+            vanity_slug: "multi-cloud"
+            canonical: true
+            faethm_id: "FS009692"
           - 
             id: "ee0255b9-2489-45c9-ac67-93cf57116e0c"
             name: "Terraform"
@@ -1171,17 +1172,16 @@
             canonical: false
             faethm_id: "FS003417"
           - 
+            id: "8808ad35-11de-4612-8bb5-2695c577014b"
+            name: "Oracle Cloud Infrastructure Networking"
+            vanity_slug: "oracle-cloud-infrastructure-networking"
+            canonical: false
+          - 
             id: "37a573c6-0f5a-431e-8ea9-8f1e57f6fcaa"
             name: "Multi-Cloud Network Architecture"
             vanity_slug: "multi-cloud-network-architecture"
             canonical: false
             faethm_id: "FS001334"
-          - 
-            id: "374343e1-56c0-4935-8acd-668c45bb0847"
-            name: "Multi-Cloud"
-            vanity_slug: "multi-cloud"
-            canonical: true
-            faethm_id: "FS009692"
           - 
             id: "52a28b9b-0a90-41fc-a9a7-c053f8fe3c4e"
             name: "Multicloud"
@@ -1839,10 +1839,11 @@
         endorsements: []
         skills: 
           - 
-            id: "431e3c93-5ab1-4ae7-b023-d16021b05a15"
-            name: "Apt"
-            vanity_slug: "apt"
+            id: "ea368854-57e7-46b2-bb1f-5cd0ce312e01"
+            name: "Red Hat"
+            vanity_slug: "red-hat"
             canonical: false
+            faethm_id: "FS006197"
           - 
             id: "50d0df69-1bf0-4621-a58b-092b3b30e153"
             name: "Debian/Ubuntu"
@@ -1895,11 +1896,10 @@
             vanity_slug: "package-management-systems"
             canonical: false
           - 
-            id: "ea368854-57e7-46b2-bb1f-5cd0ce312e01"
-            name: "Red Hat"
-            vanity_slug: "red-hat"
+            id: "431e3c93-5ab1-4ae7-b023-d16021b05a15"
+            name: "Apt"
+            vanity_slug: "apt"
             canonical: false
-            faethm_id: "FS006197"
           - 
             id: "e8814f43-9c5f-4165-8bea-dcf89763a7dc"
             name: "RPM"
@@ -1925,6 +1925,153 @@
         id: "b9a64860-cb15-42fe-9c9b-99114021473a"
         url: "https://images.credly.com/images/b9a64860-cb15-42fe-9c9b-99114021473a/blob"
       image_url: "https://images.credly.com/images/b9a64860-cb15-42fe-9c9b-99114021473a/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "dfc622ea-3fc0-4c5f-b740-40129a719248"
+      expires_at_date: null
+      issued_at_date: "2026-01-18"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2026-01-18T13:49:23.463-06:00"
+      expires_at: null
+      issued_at: "2026-01-17T18:00:00.000-06:00"
+      last_updated_at: "2026-01-18T13:49:23.493-06:00"
+      updated_at: "2026-01-18T13:49:23.493-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "49c75780-3bac-4c8c-aff0-7aec2e5d5bbe"
+        description: "Earners of the LFEL1011: OpenAPI Fundamentals badge have the skills to apply OpenAPI in the design and development of their APIs. They understand why OpenAPI is important in the context of the API economy, the features of the OpenAPI Specification, and how OpenAPI describes the APIs they build. They understand, through examples, how OpenAPI is applied in the API lifecycle and have the means to find the tools they need to help them utilize OpenAPI in the most effective way possible."
+        global_activity_url: "https://training.linuxfoundation.org/express-learning/openapi-fundamentals-lfel1011/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFEL1011: OpenAPI Fundamentals"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfel1011-openapi-fundamentals"
+        show_badge_lmi: false
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Foundational"
+        time_to_earn: "Hours"
+        cost: "Free"
+        type_category: "Learning"
+        image: 
+          id: "702cdbe4-2925-496b-a77f-96fdf90404a7"
+          url: "https://images.credly.com/images/702cdbe4-2925-496b-a77f-96fdf90404a7/blob"
+        image_url: "https://images.credly.com/images/702cdbe4-2925-496b-a77f-96fdf90404a7/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfel1011-openapi-fundamentals"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "b1ae8720-d7f4-441c-afdc-359cd8463ed3"
+            name: "LFEL2001: Interacting with REST and HTTP-based APIs"
+            image: 
+              id: "a9ce6c69-883e-4eb7-a2ca-cbc4ac7ad8fa"
+              url: "https://images.credly.com/images/a9ce6c69-883e-4eb7-a2ca-cbc4ac7ad8fa/blob"
+            image_url: "https://images.credly.com/images/a9ce6c69-883e-4eb7-a2ca-cbc4ac7ad8fa/blob"
+            updated_at: "2025-04-22T21:15:16.425Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfel2001-interacting-with-rest-and-http-based-apis"
+          - 
+            id: "d0c0385a-72da-4a1e-93c3-99c63f65dade"
+            name: "2023 Nephio Community Award"
+            image: 
+              id: "9a0e6248-e06e-4580-9057-d3811546bb22"
+              url: "https://images.credly.com/images/9a0e6248-e06e-4580-9057-d3811546bb22/image.png"
+            image_url: "https://images.credly.com/images/9a0e6248-e06e-4580-9057-d3811546bb22/image.png"
+            updated_at: "2023-10-16T16:23:01.300Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/2023-nephio-community-award"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "604e6e9f-744d-4251-957e-5f47ac9dbf03"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "206f56ca-daab-413d-bb4a-20540d68dc69"
+            name: "API Design"
+            vanity_slug: "api-design"
+            canonical: false
+            faethm_id: "FS000384"
+          - 
+            id: "51aadf25-2857-4f96-b342-1afd33466621"
+            name: "OpenAPI tooling"
+            vanity_slug: "openapi-tooling"
+            canonical: false
+          - 
+            id: "40b6d2ea-6790-4e73-801a-53db29a175de"
+            name: "OpenAPI"
+            vanity_slug: "openapi"
+            canonical: false
+            faethm_id: "FS008566"
+          - 
+            id: "01fd264f-096a-4704-b4ea-820eed7ac507"
+            name: "design-first"
+            vanity_slug: "design-first"
+            canonical: false
+          - 
+            id: "070ecfd0-6202-4e46-891d-2938d892647a"
+            name: "code-first"
+            vanity_slug: "code-first"
+            canonical: false
+          - 
+            id: "4844db6c-c4a9-4522-9666-e0589ace2812"
+            name: "API Lifecycle"
+            vanity_slug: "api-lifecycle"
+            canonical: false
+            faethm_id: "FS000384"
+      image: 
+        id: "702cdbe4-2925-496b-a77f-96fdf90404a7"
+        url: "https://images.credly.com/images/702cdbe4-2925-496b-a77f-96fdf90404a7/blob"
+      image_url: "https://images.credly.com/images/702cdbe4-2925-496b-a77f-96fdf90404a7/blob"
       evidence: []
       recommendations: []
     - 
@@ -2045,12 +2192,6 @@
         endorsements: []
         skills: 
           - 
-            id: "8dabc552-cfdf-4db7-bf60-4a7c4535db37"
-            name: "Prometheus"
-            vanity_slug: "prometheus"
-            canonical: true
-            faethm_id: "FS005953"
-          - 
             id: "0b8749cb-ba5a-4359-9b90-c29626933b75"
             name: "OpenTelemetry"
             vanity_slug: "opentelemetry"
@@ -2071,6 +2212,12 @@
             name: "Distributed Tracing"
             vanity_slug: "distributed-tracing"
             canonical: false
+          - 
+            id: "8dabc552-cfdf-4db7-bf60-4a7c4535db37"
+            name: "Prometheus"
+            vanity_slug: "prometheus"
+            canonical: true
+            faethm_id: "FS005953"
       image: 
         id: "a13653a5-3902-4eb9-96ca-790f6b535d4e"
         url: "https://images.credly.com/images/a13653a5-3902-4eb9-96ca-790f6b535d4e/blob"
@@ -2078,9 +2225,9 @@
       evidence: []
       recommendations: []
   metadata: 
-    count: 12
+    count: 13
     current_page: 1
-    total_count: 12
+    total_count: 13
     total_pages: 1
     per: 48
     previous_page_url: null
