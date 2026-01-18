@@ -8,6 +8,7 @@ location: "Beograd, Serbia"
 duration: "Decembar 2024 - Present"
 
 ---
+### Founder & DevOps Engineer
 
 Founder and DevOps / SRE Engineer working as an independent contractor for telecom and IPTV companies. Responsible for designing, automating, and operating high-availability streaming and media infrastructure.
 
