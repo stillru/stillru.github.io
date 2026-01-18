@@ -5,10 +5,15 @@
     "postcss-cli": "^11.0.1",
     "postcss-sorting": "^9.1.0",
     "stylelint": "^16.18.0",
-    "stylelint-config-standard": "^38.0.0"
+    "stylelint-config-standard": "^38.0.0",
+    "json2yaml": "^0.0.1"
   },
   "dependencies": {
     "postcss-modules": "^6.0.1",
     "stylelint-order": "^6.0.4"
+  },
+  "scripts": {
+      "fetch-and-convert": "curl -s 'https://www.credly.com/users/steve-illichevsky/badges.json' | jq . | json2yaml > badges.yaml",
+     "convert-local": "json2yaml badges.json > badges.yaml"
   }
 }
