@@ -1,0 +1,2235 @@
+---
+  data: 
+    - 
+      id: "60f7b01f-9abd-49fe-b2a1-dfbbd6144adc"
+      expires_at_date: null
+      issued_at_date: "2025-02-25"
+      issued_to: "Stepan Illichevskii"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-26T01:44:09.572-06:00"
+      expires_at: null
+      issued_at: "2025-02-24T18:00:00.000-06:00"
+      last_updated_at: "2025-02-26T01:44:09.593-06:00"
+      updated_at: "2025-02-26T01:44:09.593-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by Amazon Web Services Training and Certification"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "7b741b5c-231d-4925-8041-c64b6846f1c8"
+              name: "Amazon Web Services Training and Certification"
+              url: "https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8"
+              vanity_url: "https://www.credly.com/org/amazon-web-services"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/awscloud"
+              verified: false
+      badge_template: 
+        id: "9a316ab0-cd5b-432c-a1f4-8e832ab64e1a"
+        description: "Earners of this badge understand the strategies and best practices for architecting in the cloud using the AWS Well-Architected Framework. Earners are able to conduct a Well-Architected review using the Well-Architected Tool."
+        global_activity_url: "https://skillbuilder.aws/learn/U89MJTNSM8/aws-wellarchitected-foundations/RCY5NFM8R9"
+        earn_this_badge_url: "https://skillbuilder.aws/learn/U89MJTNSM8/aws-wellarchitected-foundations/RCY5NFM8R9"
+        enable_earn_this_badge: true
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "Well-Architected Proficient"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "well-architected-proficient"
+        show_badge_lmi: true
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: null
+        time_to_earn: null
+        cost: null
+        type_category: "Learning"
+        image: 
+          id: "b870667f-00a3-48d7-b988-9c02b441b883"
+          url: "https://images.credly.com/images/b870667f-00a3-48d7-b988-9c02b441b883/image.png"
+        image_url: "https://images.credly.com/images/b870667f-00a3-48d7-b988-9c02b441b883/image.png"
+        url: "https://www.credly.com/org/amazon-web-services/badge/well-architected-proficient"
+        owner_vanity_slug: "amazon-web-services"
+        badge_template_earnable: true
+        recommendable: true
+        issuer: 
+          summary: "issued by Amazon Web Services Training and Certification"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "7b741b5c-231d-4925-8041-c64b6846f1c8"
+                name: "Amazon Web Services Training and Certification"
+                url: "https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8"
+                vanity_url: "https://www.credly.com/org/amazon-web-services"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/awscloud"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "0bb260cc-b5c7-4664-a19e-58697403e28c"
+            name: "AWS Academy Graduate - Cloud Data Pipeline Builder - Training Badge"
+            image: 
+              id: "43f26cf1-0b54-41a3-9fa5-3d2f02fa5040"
+              url: "https://images.credly.com/images/43f26cf1-0b54-41a3-9fa5-3d2f02fa5040/blob"
+            image_url: "https://images.credly.com/images/43f26cf1-0b54-41a3-9fa5-3d2f02fa5040/blob"
+            updated_at: "2025-09-22T16:16:07.141Z"
+            url: "https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-cloud-data-pipeline-builder-tr"
+          - 
+            id: "534ca97e-eb87-41ef-af78-f31238b61206"
+            name: "AWS Partner: AWS GovCloud (US) Essentials - Training Badge"
+            image: 
+              id: "635fc74c-e872-4965-9894-1f55d51e4722"
+              url: "https://images.credly.com/images/635fc74c-e872-4965-9894-1f55d51e4722/blob"
+            image_url: "https://images.credly.com/images/635fc74c-e872-4965-9894-1f55d51e4722/blob"
+            updated_at: "2025-09-22T14:45:30.813Z"
+            url: "https://www.credly.com/org/amazon-web-services/badge/aws-partner-aws-govcloud-us-essentials-training-bad"
+          - 
+            id: "5ea9efbb-f4d5-463f-b27b-0611f963a036"
+            name: "AWS Academy Graduate - Cloud Operations - Training Badge"
+            image: 
+              id: "07e7ba52-aea4-431f-ba2d-a4113efd1d5a"
+              url: "https://images.credly.com/images/07e7ba52-aea4-431f-ba2d-a4113efd1d5a/blob"
+            image_url: "https://images.credly.com/images/07e7ba52-aea4-431f-ba2d-a4113efd1d5a/blob"
+            updated_at: "2025-09-22T16:21:33.489Z"
+            url: "https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-cloud-operations-training-badg"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "12f22732-1df2-4757-84b3-fbb682eeaf0d"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Successfully pass the Well-Architected assessment."
+            url: "https://skillbuilder.aws/learn/U89MJTNSM8/aws-wellarchitected-foundations/RCY5NFM8R9"
+          - 
+            id: "e4744dda-d0f0-43f2-aa3c-5453a44b3089"
+            activity_type: "Course"
+            required_badge_template_id: null
+            title: "Complete the AWS Well-Architected course."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "1a5e6e76-8ea2-49db-8ad9-1b4132970c60"
+            name: "AWS Well-Architected Tool"
+            vanity_slug: "aws-well-architected-tool"
+            canonical: false
+            faethm_id: "FS000260"
+          - 
+            id: "26b7c1f6-e932-4cc3-b7ba-bf09f114e7db"
+            name: "AWS Well-Architected Framework"
+            vanity_slug: "aws-well-architected-framework"
+            canonical: false
+            faethm_id: "FS000260"
+          - 
+            id: "827c21c5-2760-4f53-aede-3c9b4f1dbe5d"
+            name: "AWS Well-Architected"
+            vanity_slug: "aws-well-architected"
+            canonical: false
+            faethm_id: "FS000260"
+          - 
+            id: "d280fbce-cf74-4968-a5a3-19dd83910173"
+            name: "AWS Cloud Best Practices"
+            vanity_slug: "aws-cloud-best-practices"
+            canonical: false
+            faethm_id: "FS000260"
+          - 
+            id: "682d4927-14e7-490c-96d3-c8f3ef0995de"
+            name: "AWS"
+            vanity_slug: "aws"
+            canonical: false
+            faethm_id: "FS000260"
+      image: 
+        id: "b870667f-00a3-48d7-b988-9c02b441b883"
+        url: "https://images.credly.com/images/b870667f-00a3-48d7-b988-9c02b441b883/image.png"
+      image_url: "https://images.credly.com/images/b870667f-00a3-48d7-b988-9c02b441b883/image.png"
+      evidence: []
+      recommendations: []
+    - 
+      id: "4ce70c3f-bfe1-44cf-b96e-f9ac8798284e"
+      expires_at_date: null
+      issued_at_date: "2025-02-20"
+      issued_to: "Stepan Illichevskii"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-21T03:18:27.665-06:00"
+      expires_at: null
+      issued_at: "2025-02-19T18:00:00.000-06:00"
+      last_updated_at: "2025-02-21T03:18:27.665-06:00"
+      updated_at: "2025-02-21T03:18:27.666-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by Amazon Web Services Training and Certification"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "7b741b5c-231d-4925-8041-c64b6846f1c8"
+              name: "Amazon Web Services Training and Certification"
+              url: "https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8"
+              vanity_url: "https://www.credly.com/org/amazon-web-services"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/awscloud"
+              verified: false
+      badge_template: 
+        id: "ead5b6ed-3850-43b8-9703-6ce29c812c91"
+        description: "Earners of this badge have developed knowledge of foundational AWS Cloud concepts with a focus on AWS Compute, Storage, Networking and Database services, security, architecture, pricing, and support."
+        global_activity_url: "https://aws.amazon.com/training/badges/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "AWS Knowledge: Cloud Essentials - Training Badge"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "aws-knowledge-cloud-essentials-training-badge"
+        show_badge_lmi: true
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: null
+        time_to_earn: null
+        cost: null
+        type_category: "Learning"
+        image: 
+          id: "7cf036b0-c609-4378-a7be-9969e1dea7ab"
+          url: "https://images.credly.com/images/7cf036b0-c609-4378-a7be-9969e1dea7ab/blob"
+        image_url: "https://images.credly.com/images/7cf036b0-c609-4378-a7be-9969e1dea7ab/blob"
+        url: "https://www.credly.com/org/amazon-web-services/badge/aws-knowledge-cloud-essentials-training-badge"
+        owner_vanity_slug: "amazon-web-services"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by Amazon Web Services Training and Certification"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "7b741b5c-231d-4925-8041-c64b6846f1c8"
+                name: "Amazon Web Services Training and Certification"
+                url: "https://www.credly.com/api/v1/organizations/7b741b5c-231d-4925-8041-c64b6846f1c8"
+                vanity_url: "https://www.credly.com/org/amazon-web-services"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/awscloud"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "da15094a-7aba-4e05-884e-74c067174d57"
+            name: "AWS Knowledge: Compute - Training Badge"
+            image: 
+              id: "c2d44375-6567-495a-b868-d17828c62872"
+              url: "https://images.credly.com/images/c2d44375-6567-495a-b868-d17828c62872/blob"
+            image_url: "https://images.credly.com/images/c2d44375-6567-495a-b868-d17828c62872/blob"
+            updated_at: "2026-01-12T22:41:52.991Z"
+            url: "https://www.credly.com/org/amazon-web-services/badge/aws-knowledge-compute-training-badge"
+          - 
+            id: "fcfb21f0-33a1-446a-ba76-875342079c9f"
+            name: "AWS Cloud Quest: Networking - Training Badge"
+            image: 
+              id: "6bf3f80e-4cba-4b4c-bf45-85aec42233ff"
+              url: "https://images.credly.com/images/6bf3f80e-4cba-4b4c-bf45-85aec42233ff/blob"
+            image_url: "https://images.credly.com/images/6bf3f80e-4cba-4b4c-bf45-85aec42233ff/blob"
+            updated_at: "2025-09-19T15:16:26.289Z"
+            url: "https://www.credly.com/org/amazon-web-services/badge/aws-cloud-quest-networking-training-badge"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "7b2b3a4b-ab2d-4a25-aab5-4a5aa314f6a6"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Use this link and successfully pass the Cloud Essentials Knowledge Badge Assessment."
+            url: "https://skillbuilder.aws/learning-plan/XKS3J4FAS7/cloud-essentials--knowledge-badge-readiness-path--includes-labs/Y4YASRJEVX"
+        endorsements: []
+        skills: 
+          - 
+            id: "71fefbab-eb2d-46bd-add8-18eb5c6ae51e"
+            name: "Amazon Web Services (AWS)"
+            vanity_slug: "amazon-web-services-aws"
+            canonical: true
+            faethm_id: "FS000260"
+          - 
+            id: "5b62abbb-b0d4-4941-bcb0-3d290ef3690d"
+            name: "AWS storage"
+            vanity_slug: "aws-storage"
+            canonical: false
+            faethm_id: "FS001342"
+          - 
+            id: "f9c17905-2b33-4c50-8cb0-2ef8ffa52728"
+            name: "AWS Security"
+            vanity_slug: "aws-security"
+            canonical: false
+            faethm_id: "FS000260"
+          - 
+            id: "ae665388-1433-4bba-8da6-ca4671c1f9fb"
+            name: "AWS Networking"
+            vanity_slug: "aws-networking"
+            canonical: false
+            faethm_id: "FS000260"
+          - 
+            id: "ab8ae57e-d867-43d4-b5e8-9131eb67a895"
+            name: "AWS Databases"
+            vanity_slug: "aws-databases"
+            canonical: false
+            faethm_id: "FS000260"
+          - 
+            id: "b1b039a0-13e7-492d-b357-0502ba27171d"
+            name: "AWS Compute"
+            vanity_slug: "aws-compute"
+            canonical: false
+            faethm_id: "FS000260"
+          - 
+            id: "918edc32-0894-4957-a91f-d96300b8b8d3"
+            name: "AWS Cloud"
+            vanity_slug: "aws-cloud"
+            canonical: false
+            faethm_id: "FS000260"
+          - 
+            id: "682d4927-14e7-490c-96d3-c8f3ef0995de"
+            name: "AWS"
+            vanity_slug: "aws"
+            canonical: false
+            faethm_id: "FS000260"
+      image: 
+        id: "7cf036b0-c609-4378-a7be-9969e1dea7ab"
+        url: "https://images.credly.com/images/7cf036b0-c609-4378-a7be-9969e1dea7ab/blob"
+      image_url: "https://images.credly.com/images/7cf036b0-c609-4378-a7be-9969e1dea7ab/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "f3248cc9-6933-4d7a-97be-54d57860a308"
+      expires_at_date: null
+      issued_at_date: "2025-02-11"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-11T13:39:07.149-06:00"
+      expires_at: null
+      issued_at: "2025-02-10T18:00:00.000-06:00"
+      last_updated_at: "2025-02-11T13:39:07.149-06:00"
+      updated_at: "2025-02-11T13:39:07.150-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "d44227b5-c7e1-4aa2-8cda-177b472d916d"
+        description: "Earners of the LFS162: Introduction to DevOps and Site Reliability Engineering badge are familiar with DevOps and SRE practices. They understand the role of cloud computing and Kubernetes in enhancing software delivery and infrastructure management. Badge holders have learned the basics of Infrastructure as Code, Continuous Integration, and Continuous Deployment, and can apply observability systems to maintain software quality."
+        global_activity_url: "https://training.linuxfoundation.org/training/introduction-to-devops-and-site-reliability-engineering-lfs162/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFS162: Introduction to DevOps and Site Reliability Engineering"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfs162-introduction-to-devops-and-site-reliability-"
+        show_badge_lmi: false
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Foundational"
+        time_to_earn: "Hours"
+        cost: "Free"
+        type_category: "Learning"
+        image: 
+          id: "2397c05c-eb0e-4b08-be97-9e8261d43125"
+          url: "https://images.credly.com/images/2397c05c-eb0e-4b08-be97-9e8261d43125/blob"
+        image_url: "https://images.credly.com/images/2397c05c-eb0e-4b08-be97-9e8261d43125/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfs162-introduction-to-devops-and-site-reliability-"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "4b32f70c-3fa3-4cda-a8d1-40affa14572f"
+            name: "Cloud Native Developer Bootcamp Graduate"
+            image: 
+              id: "a5f69a2a-184c-4149-ab17-d838c02e6878"
+              url: "https://images.credly.com/images/a5f69a2a-184c-4149-ab17-d838c02e6878/image.png"
+            image_url: "https://images.credly.com/images/a5f69a2a-184c-4149-ab17-d838c02e6878/image.png"
+            updated_at: "2022-10-18T21:49:15.896Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/cloud-native-developer-bootcamp-graduate"
+          - 
+            id: "81728c5e-3769-4ed1-bc47-97ffa16472b8"
+            name: "LFS151: Introduction to Cloud Infrastructure Technologies"
+            image: 
+              id: "c52b0e6e-e171-41c2-a459-b8e618ea1e72"
+              url: "https://images.credly.com/images/c52b0e6e-e171-41c2-a459-b8e618ea1e72/blob"
+            image_url: "https://images.credly.com/images/c52b0e6e-e171-41c2-a459-b8e618ea1e72/blob"
+            updated_at: "2025-04-22T19:25:47.571Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs151-introduction-to-cloud-infrastructure-technol"
+          - 
+            id: "c7f79593-c93f-4553-bbaf-58b4fd52bd54"
+            name: "Cloud Native Developer IT Professional Program"
+            image: 
+              id: "04d1e553-bde6-4dfb-9624-f66935ea8348"
+              url: "https://images.credly.com/images/04d1e553-bde6-4dfb-9624-f66935ea8348/image.png"
+            image_url: "https://images.credly.com/images/04d1e553-bde6-4dfb-9624-f66935ea8348/image.png"
+            updated_at: "2023-11-05T02:34:41.109Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/cloud-native-developer-it-professional-program"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "35893fc3-873e-4be4-9252-99eed90758fe"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "99c9a8e2-be58-4ab5-8580-8410f4e0c6aa"
+            name: "Site Reliability Engineering"
+            vanity_slug: "site-reliability-engineering"
+            canonical: true
+            faethm_id: "FS006764"
+          - 
+            id: "f2777485-8f70-497b-9fc4-2ed5c74c1c1f"
+            name: "Kubernetes"
+            vanity_slug: "kubernetes"
+            canonical: true
+            faethm_id: "FS004137"
+          - 
+            id: "754c36d2-d4f1-42aa-847a-d45a43f0cd8e"
+            name: "IAC"
+            vanity_slug: "iac"
+            canonical: false
+          - 
+            id: "8180c403-010f-4e4f-bdae-c0d0b01079bb"
+            name: "DevOps"
+            vanity_slug: "devops"
+            canonical: true
+            faethm_id: "FS002131"
+          - 
+            id: "50e69c1c-1952-451d-abe5-29395e7663ca"
+            name: "Containers"
+            vanity_slug: "containers"
+            canonical: false
+            faethm_id: "FS001622"
+          - 
+            id: "15593f03-c9cf-471d-8249-9990b8e29579"
+            name: "CI/CD"
+            vanity_slug: "ci-cd"
+            canonical: false
+            faethm_id: "FS001648"
+          - 
+            id: "f8e4fd7f-3cf6-40bd-95a0-b832e21c2f8f"
+            name: "Cloud Computing"
+            vanity_slug: "cloud-computing"
+            canonical: true
+            faethm_id: "FS001335"
+          - 
+            id: "5f1da40a-103e-459b-85b1-d9f6e247130b"
+            name: "SRE"
+            vanity_slug: "sre"
+            canonical: false
+      image: 
+        id: "2397c05c-eb0e-4b08-be97-9e8261d43125"
+        url: "https://images.credly.com/images/2397c05c-eb0e-4b08-be97-9e8261d43125/blob"
+      image_url: "https://images.credly.com/images/2397c05c-eb0e-4b08-be97-9e8261d43125/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "982c60f9-1105-4845-b3b2-eecb09849341"
+      expires_at_date: null
+      issued_at_date: "2025-02-11"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-11T15:46:00.284-06:00"
+      expires_at: null
+      issued_at: "2025-02-10T18:00:00.000-06:00"
+      last_updated_at: "2025-02-11T15:46:00.309-06:00"
+      updated_at: "2025-02-11T15:46:00.309-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "81728c5e-3769-4ed1-bc47-97ffa16472b8"
+        description: "Earners of the LFS151: Introduction to Cloud Infrastructure Technologies badge are well-versed in key cloud concepts such as virtualization, IaaS, PaaS, and container management. They have skills in deploying and managing containerized applications, utilizing tools for configuration, build and release, and monitoring. Additionally, badge holders understand software-defined networking and storage, DevOps, CI/CD practices, and the basics of service mesh, IoT, and serverless computing."
+        global_activity_url: "https://training.linuxfoundation.org/training/introduction-to-cloud-infrastructure-technologies/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFS151: Introduction to Cloud Infrastructure Technologies"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfs151-introduction-to-cloud-infrastructure-technol"
+        show_badge_lmi: false
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Foundational"
+        time_to_earn: "Weeks"
+        cost: "Free"
+        type_category: "Learning"
+        image: 
+          id: "c52b0e6e-e171-41c2-a459-b8e618ea1e72"
+          url: "https://images.credly.com/images/c52b0e6e-e171-41c2-a459-b8e618ea1e72/blob"
+        image_url: "https://images.credly.com/images/c52b0e6e-e171-41c2-a459-b8e618ea1e72/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfs151-introduction-to-cloud-infrastructure-technol"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "bbeb2026-8eee-4f12-94fd-0cc15cf9231b"
+            name: "LFS250: Kubernetes and Cloud Native Essentials"
+            image: 
+              id: "7404ca0d-98e1-48b6-a2a3-de8d7dcd85b5"
+              url: "https://images.credly.com/images/7404ca0d-98e1-48b6-a2a3-de8d7dcd85b5/blob"
+            image_url: "https://images.credly.com/images/7404ca0d-98e1-48b6-a2a3-de8d7dcd85b5/blob"
+            updated_at: "2025-04-22T19:59:50.996Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs250-kubernetes-and-cloud-native-essentials"
+          - 
+            id: "383d49a1-717b-4cdd-805c-ac3c9e3ee052"
+            name: "LFS303: Linux for Cloud Technicians"
+            image: 
+              id: "c1c69a5c-ab6c-4eaa-9079-8d0866ba5f6b"
+              url: "https://images.credly.com/images/c1c69a5c-ab6c-4eaa-9079-8d0866ba5f6b/blob"
+            image_url: "https://images.credly.com/images/c1c69a5c-ab6c-4eaa-9079-8d0866ba5f6b/blob"
+            updated_at: "2024-09-12T14:15:56.961Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs303-linux-for-cloud-technicians"
+          - 
+            id: "067f5afd-160d-42df-961e-31d19e117173"
+            name: "CKAD: Certified Kubernetes Application Developer"
+            image: 
+              id: "cc8adc83-1dc6-4d57-8e20-22171247e052"
+              url: "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+            image_url: "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+            updated_at: "2024-09-19T17:42:19.265Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/ckad-certified-kubernetes-application-developer"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "463bc1d8-3f5c-42ea-af8b-f85ec2e18fce"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "f2777485-8f70-497b-9fc4-2ed5c74c1c1f"
+            name: "Kubernetes"
+            vanity_slug: "kubernetes"
+            canonical: true
+            faethm_id: "FS004137"
+          - 
+            id: "c682cece-dfc4-43f2-aa28-c380d329633e"
+            name: "PaaS"
+            vanity_slug: "paas"
+            canonical: false
+            faethm_id: "FS008446"
+          - 
+            id: "faa297cd-d3af-42e5-bd52-6532b1b70057"
+            name: "Serverless"
+            vanity_slug: "serverless"
+            canonical: false
+          - 
+            id: "bde085ad-dfbd-4fbc-9168-5124e058038b"
+            name: "Service Mesh"
+            vanity_slug: "service-mesh"
+            canonical: false
+          - 
+            id: "35abc0ba-fd68-400c-a55f-e3fce62267b6"
+            name: "Virtualization"
+            vanity_slug: "virtualization"
+            canonical: true
+            faethm_id: "FS007832"
+          - 
+            id: "15593f03-c9cf-471d-8249-9990b8e29579"
+            name: "CI/CD"
+            vanity_slug: "ci-cd"
+            canonical: false
+            faethm_id: "FS001648"
+          - 
+            id: "f8e4fd7f-3cf6-40bd-95a0-b832e21c2f8f"
+            name: "Cloud Computing"
+            vanity_slug: "cloud-computing"
+            canonical: true
+            faethm_id: "FS001335"
+          - 
+            id: "d787423d-a2c2-4515-953d-52a42e946fd9"
+            name: "Cloud Infrastructure"
+            vanity_slug: "cloud-infrastructure"
+            canonical: true
+            faethm_id: "FS001339"
+          - 
+            id: "50e69c1c-1952-451d-abe5-29395e7663ca"
+            name: "Containers"
+            vanity_slug: "containers"
+            canonical: false
+            faethm_id: "FS001622"
+          - 
+            id: "8180c403-010f-4e4f-bdae-c0d0b01079bb"
+            name: "DevOps"
+            vanity_slug: "devops"
+            canonical: true
+            faethm_id: "FS002131"
+          - 
+            id: "99e60604-2f4e-4e8d-af94-30fed3f18b5c"
+            name: "Docker"
+            vanity_slug: "docker"
+            canonical: true
+            faethm_id: "FS002270"
+          - 
+            id: "42570982-1a10-43c0-80a7-f61ef3f078b8"
+            name: "IaaS"
+            vanity_slug: "iaas"
+            canonical: false
+            faethm_id: "FS003783"
+          - 
+            id: "a37ea86a-c577-4df3-a930-890aed2f7581"
+            name: "IoT"
+            vanity_slug: "iot"
+            canonical: false
+            faethm_id: "FS008455"
+      image: 
+        id: "c52b0e6e-e171-41c2-a459-b8e618ea1e72"
+        url: "https://images.credly.com/images/c52b0e6e-e171-41c2-a459-b8e618ea1e72/blob"
+      image_url: "https://images.credly.com/images/c52b0e6e-e171-41c2-a459-b8e618ea1e72/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "604687fa-f1d0-4709-9598-5f4a18f16496"
+      expires_at_date: null
+      issued_at_date: "2025-02-12"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-12T02:54:15.463-06:00"
+      expires_at: null
+      issued_at: "2025-02-11T18:00:00.000-06:00"
+      last_updated_at: "2025-02-12T02:54:15.485-06:00"
+      updated_at: "2025-02-12T02:54:15.485-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "f1245786-70a2-4dc0-8622-38ad3945bce1"
+        description: "Earners of the LFS256: DevOps and Workflow Management with Argo badge are able to configure and use Argo CD, Argo Rollouts, Argo Workflows, and Argo Events. They are confident in using both GUI and CLI, orchestrating Kubernetes deployments, implementing progressive delivery with Argo Rollouts, executing workflows via Argo Workflows, and establishing event-driven architectures with Argo Events."
+        global_activity_url: "https://training.linuxfoundation.org/training/devops-and-workflow-management-with-argo-lfs256/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFS256: DevOps and Workflow Management with Argo"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfs256-devops-and-workflow-management-with-argo"
+        show_badge_lmi: false
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Intermediate"
+        time_to_earn: "Weeks"
+        cost: "Paid"
+        type_category: "Learning"
+        image: 
+          id: "dec28796-b4df-40e3-87f7-bdbcf02c3d2c"
+          url: "https://images.credly.com/images/dec28796-b4df-40e3-87f7-bdbcf02c3d2c/blob"
+        image_url: "https://images.credly.com/images/dec28796-b4df-40e3-87f7-bdbcf02c3d2c/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfs256-devops-and-workflow-management-with-argo"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "eeda8149-ac15-4d5d-811b-024526fa7a90"
+            name: "CAPA: Certified Argo Project Associate"
+            image: 
+              id: "12624f9e-6b4a-43f0-b7a2-afb2c6cf8059"
+              url: "https://images.credly.com/images/12624f9e-6b4a-43f0-b7a2-afb2c6cf8059/image.png"
+            image_url: "https://images.credly.com/images/12624f9e-6b4a-43f0-b7a2-afb2c6cf8059/image.png"
+            updated_at: "2024-02-19T16:11:30.755Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/capa-certified-argo-project-associate"
+          - 
+            id: "4b32f70c-3fa3-4cda-a8d1-40affa14572f"
+            name: "Cloud Native Developer Bootcamp Graduate"
+            image: 
+              id: "a5f69a2a-184c-4149-ab17-d838c02e6878"
+              url: "https://images.credly.com/images/a5f69a2a-184c-4149-ab17-d838c02e6878/image.png"
+            image_url: "https://images.credly.com/images/a5f69a2a-184c-4149-ab17-d838c02e6878/image.png"
+            updated_at: "2022-10-18T21:49:15.896Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/cloud-native-developer-bootcamp-graduate"
+          - 
+            id: "a7bbef87-eccb-4e3b-8392-285ec56c2e90"
+            name: "LFS266: DevOps for Network Engineers"
+            image: 
+              id: "c5eadaed-566c-49ce-83cc-ea8ca4c101b6"
+              url: "https://images.credly.com/images/c5eadaed-566c-49ce-83cc-ea8ca4c101b6/LF_logobadge.png"
+            image_url: "https://images.credly.com/images/c5eadaed-566c-49ce-83cc-ea8ca4c101b6/LF_logobadge.png"
+            updated_at: "2025-04-22T20:23:18.973Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs266-devops-for-network-engineers"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "416dfbe2-1d36-45ab-8457-77d33d70f84b"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "04733d88-aacc-4472-a3b8-bc8f7f1ab348"
+            name: "Argo Events"
+            vanity_slug: "argo-events"
+            canonical: false
+          - 
+            id: "9f588fdb-3b97-4fbf-b5e6-ea6044d1b914"
+            name: "Argo CD"
+            vanity_slug: "argo-cd"
+            canonical: false
+          - 
+            id: "5b516d50-d90c-4d39-ad5b-21b78bc501e8"
+            name: "Event-driven Architecture"
+            vanity_slug: "event-driven-architecture"
+            canonical: true
+            faethm_id: "FS009903"
+          - 
+            id: "93b07372-e738-4386-a699-f8ac77f7a8ac"
+            name: "Continuous Integration"
+            vanity_slug: "continuous-integration"
+            canonical: false
+            faethm_id: "FS001650"
+          - 
+            id: "047ebc52-ba7a-4089-8a94-eb18a746afc0"
+            name: "Continuous Delivery"
+            vanity_slug: "continuous-delivery"
+            canonical: false
+            faethm_id: "FS001648"
+          - 
+            id: "ddedbe92-d36c-439f-9cae-2d37674511bc"
+            name: "Container Orchestration"
+            vanity_slug: "container-orchestration"
+            canonical: false
+            faethm_id: "FS002270"
+          - 
+            id: "fddb19ae-3246-4e33-85e9-700e795c02b5"
+            name: "Argo Workflows"
+            vanity_slug: "argo-workflows"
+            canonical: false
+          - 
+            id: "380be68e-d3f3-4ebd-96c2-4567384ee069"
+            name: "Argo rollouts"
+            vanity_slug: "argo-rollouts"
+            canonical: false
+      image: 
+        id: "dec28796-b4df-40e3-87f7-bdbcf02c3d2c"
+        url: "https://images.credly.com/images/dec28796-b4df-40e3-87f7-bdbcf02c3d2c/blob"
+      image_url: "https://images.credly.com/images/dec28796-b4df-40e3-87f7-bdbcf02c3d2c/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "be447d94-1a4b-42d2-a561-7780bf88143d"
+      expires_at_date: null
+      issued_at_date: "2025-02-12"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-12T06:54:33.713-06:00"
+      expires_at: null
+      issued_at: "2025-02-11T18:00:00.000-06:00"
+      last_updated_at: "2025-02-12T06:54:33.771-06:00"
+      updated_at: "2025-02-12T06:54:33.771-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "62cce7cd-4bc2-45f6-b7ab-3fe01f1192f4"
+        description: "Earners of the LFD259: Kubernetes for Developers badge can containerize, host, deploy, and configure an application in a multi-node cluster. They can also define application resources and use core primitives to build, monitor and troubleshoot scalable applications in Kubernetes using a simple Python script. These candidates have experience working with network plugins, security and cloud storage, and understand the many features needed to deploy an application in a production environment."
+        global_activity_url: "https://training.linuxfoundation.org/training/kubernetes-for-developers/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFD259: Kubernetes for Developers"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfd259-kubernetes-for-developers"
+        show_badge_lmi: false
+        show_skill_tag_links: false
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Intermediate"
+        time_to_earn: "Months"
+        cost: "Paid"
+        type_category: "Learning"
+        image: 
+          id: "f906b6db-2dc5-4908-b27d-8f05beec8dad"
+          url: "https://images.credly.com/images/f906b6db-2dc5-4908-b27d-8f05beec8dad/blob"
+        image_url: "https://images.credly.com/images/f906b6db-2dc5-4908-b27d-8f05beec8dad/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfd259-kubernetes-for-developers"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "067f5afd-160d-42df-961e-31d19e117173"
+            name: "CKAD: Certified Kubernetes Application Developer"
+            image: 
+              id: "cc8adc83-1dc6-4d57-8e20-22171247e052"
+              url: "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+            image_url: "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+            updated_at: "2024-09-19T17:42:19.265Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/ckad-certified-kubernetes-application-developer"
+          - 
+            id: "63527a38-01f7-468f-b015-dab43019f4cd"
+            name: "LFS458: Kubernetes Administration"
+            image: 
+              id: "20936872-ca23-44da-a4bc-db39db3468b6"
+              url: "https://images.credly.com/images/20936872-ca23-44da-a4bc-db39db3468b6/blob"
+            image_url: "https://images.credly.com/images/20936872-ca23-44da-a4bc-db39db3468b6/blob"
+            updated_at: "2024-09-12T14:22:00.739Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs458-kubernetes-administration"
+          - 
+            id: "64567b66-def2-4c84-be6c-2586962fccd3"
+            name: "CKA: Certified Kubernetes Administrator"
+            image: 
+              id: "8b8ed108-e77d-4396-ac59-2504583b9d54"
+              url: "https://images.credly.com/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
+            image_url: "https://images.credly.com/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
+            updated_at: "2021-12-21T21:50:24.058Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/cka-certified-kubernetes-administrator"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "c1c54b08-789b-42d3-9077-664b014b53dc"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "99e60604-2f4e-4e8d-af94-30fed3f18b5c"
+            name: "Docker"
+            vanity_slug: "docker"
+            canonical: true
+            faethm_id: "FS002270"
+          - 
+            id: "50e69c1c-1952-451d-abe5-29395e7663ca"
+            name: "Containers"
+            vanity_slug: "containers"
+            canonical: false
+            faethm_id: "FS001622"
+          - 
+            id: "4cb67237-ef6b-4985-a56e-2f14d6efacee"
+            name: "ConfigMaps"
+            vanity_slug: "configmaps"
+            canonical: false
+            faethm_id: "FS001576"
+          - 
+            id: "bbb2d806-696d-46e6-8aba-b5f27633e597"
+            name: "Volumes"
+            vanity_slug: "volumes"
+            canonical: false
+          - 
+            id: "d288917c-8181-493f-8f07-a350b8fc7af7"
+            name: "Software Developer"
+            vanity_slug: "software-developer"
+            canonical: false
+            faethm_id: "FS006859"
+          - 
+            id: "a09daa3f-9c2e-44e2-8c98-1c5152e3064f"
+            name: "Secrets"
+            vanity_slug: "secrets"
+            canonical: false
+          - 
+            id: "94c11ea3-cc1b-4177-9f1e-f98291a69850"
+            name: "Python"
+            vanity_slug: "python"
+            canonical: true
+            faethm_id: "FS006051"
+          - 
+            id: "58e2a42d-b4eb-4af7-974d-524e99b30c3c"
+            name: "Orchestration"
+            vanity_slug: "orchestration"
+            canonical: false
+          - 
+            id: "f2777485-8f70-497b-9fc4-2ed5c74c1c1f"
+            name: "Kubernetes"
+            vanity_slug: "kubernetes"
+            canonical: true
+            faethm_id: "FS004137"
+      image: 
+        id: "f906b6db-2dc5-4908-b27d-8f05beec8dad"
+        url: "https://images.credly.com/images/f906b6db-2dc5-4908-b27d-8f05beec8dad/blob"
+      image_url: "https://images.credly.com/images/f906b6db-2dc5-4908-b27d-8f05beec8dad/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "68bf7e6d-e26b-49f4-a156-7a8172969ab5"
+      expires_at_date: "2028-02-14"
+      issued_at_date: "2025-02-14"
+      issued_to: "Stepan Illichevskii"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-14T01:25:45.692-06:00"
+      expires_at: "2028-02-14T17:59:59.000-06:00"
+      issued_at: "2025-02-13T18:00:00.000-06:00"
+      last_updated_at: "2025-02-14T01:25:45.692-06:00"
+      updated_at: "2025-02-14T01:25:45.693-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: true
+      issuer: 
+        summary: "issued by Aviatrix"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "261a6a74-fba9-468a-8070-b037c76cf5c4"
+              name: "Aviatrix"
+              url: "https://www.credly.com/api/v1/organizations/261a6a74-fba9-468a-8070-b037c76cf5c4"
+              vanity_url: "https://www.credly.com/org/aviatrix"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/aviatrixsys"
+              verified: false
+      badge_template: 
+        id: "6ce92f41-5db9-4be2-bb0e-1567359ef7b8"
+        description: "The Aviatrix Certified Engineer (ACE) Multicloud Network Associate certification validates the earner’s understanding of basic networking and security concepts for AWS, Azure, GCP, and OCI as well as their limitations in meeting Enterprise requirements. An ACE Associate understands the basic design principles of a multicloud network architecture and can demonstrate knowledge of day 2 operational requirements."
+        global_activity_url: "https://aviatrix.com/ace/"
+        earn_this_badge_url: "https://aviatrix.com/ace-associate/"
+        enable_earn_this_badge: true
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "Multicloud Network Associate"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "multicloud-network-associate"
+        show_badge_lmi: false
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Foundational"
+        time_to_earn: "Hours"
+        cost: null
+        type_category: "Certification"
+        image: 
+          id: "e3c001fd-161d-433a-a7a4-049556d6112d"
+          url: "https://images.credly.com/images/e3c001fd-161d-433a-a7a4-049556d6112d/blob"
+        image_url: "https://images.credly.com/images/e3c001fd-161d-433a-a7a4-049556d6112d/blob"
+        url: "https://www.credly.com/org/aviatrix/badge/multicloud-network-associate"
+        owner_vanity_slug: "aviatrix"
+        badge_template_earnable: true
+        recommendable: true
+        issuer: 
+          summary: "issued by Aviatrix"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "261a6a74-fba9-468a-8070-b037c76cf5c4"
+                name: "Aviatrix"
+                url: "https://www.credly.com/api/v1/organizations/261a6a74-fba9-468a-8070-b037c76cf5c4"
+                vanity_url: "https://www.credly.com/org/aviatrix"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/aviatrixsys"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "7495ca5c-6926-4009-bd71-d80f2afcfb63"
+            name: "Multicloud Network Associate SAP Specialty"
+            image: 
+              id: "1fbe426f-c278-4e94-a69f-c4a2b4af77d0"
+              url: "https://images.credly.com/images/1fbe426f-c278-4e94-a69f-c4a2b4af77d0/blob"
+            image_url: "https://images.credly.com/images/1fbe426f-c278-4e94-a69f-c4a2b4af77d0/blob"
+            updated_at: "2025-03-31T22:22:50.267Z"
+            url: "https://www.credly.com/org/aviatrix/badge/multicloud-network-associate-sap-specialty"
+          - 
+            id: "51fb5e98-e346-4ebe-89d6-e177406855d3"
+            name: "Multicloud Network Professional"
+            image: 
+              id: "f5b13fe0-5fdb-4032-a990-86616f5b7e1d"
+              url: "https://images.credly.com/images/f5b13fe0-5fdb-4032-a990-86616f5b7e1d/blob"
+            image_url: "https://images.credly.com/images/f5b13fe0-5fdb-4032-a990-86616f5b7e1d/blob"
+            updated_at: "2025-05-07T19:24:58.523Z"
+            url: "https://www.credly.com/org/aviatrix/badge/multicloud-network-professional"
+          - 
+            id: "a2af32cf-7f75-440c-8538-e924cb1267bd"
+            name: "Multicloud Network Operations Specialty"
+            image: 
+              id: "b1a3f80b-fa14-44e8-b05a-c02a6ed6d6b6"
+              url: "https://images.credly.com/images/b1a3f80b-fa14-44e8-b05a-c02a6ed6d6b6/blob"
+            image_url: "https://images.credly.com/images/b1a3f80b-fa14-44e8-b05a-c02a6ed6d6b6/blob"
+            updated_at: "2025-03-31T22:22:49.625Z"
+            url: "https://www.credly.com/org/aviatrix/badge/multicloud-network-operations-specialty"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "a67d1f20-e5be-4d66-82a3-2aedfd20f5a5"
+            activity_type: "Course"
+            required_badge_template_id: null
+            title: "Complete the Multicloud Networking Associate coursework developed by Aviatrix Solutions Architects"
+            url: "https://aviatrix.com/ace-associate/"
+          - 
+            id: "5b565a22-da87-427e-86d8-32a1f4546a45"
+            activity_type: "Other"
+            required_badge_template_id: null
+            title: "Review course curriculum"
+            url: "https://community.aviatrix.com/ace-associate-exam-study-guide-53/ace-associate-self-paced-learning-resources-30"
+          - 
+            id: "00920432-f388-4a22-b355-ea6bba5a2aef"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Pass the ACE Multicloud Networking Associate exam"
+            url: "https://community.aviatrix.com/groups/ace-associate-exam-study-guide-53"
+        endorsements: []
+        skills: 
+          - 
+            id: "374343e1-56c0-4935-8acd-668c45bb0847"
+            name: "Multi-Cloud"
+            vanity_slug: "multi-cloud"
+            canonical: true
+            faethm_id: "FS009692"
+          - 
+            id: "ee0255b9-2489-45c9-ac67-93cf57116e0c"
+            name: "Terraform"
+            vanity_slug: "terraform"
+            canonical: false
+            faethm_id: "FS003417"
+          - 
+            id: "8808ad35-11de-4612-8bb5-2695c577014b"
+            name: "Oracle Cloud Infrastructure Networking"
+            vanity_slug: "oracle-cloud-infrastructure-networking"
+            canonical: false
+          - 
+            id: "37a573c6-0f5a-431e-8ea9-8f1e57f6fcaa"
+            name: "Multi-Cloud Network Architecture"
+            vanity_slug: "multi-cloud-network-architecture"
+            canonical: false
+            faethm_id: "FS001334"
+          - 
+            id: "52a28b9b-0a90-41fc-a9a7-c053f8fe3c4e"
+            name: "Multicloud"
+            vanity_slug: "multicloud"
+            canonical: false
+            faethm_id: "FS001335"
+          - 
+            id: "c3440e54-5309-48fe-9afa-77f2b622c292"
+            name: "Google Cloud Platform Networking"
+            vanity_slug: "google-cloud-platform-networking"
+            canonical: false
+            faethm_id: "FS003304"
+          - 
+            id: "68fab466-80d0-441e-8db4-a036d2e711eb"
+            name: "Cloud Security"
+            vanity_slug: "cloud-security"
+            canonical: true
+            faethm_id: "FS001341"
+          - 
+            id: "e17596de-d468-4718-b0be-d7883bdb2393"
+            name: "Cloud Operations"
+            vanity_slug: "cloud-operations"
+            canonical: false
+            faethm_id: "FS001335"
+          - 
+            id: "069c9097-511a-4671-b167-36824826bc7d"
+            name: "Cloud Networking"
+            vanity_slug: "cloud-networking"
+            canonical: false
+            faethm_id: "FS001339"
+          - 
+            id: "b36e2889-39e7-4c2b-9b41-9ff0cf78bfdb"
+            name: "Cloud Infrastructure Security"
+            vanity_slug: "cloud-infrastructure-security"
+            canonical: false
+            faethm_id: "FS001341"
+          - 
+            id: "d787423d-a2c2-4515-953d-52a42e946fd9"
+            name: "Cloud Infrastructure"
+            vanity_slug: "cloud-infrastructure"
+            canonical: true
+            faethm_id: "FS001339"
+          - 
+            id: "4da31907-2e71-4f75-ad52-9888c27543b9"
+            name: "Cloud Engineer"
+            vanity_slug: "cloud-engineer"
+            canonical: false
+            faethm_id: "FS001335"
+          - 
+            id: "abfd0cf0-7586-4cb8-9f23-0398da99a4cb"
+            name: "Cloud Architecture"
+            vanity_slug: "cloud-architecture"
+            canonical: true
+            faethm_id: "FS001334"
+          - 
+            id: "cd73fc63-77f6-40c7-b7e2-3f72ffdce3f6"
+            name: "Azure Networking"
+            vanity_slug: "azure-networking"
+            canonical: false
+            faethm_id: "FS004775"
+          - 
+            id: "ae665388-1433-4bba-8da6-ca4671c1f9fb"
+            name: "AWS Networking"
+            vanity_slug: "aws-networking"
+            canonical: false
+            faethm_id: "FS000260"
+          - 
+            id: "59483e40-1d5e-46ec-b64c-613254766422"
+            name: "Troubleshooting"
+            vanity_slug: "troubleshooting"
+            canonical: true
+            faethm_id: "FS008307"
+      image: 
+        id: "e3c001fd-161d-433a-a7a4-049556d6112d"
+        url: "https://images.credly.com/images/e3c001fd-161d-433a-a7a4-049556d6112d/blob"
+      image_url: "https://images.credly.com/images/e3c001fd-161d-433a-a7a4-049556d6112d/blob"
+      evidence: 
+        - 
+          id: "00ed33eb-e66d-4106-86c2-dc565b4e7c48"
+          type: "IdEvidence"
+          title: "ACE Certification Number"
+          description: "2025-23682"
+      recommendations: []
+    - 
+      id: "a79fce82-2c73-48ff-8279-5b6f7d788f17"
+      expires_at_date: null
+      issued_at_date: "2025-02-20"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-20T09:01:25.489-06:00"
+      expires_at: null
+      issued_at: "2025-02-19T18:00:00.000-06:00"
+      last_updated_at: "2025-02-20T09:01:25.534-06:00"
+      updated_at: "2025-02-20T09:01:25.534-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "aa38512a-9a1b-43b6-b25c-a99ccad92794"
+        description: "Earners of the LFS158: Introduction to Kubernetes badge can set up and manage a Kubernetes cluster using Minikube, deploy applications, and access them efficiently. They understand Kubernetes' architecture, components, and its evolution from monolithic to microservices architectures. Badge holders also know how to implement container orchestration, manage volumes, and configure network services. Additionally, they are equipped to engage with and contribute to the Kubernetes community."
+        global_activity_url: "https://training.linuxfoundation.org/training/introduction-to-kubernetes/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFS158: Introduction to Kubernetes"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfs158-introduction-to-kubernetes"
+        show_badge_lmi: false
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Foundational"
+        time_to_earn: "Days"
+        cost: "Free"
+        type_category: "Learning"
+        image: 
+          id: "4b5a8636-c554-482d-bbdc-7925fb3624c3"
+          url: "https://images.credly.com/images/4b5a8636-c554-482d-bbdc-7925fb3624c3/blob"
+        image_url: "https://images.credly.com/images/4b5a8636-c554-482d-bbdc-7925fb3624c3/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfs158-introduction-to-kubernetes"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "067f5afd-160d-42df-961e-31d19e117173"
+            name: "CKAD: Certified Kubernetes Application Developer"
+            image: 
+              id: "cc8adc83-1dc6-4d57-8e20-22171247e052"
+              url: "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+            image_url: "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+            updated_at: "2024-09-19T17:42:19.265Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/ckad-certified-kubernetes-application-developer"
+          - 
+            id: "62cce7cd-4bc2-45f6-b7ab-3fe01f1192f4"
+            name: "LFD259: Kubernetes for Developers"
+            image: 
+              id: "f906b6db-2dc5-4908-b27d-8f05beec8dad"
+              url: "https://images.credly.com/images/f906b6db-2dc5-4908-b27d-8f05beec8dad/blob"
+            image_url: "https://images.credly.com/images/f906b6db-2dc5-4908-b27d-8f05beec8dad/blob"
+            updated_at: "2025-04-22T18:57:46.108Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfd259-kubernetes-for-developers"
+          - 
+            id: "1829ea33-12e8-47b3-b637-9a3a7c341678"
+            name: "LFS157: Introduction to Serverless on Kubernetes"
+            image: 
+              id: "3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0"
+              url: "https://images.credly.com/images/3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0/blob"
+            image_url: "https://images.credly.com/images/3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0/blob"
+            updated_at: "2025-04-22T19:26:33.942Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs157-introduction-to-serverless-on-kubernetes"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "364e7871-3908-4d30-8ea5-6e30d701a51e"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "a09daa3f-9c2e-44e2-8c98-1c5152e3064f"
+            name: "Secrets"
+            vanity_slug: "secrets"
+            canonical: false
+          - 
+            id: "1b07fda2-b61e-46a4-ba17-d877491575fd"
+            name: "Minikube"
+            vanity_slug: "minikube"
+            canonical: false
+          - 
+            id: "87f559e2-482a-427f-a868-f0a00d240823"
+            name: "Microservices"
+            vanity_slug: "microservices"
+            canonical: true
+            faethm_id: "FS004772"
+          - 
+            id: "f2777485-8f70-497b-9fc4-2ed5c74c1c1f"
+            name: "Kubernetes"
+            vanity_slug: "kubernetes"
+            canonical: true
+            faethm_id: "FS004137"
+          - 
+            id: "55e4a962-cbb2-4a9c-a452-f8aedd47ef4b"
+            name: "Ingress"
+            vanity_slug: "ingress"
+            canonical: false
+          - 
+            id: "ddedbe92-d36c-439f-9cae-2d37674511bc"
+            name: "Container Orchestration"
+            vanity_slug: "container-orchestration"
+            canonical: false
+            faethm_id: "FS002270"
+          - 
+            id: "4cb67237-ef6b-4985-a56e-2f14d6efacee"
+            name: "ConfigMaps"
+            vanity_slug: "configmaps"
+            canonical: false
+            faethm_id: "FS001576"
+          - 
+            id: "824014d2-db24-4f4f-9463-7dbe7f368b0e"
+            name: "Community"
+            vanity_slug: "community"
+            canonical: false
+            faethm_id: "FS001465"
+          - 
+            id: "d59439d2-c320-4241-b2ef-5c9a7256096c"
+            name: "Volume Management"
+            vanity_slug: "volume-management"
+            canonical: false
+      image: 
+        id: "4b5a8636-c554-482d-bbdc-7925fb3624c3"
+        url: "https://images.credly.com/images/4b5a8636-c554-482d-bbdc-7925fb3624c3/blob"
+      image_url: "https://images.credly.com/images/4b5a8636-c554-482d-bbdc-7925fb3624c3/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "a90211d8-faf0-4763-9aca-404a46a85542"
+      expires_at_date: null
+      issued_at_date: "2025-02-20"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-20T10:12:25.617-06:00"
+      expires_at: null
+      issued_at: "2025-02-19T18:00:00.000-06:00"
+      last_updated_at: "2025-02-20T10:12:25.649-06:00"
+      updated_at: "2025-02-20T10:12:25.649-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "1829ea33-12e8-47b3-b637-9a3a7c341678"
+        description: "Earners of the LFS157: Introduction to Serverless on Kubernetes badge have demonstrated the ability to develop and deploy serverless functions across platforms, including Kubernetes and Docker, using OpenFaaS. They are proficient in turning code into scalable, managed services, understanding serverless technology, and leveraging container technology for deployment. Skills include configuring functions, managing secrets, and ensuring secure, scalable deployments with auto-scaling and TLS."
+        global_activity_url: "https://training.linuxfoundation.org/training/introduction-to-serverless-on-kubernetes-lfs157/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFS157: Introduction to Serverless on Kubernetes"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfs157-introduction-to-serverless-on-kubernetes"
+        show_badge_lmi: false
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Foundational"
+        time_to_earn: "Hours"
+        cost: "Free"
+        type_category: "Learning"
+        image: 
+          id: "3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0"
+          url: "https://images.credly.com/images/3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0/blob"
+        image_url: "https://images.credly.com/images/3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfs157-introduction-to-serverless-on-kubernetes"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "067f5afd-160d-42df-961e-31d19e117173"
+            name: "CKAD: Certified Kubernetes Application Developer"
+            image: 
+              id: "cc8adc83-1dc6-4d57-8e20-22171247e052"
+              url: "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+            image_url: "https://images.credly.com/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob"
+            updated_at: "2024-09-19T17:42:19.265Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/ckad-certified-kubernetes-application-developer"
+          - 
+            id: "62cce7cd-4bc2-45f6-b7ab-3fe01f1192f4"
+            name: "LFD259: Kubernetes for Developers"
+            image: 
+              id: "f906b6db-2dc5-4908-b27d-8f05beec8dad"
+              url: "https://images.credly.com/images/f906b6db-2dc5-4908-b27d-8f05beec8dad/blob"
+            image_url: "https://images.credly.com/images/f906b6db-2dc5-4908-b27d-8f05beec8dad/blob"
+            updated_at: "2025-04-22T18:57:46.108Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfd259-kubernetes-for-developers"
+          - 
+            id: "81728c5e-3769-4ed1-bc47-97ffa16472b8"
+            name: "LFS151: Introduction to Cloud Infrastructure Technologies"
+            image: 
+              id: "c52b0e6e-e171-41c2-a459-b8e618ea1e72"
+              url: "https://images.credly.com/images/c52b0e6e-e171-41c2-a459-b8e618ea1e72/blob"
+            image_url: "https://images.credly.com/images/c52b0e6e-e171-41c2-a459-b8e618ea1e72/blob"
+            updated_at: "2025-04-22T19:25:47.571Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs151-introduction-to-cloud-infrastructure-technol"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "48c16a90-bbbd-48e8-8701-7d6f6bca9e5b"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "66f1ad39-fda5-43ee-a1e8-304c8d2c52da"
+            name: "OpenFaaS"
+            vanity_slug: "openfaas"
+            canonical: false
+          - 
+            id: "f2777485-8f70-497b-9fc4-2ed5c74c1c1f"
+            name: "Kubernetes"
+            vanity_slug: "kubernetes"
+            canonical: true
+            faethm_id: "FS004137"
+          - 
+            id: "faa297cd-d3af-42e5-bd52-6532b1b70057"
+            name: "Serverless"
+            vanity_slug: "serverless"
+            canonical: false
+          - 
+            id: "a09daa3f-9c2e-44e2-8c98-1c5152e3064f"
+            name: "Secrets"
+            vanity_slug: "secrets"
+            canonical: false
+      image: 
+        id: "3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0"
+        url: "https://images.credly.com/images/3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0/blob"
+      image_url: "https://images.credly.com/images/3cdbeb68-f2c2-43e9-ad18-c97cb719c3b0/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "295051f3-5779-4445-b5ed-9e08aa73b6db"
+      expires_at_date: null
+      issued_at_date: "2025-02-24"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-24T07:05:01.830-06:00"
+      expires_at: null
+      issued_at: "2025-02-23T18:00:00.000-06:00"
+      last_updated_at: "2025-02-24T07:05:01.852-06:00"
+      updated_at: "2025-02-24T07:05:01.852-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "1740bca4-21a5-4b59-86ac-8ec2e98e7c3a"
+        description: "Earners of the LFEL1009: Getting Started with OpenTofu badge understand the benefits of Infrastructure as Code (IaC) tools and workflows and can use OpenTofu to provision and manage basic infrastructure with simple configurations."
+        global_activity_url: "https://training.linuxfoundation.org/express-learning/getting-started-with-opentofu-lfel1009/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFEL1009: Getting Started with OpenTofu"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfel1009-getting-started-with-opentofu"
+        show_badge_lmi: false
+        show_skill_tag_links: false
+        settings_enable_related_badges: false
+        translatable: false
+        level: "Foundational"
+        time_to_earn: "Hours"
+        cost: "Free"
+        type_category: "Learning"
+        image: 
+          id: "e05777b4-2eba-4421-9741-90547ac41d58"
+          url: "https://images.credly.com/images/e05777b4-2eba-4421-9741-90547ac41d58/blob"
+        image_url: "https://images.credly.com/images/e05777b4-2eba-4421-9741-90547ac41d58/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfel1009-getting-started-with-opentofu"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "06b68757-3e1d-47e2-b8b4-64e0371881b0"
+            name: "CDEvents Most Valuable Contributor Award 2024 🏆"
+            image: 
+              id: "ff8fd7aa-5277-4441-b346-195dbbbab1b0"
+              url: "https://images.credly.com/images/ff8fd7aa-5277-4441-b346-195dbbbab1b0/image.png"
+            image_url: "https://images.credly.com/images/ff8fd7aa-5277-4441-b346-195dbbbab1b0/image.png"
+            updated_at: "2024-04-24T13:23:27.206Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/cdevents-most-valuable-contributor-award-2024"
+          - 
+            id: "09b3ac03-1b59-4419-ba19-be2f37d08867"
+            name: "Top CDF Contributor Award 2024 🏆"
+            image: 
+              id: "598deb01-729d-430b-a79d-5b12e9687a04"
+              url: "https://images.credly.com/images/598deb01-729d-430b-a79d-5b12e9687a04/image.png"
+            image_url: "https://images.credly.com/images/598deb01-729d-430b-a79d-5b12e9687a04/image.png"
+            updated_at: "2024-04-24T13:12:49.867Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/top-cdf-contributor-award-2024"
+          - 
+            id: "00bc29c6-d7a8-4886-941e-2331b02e9ad2"
+            name: "Speaker - KCD Oslo 2024"
+            image: 
+              id: "89161758-c43b-4b79-bcdd-3f6c0b381384"
+              url: "https://images.credly.com/images/89161758-c43b-4b79-bcdd-3f6c0b381384/image.png"
+            image_url: "https://images.credly.com/images/89161758-c43b-4b79-bcdd-3f6c0b381384/image.png"
+            updated_at: "2024-03-02T00:52:51.456Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/speaker-kcd-oslo-2024"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "76a56adc-2bcc-46e3-a198-a7937272ac4b"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "aa344b45-ceed-45c2-b4b9-722ecbabebc5"
+            name: "Open Source"
+            vanity_slug: "open-source"
+            canonical: false
+          - 
+            id: "140e55c5-1874-4e20-9582-ad6f4b371560"
+            name: "Infrastructure Provisioning and Management"
+            vanity_slug: "infrastructure-provisioning-and-management"
+            canonical: false
+          - 
+            id: "2c8a6c30-a1e4-40d1-84af-dc446f933239"
+            name: "Infrastructure As Code"
+            vanity_slug: "infrastructure-as-code"
+            canonical: false
+            faethm_id: "FS008407"
+      image: 
+        id: "e05777b4-2eba-4421-9741-90547ac41d58"
+        url: "https://images.credly.com/images/e05777b4-2eba-4421-9741-90547ac41d58/blob"
+      image_url: "https://images.credly.com/images/e05777b4-2eba-4421-9741-90547ac41d58/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "6742d315-2a5c-41b9-b952-89351e10c80e"
+      expires_at_date: null
+      issued_at_date: "2025-02-26"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2025-02-25T23:47:39.231-06:00"
+      expires_at: null
+      issued_at: "2025-02-25T18:00:00.000-06:00"
+      last_updated_at: "2025-02-25T23:47:39.257-06:00"
+      updated_at: "2025-02-25T23:47:39.257-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "e72089f8-acdc-41a5-b11d-1a7ffcbf439c"
+        description: "Earners of the LFS207: Linux System Administration Essentials badge have the tools and concepts they need to efficiently build and manage an enterprise Linux infrastructure. They know how to work with Git and perform essential collaborative tasks, and can use state-of-the-art system administration techniques in real-life scenarios."
+        global_activity_url: "https://training.linuxfoundation.org/training/linux-system-administration-essentials-lfs207/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFS207: Linux System Administration Essentials"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfs207-linux-system-administration-essentials"
+        show_badge_lmi: false
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Foundational"
+        time_to_earn: "Days"
+        cost: "Paid"
+        type_category: "Learning"
+        image: 
+          id: "b9a64860-cb15-42fe-9c9b-99114021473a"
+          url: "https://images.credly.com/images/b9a64860-cb15-42fe-9c9b-99114021473a/blob"
+        image_url: "https://images.credly.com/images/b9a64860-cb15-42fe-9c9b-99114021473a/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfs207-linux-system-administration-essentials"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "8eb96798-f011-4ba1-8cec-5f2463cfe61c"
+            name: "LFS307: Linux System Administration"
+            image: 
+              id: "059980b8-878d-4415-b1d3-81740fa5c493"
+              url: "https://images.credly.com/images/059980b8-878d-4415-b1d3-81740fa5c493/blob"
+            image_url: "https://images.credly.com/images/059980b8-878d-4415-b1d3-81740fa5c493/blob"
+            updated_at: "2024-09-12T14:16:43.305Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs307-linux-system-administration"
+          - 
+            id: "19cde9e6-7955-42d5-9105-01f1bc50062c"
+            name: "LFS201: Essentials of Linux System Administration"
+            image: 
+              id: "0498414f-41d1-421b-9c5d-50df6e0d7247"
+              url: "https://images.credly.com/images/0498414f-41d1-421b-9c5d-50df6e0d7247/LF_logobadge.png"
+            image_url: "https://images.credly.com/images/0498414f-41d1-421b-9c5d-50df6e0d7247/LF_logobadge.png"
+            updated_at: "2021-12-21T23:23:26.488Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs201-essentials-of-linux-system-administration"
+          - 
+            id: "a6a668d4-7bfe-4ace-946a-f1ce1584b5ee"
+            name: "LFCS: Linux Foundation Certified Systems Administrator"
+            image: 
+              id: "1e6611ca-8afe-4ecc-ad4d-305fba52ee7e"
+              url: "https://images.credly.com/images/1e6611ca-8afe-4ecc-ad4d-305fba52ee7e/1_LFCS-600x600.png"
+            image_url: "https://images.credly.com/images/1e6611ca-8afe-4ecc-ad4d-305fba52ee7e/1_LFCS-600x600.png"
+            updated_at: "2024-06-13T03:46:06.399Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfcs-linux-foundation-certified-systems-administrator.2"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "c9f3aa07-b56c-4ba7-ab9c-50183e72d74a"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "ea368854-57e7-46b2-bb1f-5cd0ce312e01"
+            name: "Red Hat"
+            vanity_slug: "red-hat"
+            canonical: false
+            faethm_id: "FS006197"
+          - 
+            id: "50d0df69-1bf0-4621-a58b-092b3b30e153"
+            name: "Debian/Ubuntu"
+            vanity_slug: "debian-ubuntu"
+            canonical: false
+            faethm_id: "FS004330"
+          - 
+            id: "75c2db4a-063a-400e-9f6f-c70e35734570"
+            name: "Disk Partitioning"
+            vanity_slug: "disk-partitioning"
+            canonical: true
+            faethm_id: "FS009256"
+          - 
+            id: "6dba35fd-2487-45a3-8bbd-ac0b6501619c"
+            name: "Dpkg"
+            vanity_slug: "dpkg"
+            canonical: false
+          - 
+            id: "9f0642b0-4ec9-4361-99fb-7bc1f8e5fb61"
+            name: "Filesystem Hierarchy Standard"
+            vanity_slug: "filesystem-hierarchy-standard"
+            canonical: false
+            faethm_id: "FS002878"
+          - 
+            id: "9d6c62cd-9ab1-4b3e-a165-1e95e571f1fd"
+            name: "Git"
+            vanity_slug: "git"
+            canonical: true
+            faethm_id: "FS003256"
+          - 
+            id: "f6681515-8e58-4d21-8e3f-c8da2c6edfd4"
+            name: "Linux"
+            vanity_slug: "linux"
+            canonical: true
+            faethm_id: "FS004327"
+          - 
+            id: "79c5d8c4-6f56-4f41-bd4e-80deaeeca507"
+            name: "Linux Administrator"
+            vanity_slug: "linux-administrator"
+            canonical: false
+            faethm_id: "FS004328"
+          - 
+            id: "24ee4f39-16a2-4924-bc8a-0e17c09c279c"
+            name: "Logical Volume Management"
+            vanity_slug: "logical-volume-management"
+            canonical: false
+          - 
+            id: "a830e2ee-4fbc-4fdf-a847-415ea01bde4a"
+            name: "Package Management Systems"
+            vanity_slug: "package-management-systems"
+            canonical: false
+          - 
+            id: "431e3c93-5ab1-4ae7-b023-d16021b05a15"
+            name: "Apt"
+            vanity_slug: "apt"
+            canonical: false
+          - 
+            id: "e8814f43-9c5f-4165-8bea-dcf89763a7dc"
+            name: "RPM"
+            vanity_slug: "rpm"
+            canonical: false
+          - 
+            id: "19b7554f-8bba-466d-a1e2-c4e7dc3c11bc"
+            name: "Site Reliability Engineer"
+            vanity_slug: "site-reliability-engineer"
+            canonical: false
+            faethm_id: "FS006764"
+          - 
+            id: "f3c11f11-209b-4688-9836-31ad5cf6e58d"
+            name: "YUM"
+            vanity_slug: "yum"
+            canonical: false
+          - 
+            id: "3e62213a-ac7f-475f-b3c2-6290632dffda"
+            name: "Zypper"
+            vanity_slug: "zypper"
+            canonical: false
+      image: 
+        id: "b9a64860-cb15-42fe-9c9b-99114021473a"
+        url: "https://images.credly.com/images/b9a64860-cb15-42fe-9c9b-99114021473a/blob"
+      image_url: "https://images.credly.com/images/b9a64860-cb15-42fe-9c9b-99114021473a/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "dfc622ea-3fc0-4c5f-b740-40129a719248"
+      expires_at_date: null
+      issued_at_date: "2026-01-18"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2026-01-18T13:49:23.463-06:00"
+      expires_at: null
+      issued_at: "2026-01-17T18:00:00.000-06:00"
+      last_updated_at: "2026-01-18T13:49:23.493-06:00"
+      updated_at: "2026-01-18T13:49:23.493-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "49c75780-3bac-4c8c-aff0-7aec2e5d5bbe"
+        description: "Earners of the LFEL1011: OpenAPI Fundamentals badge have the skills to apply OpenAPI in the design and development of their APIs. They understand why OpenAPI is important in the context of the API economy, the features of the OpenAPI Specification, and how OpenAPI describes the APIs they build. They understand, through examples, how OpenAPI is applied in the API lifecycle and have the means to find the tools they need to help them utilize OpenAPI in the most effective way possible."
+        global_activity_url: "https://training.linuxfoundation.org/express-learning/openapi-fundamentals-lfel1011/"
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFEL1011: OpenAPI Fundamentals"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfel1011-openapi-fundamentals"
+        show_badge_lmi: false
+        show_skill_tag_links: true
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Foundational"
+        time_to_earn: "Hours"
+        cost: "Free"
+        type_category: "Learning"
+        image: 
+          id: "702cdbe4-2925-496b-a77f-96fdf90404a7"
+          url: "https://images.credly.com/images/702cdbe4-2925-496b-a77f-96fdf90404a7/blob"
+        image_url: "https://images.credly.com/images/702cdbe4-2925-496b-a77f-96fdf90404a7/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfel1011-openapi-fundamentals"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: true
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "b1ae8720-d7f4-441c-afdc-359cd8463ed3"
+            name: "LFEL2001: Interacting with REST and HTTP-based APIs"
+            image: 
+              id: "a9ce6c69-883e-4eb7-a2ca-cbc4ac7ad8fa"
+              url: "https://images.credly.com/images/a9ce6c69-883e-4eb7-a2ca-cbc4ac7ad8fa/blob"
+            image_url: "https://images.credly.com/images/a9ce6c69-883e-4eb7-a2ca-cbc4ac7ad8fa/blob"
+            updated_at: "2025-04-22T21:15:16.425Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfel2001-interacting-with-rest-and-http-based-apis"
+          - 
+            id: "d0c0385a-72da-4a1e-93c3-99c63f65dade"
+            name: "2023 Nephio Community Award"
+            image: 
+              id: "9a0e6248-e06e-4580-9057-d3811546bb22"
+              url: "https://images.credly.com/images/9a0e6248-e06e-4580-9057-d3811546bb22/image.png"
+            image_url: "https://images.credly.com/images/9a0e6248-e06e-4580-9057-d3811546bb22/image.png"
+            updated_at: "2023-10-16T16:23:01.300Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/2023-nephio-community-award"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "604e6e9f-744d-4251-957e-5f47ac9dbf03"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "206f56ca-daab-413d-bb4a-20540d68dc69"
+            name: "API Design"
+            vanity_slug: "api-design"
+            canonical: false
+            faethm_id: "FS000384"
+          - 
+            id: "51aadf25-2857-4f96-b342-1afd33466621"
+            name: "OpenAPI tooling"
+            vanity_slug: "openapi-tooling"
+            canonical: false
+          - 
+            id: "40b6d2ea-6790-4e73-801a-53db29a175de"
+            name: "OpenAPI"
+            vanity_slug: "openapi"
+            canonical: false
+            faethm_id: "FS008566"
+          - 
+            id: "01fd264f-096a-4704-b4ea-820eed7ac507"
+            name: "design-first"
+            vanity_slug: "design-first"
+            canonical: false
+          - 
+            id: "070ecfd0-6202-4e46-891d-2938d892647a"
+            name: "code-first"
+            vanity_slug: "code-first"
+            canonical: false
+          - 
+            id: "4844db6c-c4a9-4522-9666-e0589ace2812"
+            name: "API Lifecycle"
+            vanity_slug: "api-lifecycle"
+            canonical: false
+            faethm_id: "FS000384"
+      image: 
+        id: "702cdbe4-2925-496b-a77f-96fdf90404a7"
+        url: "https://images.credly.com/images/702cdbe4-2925-496b-a77f-96fdf90404a7/blob"
+      image_url: "https://images.credly.com/images/702cdbe4-2925-496b-a77f-96fdf90404a7/blob"
+      evidence: []
+      recommendations: []
+    - 
+      id: "5eeeebfb-a558-4b22-8d9b-26b085ec2432"
+      expires_at_date: null
+      issued_at_date: "2026-01-18"
+      issued_to: "Steve Illichevskiy"
+      locale: "en"
+      public: true
+      state: "accepted"
+      translate_metadata: false
+      accepted_at: "2026-01-18T11:48:56.923-06:00"
+      expires_at: null
+      issued_at: "2026-01-17T18:00:00.000-06:00"
+      last_updated_at: "2026-01-18T11:48:56.947-06:00"
+      updated_at: "2026-01-18T11:48:56.947-06:00"
+      earner_path: "/users/steve-illichevsky"
+      earner_photo_url: "https://images.credly.com/images/d9f77092-83aa-4d12-b087-20c4b8d6e89e/IMG_20241020_105603.jpg"
+      is_private_badge: false
+      user_is_earner: false
+      printable: false
+      issuer: 
+        summary: "issued by The Linux Foundation"
+        entities: 
+          - 
+            label: "Issued by"
+            primary: true
+            entity: 
+              type: "Organization"
+              id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+              name: "The Linux Foundation"
+              url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+              vanity_url: "https://www.credly.com/org/the-linux-foundation"
+              internationalize_badge_templates: false
+              share_to_ziprecruiter: true
+              twitter_url: "https://twitter.com/linuxfoundation"
+              verified: false
+      badge_template: 
+        id: "2298e575-0328-4517-85c4-1dcfce1ec22c"
+        description: "Earners of the LSF148: Getting Started with OpenTelemetry badge have hands-on experience implementing observability in software applications using OpenTelemetry. They can instrument Python and Java applications for traces, metrics, and logs, using both automatic and manual techniques. They understand telemetry signals, can use OpenTelemetry APIs and SDKs, and configure the OpenTelemetry Collector to export data to backends like Jaeger and Prometheus."
+        global_activity_url: null
+        earn_this_badge_url: null
+        enable_earn_this_badge: false
+        enable_detail_attribute_visibility: true
+        job_board_url: null
+        name: "LFS148: Getting Started with OpenTelemetry"
+        public: true
+        recipient_type: "User"
+        vanity_slug: "lfs148-getting-started-with-opentelemetry"
+        show_badge_lmi: false
+        show_skill_tag_links: false
+        settings_enable_related_badges: true
+        translatable: false
+        level: "Foundational"
+        time_to_earn: "Hours"
+        cost: "Free"
+        type_category: "Learning"
+        image: 
+          id: "a13653a5-3902-4eb9-96ca-790f6b535d4e"
+          url: "https://images.credly.com/images/a13653a5-3902-4eb9-96ca-790f6b535d4e/blob"
+        image_url: "https://images.credly.com/images/a13653a5-3902-4eb9-96ca-790f6b535d4e/blob"
+        url: "https://www.credly.com/org/the-linux-foundation/badge/lfs148-getting-started-with-opentelemetry"
+        owner_vanity_slug: "the-linux-foundation"
+        badge_template_earnable: false
+        recommendable: false
+        issuer: 
+          summary: "issued by The Linux Foundation"
+          entities: 
+            - 
+              label: "Issued by"
+              primary: true
+              entity: 
+                type: "Organization"
+                id: "f4b8d042-0072-4a1a-8d00-260b513026e8"
+                name: "The Linux Foundation"
+                url: "https://www.credly.com/api/v1/organizations/f4b8d042-0072-4a1a-8d00-260b513026e8"
+                vanity_url: "https://www.credly.com/org/the-linux-foundation"
+                internationalize_badge_templates: false
+                share_to_ziprecruiter: true
+                twitter_url: "https://twitter.com/linuxfoundation"
+                verified: false
+        related_badge_templates: 
+          - 
+            id: "86ae21a5-2f81-4d82-af34-68f8ad47cc86"
+            name: "LFS246: Serverless and Event-Driven Applications with Knative"
+            image: 
+              id: "eeaf3608-9cf0-4884-9308-2cc33834e4a1"
+              url: "https://images.credly.com/images/eeaf3608-9cf0-4884-9308-2cc33834e4a1/blob"
+            image_url: "https://images.credly.com/images/eeaf3608-9cf0-4884-9308-2cc33834e4a1/blob"
+            updated_at: "2025-04-22T19:56:58.216Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs246-serverless-and-event-driven-applications-wit"
+          - 
+            id: "5090db81-0fd9-4435-a9fc-7270ea3037bc"
+            name: "LFS144: Introduction to Istio"
+            image: 
+              id: "6166f9b5-2213-45f5-b7de-ba0e58048d23"
+              url: "https://images.credly.com/images/6166f9b5-2213-45f5-b7de-ba0e58048d23/blob"
+            image_url: "https://images.credly.com/images/6166f9b5-2213-45f5-b7de-ba0e58048d23/blob"
+            updated_at: "2025-04-22T19:16:07.734Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/lfs144-introduction-to-istio"
+          - 
+            id: "935f1f2a-29ee-4f56-a4d6-e40e93ecd6fd"
+            name: "PCA: Prometheus Certified Associate"
+            image: 
+              id: "c34436dc-1cfd-4125-a862-35f9c86ca17f"
+              url: "https://images.credly.com/images/c34436dc-1cfd-4125-a862-35f9c86ca17f/image.png"
+            image_url: "https://images.credly.com/images/c34436dc-1cfd-4125-a862-35f9c86ca17f/image.png"
+            updated_at: "2022-08-16T02:05:09.125Z"
+            url: "https://www.credly.com/org/the-linux-foundation/badge/pca-prometheus-certified-associate"
+        alignments: []
+        badge_template_activities: 
+          - 
+            id: "bc7bc482-f4ca-4a7f-9d74-2ab137cbee9a"
+            activity_type: "Assessment"
+            required_badge_template_id: null
+            title: "Score a 70% passing grade on the final exam."
+            url: null
+        endorsements: []
+        skills: 
+          - 
+            id: "0b8749cb-ba5a-4359-9b90-c29626933b75"
+            name: "OpenTelemetry"
+            vanity_slug: "opentelemetry"
+            canonical: false
+          - 
+            id: "44cbea95-f70b-4d2c-a6d1-6a8acf0b98fb"
+            name: "Observability"
+            vanity_slug: "observability"
+            canonical: true
+            faethm_id: "FS010095"
+          - 
+            id: "41eb6211-edc8-4e2b-9892-caebee42798c"
+            name: "Jaeger"
+            vanity_slug: "jaeger"
+            canonical: false
+          - 
+            id: "aab6a84d-53c7-4efa-bbfc-c2efe5af40dc"
+            name: "Distributed Tracing"
+            vanity_slug: "distributed-tracing"
+            canonical: false
+          - 
+            id: "8dabc552-cfdf-4db7-bf60-4a7c4535db37"
+            name: "Prometheus"
+            vanity_slug: "prometheus"
+            canonical: true
+            faethm_id: "FS005953"
+      image: 
+        id: "a13653a5-3902-4eb9-96ca-790f6b535d4e"
+        url: "https://images.credly.com/images/a13653a5-3902-4eb9-96ca-790f6b535d4e/blob"
+      image_url: "https://images.credly.com/images/a13653a5-3902-4eb9-96ca-790f6b535d4e/blob"
+      evidence: []
+      recommendations: []
+  metadata: 
+    count: 13
+    current_page: 1
+    total_count: 13
+    total_pages: 1
+    per: 48
+    previous_page_url: null
+    next_page_url: null
+
