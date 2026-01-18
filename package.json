@@ -6,7 +6,7 @@
     "postcss-sorting": "^9.1.0",
     "stylelint": "^16.18.0",
     "stylelint-config-standard": "^38.0.0",
-    "json2yaml": "^0.0.1"
+    "json2yaml": ""
   },
   "dependencies": {
     "postcss-modules": "^6.0.1",
